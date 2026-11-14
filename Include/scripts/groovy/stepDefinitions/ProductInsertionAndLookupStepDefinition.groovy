@@ -50,41 +50,40 @@ class ProductInsertionAndLookupStepDefinition {
 		// Write code here that turns the phrase above into concrete actions
 		throw new io.cucumber.java.PendingException();
 	}
-	
+
 	@When("I scan the barcode {string}")
 	public void i_scan_the_barcode(String string) {
 		// Write code here that turns the phrase above into concrete actions
 		throw new io.cucumber.java.PendingException();
 	}
-	
+
 	@Then("I see {string} in the {string} field")
 	public void i_see_in_the_field(String string, String string2) {
 		// Write code here that turns the phrase above into concrete actions
 		throw new io.cucumber.java.PendingException();
 	}
-	
+
 	@Given("camera access is denied")
 	public void camera_access_is_denied() {
 		// Write code here that turns the phrase above into concrete actions
 		throw new io.cucumber.java.PendingException();
 	}
-	
+
 	@Then("I see the message {string}")
 	public void i_see_the_message(String string) {
 		// Write code here that turns the phrase above into concrete actions
 		throw new io.cucumber.java.PendingException();
 	}
-	
+
 	@Then("I see the {string} button")
 	public void i_see_the_button(String string) {
 		// Write code here that turns the phrase above into concrete actions
 		throw new io.cucumber.java.PendingException();
 	}
-	
+
 	@When("I upload the image {string}")
 	public void i_upload_the_image(String string) {
 		// Write code here that turns the phrase above into concrete actions
 		throw new io.cucumber.java.PendingException();
 	}
- 
 }
