@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_e.g. Mushrooms</name>
+   <tag></tag>
+   <elementGuidId>e76d988e-8898-47e8-bf9e-2ac6faca3f04</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'excluded-ingredient-input']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;excluded-ingredient-input&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>7d75bbf3-2838-44cc-8884-404943821d29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>excluded-ingredient</value>
+      <webElementGuid>8a4b5fc5-d4ab-4061-b62d-71730ae1ed6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>excluded-ingredient-input</value>
+      <webElementGuid>319a1c3f-71c8-4400-bf7c-96a65bea9e23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>c7e903bf-a815-4da3-b72e-f90de1d5cb2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>40</value>
+      <webElementGuid>5fa2fa77-c27a-4fd0-9b79-2420a7553ad3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>e.g. Mushrooms</value>
+      <webElementGuid>61e2829f-8718-4967-86a2-63785946009d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>min-w-0 flex-1 rounded-lg border border-neutral-300 bg-neutral-100 px-3 py-2.5 text-sm outline-none focus:border-neutral-800</value>
+      <webElementGuid>e1fc5f2c-808e-475f-9453-0945f0b84465</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f83e4625616155ac55d1702e4a1b02b3</value>
+      <webElementGuid>d5648c12-4cdd-42e9-b989-1937bc2f6f78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'excluded-ingredient-input']</value>
+      <webElementGuid>131e045d-5c7c-4ddb-9cd0-a9dffbedc81b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'excluded-ingredient-input']</value>
+      <webElementGuid>afb10b0e-27c8-45d5-8981-50c39973471f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'excluded-ingredient' and @type = 'text' and @placeholder = 'e.g. Mushrooms']</value>
+      <webElementGuid>70f88275-04a5-4758-8d4e-851e20833975</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

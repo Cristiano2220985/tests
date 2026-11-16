@@ -46,107 +46,99 @@ import io.cucumber.java.en.When
 
 class OnboardingProfileCreationAndSwitchingStepDefinition {
 
-	
-@Given("I start the application for the first time")
-public void i_start_the_application_for_the_first_time() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
 
-@When("I tap the {string} button")
-public void i_tap_the_button(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@Given("I start the application for the first time")
+	public void i_start_the_application_for_the_first_time() {
+		WebUI.openBrowser(null)
+		WebUI.navigateToUrl('http://localhost:5173/')
+	}
 
-@When("I insert {string} in the {string} field")
-public void i_insert_in_the_field(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@When("I tap the {string} button")
+	public void i_tap_the_button(String buttonName) {
+		WebUI.click(findTestObject('Page_SmartPantry/button_' + buttonName))
+	}
 
-@When("I set the typical servings to {int}")
-public void i_set_the_typical_servings_to(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@When("I insert {string} in the {string} field")
+	public void i_insert_in_the_field(String alergy, String string2) {
+		WebUI.setText(findTestObject('Page_SmartPantry/input_e.g. Family'), 'Family')
+	}
 
-@When("I select the {string} dietary lifestyle")
-public void i_select_the_dietary_lifestyle(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@When("I set the typical servings to {int}")
+	public void i_set_the_typical_servings_to(Integer int1) {
+		WebUI.doubleClick(findTestObject('Page_SmartPantry/button_Increase servings'))
+		WebUI.click(findTestObject('Page_SmartPantry/button_Next'))
+	}
 
-@When("I select the {string} allergy")
-public void i_select_the_allergy(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@When("I select the {string} dietary lifestyle")
+	public void i_select_the_dietary_lifestyle(String string) {
+		WebUI.click(findTestObject('Page_SmartPantry/button_Vegetarian'))
+		WebUI.click(findTestObject('Page_SmartPantry/button_Next'))
+	}
 
-@When("I add {string} to the excluded ingredients")
-public void i_add_to_the_excluded_ingredients(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@When("I select the {string} allergy")
+	public void i_select_the_allergy(String string) {
+		WebUI.click(findTestObject('Page_SmartPantry/button_Peanuts'))
+	}
 
-@Then("I see the dashboard")
-public void i_see_the_dashboard() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@When("I add {string} to the excluded ingredients")
+	public void i_add_to_the_excluded_ingredients(String string) {
+		WebUI.setText(findTestObject('Page_SmartPantry/input_e.g. Mushrooms'), 'Mushrooms')
+		WebUI.click(findTestObject('Page_SmartPantry/button_Add'))
+		WebUI.click(findTestObject('Page_SmartPantry/button_Finish setup'))
+	}
 
-@Then("I see {string} as the active profile")
-public void i_see_as_the_active_profile(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@Then("I see the dashboard")
+	public void i_see_the_dashboard() {
+		WebUI.click(findTestObject('Page_SmartPantry/span_Family'))
+	}
 
-@Then("I close the AUT")
-public void i_close_the_aut() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@Then("I see {string} as the active profile")
+	public void i_see_as_the_active_profile(String string) {
+		WebUI.click(findTestObject('Page_SmartPantry/span_Ana'))
+	}
 
-@Given("I have completed the onboarding with the profile {string}")
-public void i_have_completed_the_onboarding_with_the_profile(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@Then("I close the AUT")
+	public void i_close_the_aut() {
+		WebUI.closeBrowser()
+	}
 
-@When("I tap the profile switcher in the header")
-public void i_tap_the_profile_switcher_in_the_header() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@Given("I have completed the onboarding with the profile {string}")
+	public void i_have_completed_the_onboarding_with_the_profile(String string) {
+		WebUI.click(findTestObject('Page_SmartPantry/span_Family'))
+	}
 
-@When("I complete the setup for the profile {string}")
-public void i_complete_the_setup_for_the_profile(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@When("I tap the profile switcher in the header")
+	public void i_tap_the_profile_switcher_in_the_header() {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
 
-@Then("I see {string} in the list of profiles")
-public void i_see_in_the_list_of_profiles(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@When("I complete the setup for the profile {string}")
+	public void i_complete_the_setup_for_the_profile(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
 
-@Given("I have the profiles {string} and {string}")
-public void i_have_the_profiles_and(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@Then("I see {string} in the list of profiles")
+	public void i_see_in_the_list_of_profiles(String string) {
+		// Write code here that turns the phrase above into concrete actions
+		throw new io.cucumber.java.PendingException();
+	}
 
-@Given("I have the profile {string} active")
-public void i_have_the_profile_active(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@Given("I have the profiles {string} and {string}")
+	public void i_have_the_profiles_and(String string, String string2) {
+		WebUI.findWebElement(findTestObject('Page_SmartPantry/span_Ana'))
+		WebUI.findWebElement(findTestObject('Page_SmartPantry/span_Family'))
+		
+	}
 
-@When("I choose the profile {string}")
-public void i_choose_the_profile(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
- 
+	@Given("I have the profile {string} active")
+	public void i_have_the_profile_active(String string) {
+		WebUI.findWebElement(findTestObject('Page_SmartPantry/span_Family'))
+	}
+
+	@When("I choose the profile {string}")
+	public void i_choose_the_profile(String string) {
+		WebUI.click(findTestObject('Page_SmartPantry/span_Ana'))
+	}
 }

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add new profile</name>
+   <tag></tag>
+   <elementGuidId>9aa06c88-ac95-4999-8fa4-b762880e6554</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'add-profile-button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;add-profile-button&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>45a7ef4e-ab0f-445b-99c4-ed280ec22786</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2d3e39db-979f-45c0-a758-66eb3e1047ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>add-profile-button</value>
+      <webElementGuid>e43fc16e-45d6-4438-ba1e-88bd1d1ee63d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mt-2 w-full rounded-lg border border-neutral-800 py-2 text-sm font-semibold text-neutral-900 hover:bg-neutral-100</value>
+      <webElementGuid>8a29fcee-6440-4c14-a6db-89e2ab43d209</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> + Add new profile </value>
+      <webElementGuid>77f30df4-556c-4e14-a071-b5b8f1d7c36e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-fab64463ab0f84c8fd2014a8417223d6</value>
+      <webElementGuid>d58c94a2-fb6a-4a39-86fc-a7a1d003e257</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'add-profile-button']</value>
+      <webElementGuid>f05731d4-bb95-4f61-9bf9-91da66d0259b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'add-profile-button']</value>
+      <webElementGuid>0ca66f5c-1fd7-4b0e-b234-42e987f16cc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' + Add new profile ' or . = ' + Add new profile ')]</value>
+      <webElementGuid>f24e7cb2-2989-443d-bdeb-d8da6202cd4a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
