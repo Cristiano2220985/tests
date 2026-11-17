@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Edit Spinach</name>
+   <tag></tag>
+   <elementGuidId>b7287d30-86d1-45f1-9321-4e7db0ab854b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'expiring-tray-item-Spinach']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;expiring-tray-item-Spinach&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ea8206df-be6a-4a0a-a831-3033f130b39c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3ab242b2-9f2d-4c75-b00d-86dbac6e6306</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>min-w-40 rounded-lg border border-neutral-300 bg-white p-3 text-left hover:border-neutral-800</value>
+      <webElementGuid>9b41b74d-6c11-4f36-afad-57599232252e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Edit Spinach</value>
+      <webElementGuid>94b06055-7c97-47f2-9a73-7daccbf1f886</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>expiring-tray-item-Spinach</value>
+      <webElementGuid>2e061e41-c1b9-47f8-a156-a18ad7cb1a26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SpinachExpires tomorrow</value>
+      <webElementGuid>535e6c15-4e3d-4a4a-b87e-bbd2c27ffe83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f9c58d0a473a1abff14ed916602dce34</value>
+      <webElementGuid>d0fd810f-ffaf-4bb3-bfc9-36cb27ffa181</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'expiring-tray-item-Spinach']</value>
+      <webElementGuid>50b5eb82-21ed-4e6c-8727-06034b33d077</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'expiring-tray-item-Spinach']</value>
+      <webElementGuid>eb56157c-4450-4095-86ae-362c685bac5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'SpinachExpires tomorrow' or . = 'SpinachExpires tomorrow')]</value>
+      <webElementGuid>a6d52e3f-dc7d-430b-8049-fe846180a7d3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

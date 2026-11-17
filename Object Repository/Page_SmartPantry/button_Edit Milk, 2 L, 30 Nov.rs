@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Edit Milk, 2 L, 30 Nov</name>
+   <tag></tag>
+   <elementGuidId>a6db5d3c-98fb-4de0-8b7e-ca46cfad03b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'pantry-item-Milk']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;pantry-item-Milk&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1f74562f-6f2b-4a8f-b5b9-211e958ef6e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a0a90807-eabd-4066-8823-5520ce29c5a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>grid w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-2 rounded-xl border bg-white p-3 text-left hover:bg-neutral-50 md:grid-cols-[2fr_1fr_1fr_1fr_1rem] md:gap-4 border-neutral-300</value>
+      <webElementGuid>95a2a5b3-09ad-4d62-a0b8-4a8a70641bc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Edit Milk, 2 L, 30 Nov</value>
+      <webElementGuid>c49a6ef5-4217-4129-b97a-4d66f1571cae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>pantry-item-Milk</value>
+      <webElementGuid>fcb3c974-2de6-4276-8673-f92f03655f28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-highlighted</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>56f658ba-c16f-441e-935a-055fb2c8ca34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MilkDairy2 L30 Nov›</value>
+      <webElementGuid>4a2e3f0f-c844-4d3b-aef4-76f71fe444cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f9e39665ea1426e44513f068acb143e9</value>
+      <webElementGuid>cf99484f-975a-4735-8afb-6c7c8876e129</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'pantry-item-Milk']</value>
+      <webElementGuid>5451787c-1ab9-43d5-97a8-494665287091</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'pantry-item-Milk']</value>
+      <webElementGuid>a093ff71-073e-40a7-a91a-957678b0a0ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'MilkDairy2 L30 Nov›' or . = 'MilkDairy2 L30 Nov›')]</value>
+      <webElementGuid>796ac26d-b723-4e62-bdbf-7ad0f736d341</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

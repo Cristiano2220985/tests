@@ -2,6 +2,7 @@ package stepDefinitions
 
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
@@ -53,13 +54,28 @@ class DashboardFoodTrackingAndPantryItemsStepDefinition {
 
 	@When("I set the expiration date to {string}")
 	def setExpirationDate(String date) {
-		setExpirationDate_1(LocalDate.parse(date, DateTimeFormatter.ofPattern('dd/MM/yyyy')))
+		WebUI.setText(findTestObject('Page_SmartPantry/input_Expiration date'), date.replace('/', ''))
 	}
 
 	@When("I add the item {string} expiring tomorrow")
-	def addItemExpiringTomorrow(String itemName) {
-		addItem(itemName, 'Vegetables', '1', 'units', LocalDate.now().plusDays(1))
+	public void i_add_the_item_expiring_tomorrow(String name) {
+		
+		String tomorrow = new Date().plus(1).format('ddMMyyyy')
+		
+		WebUI.click(findTestObject('Page_SmartPantry/button_Add item'))
+		WebUI.setText(findTestObject('Page_SmartPantry/input_e.g. Pesto sauce'), name)
+		//Os proximos passos seriam facultativos, mas foi definido como obrigario durante o desenvolvimento.
+		WebUI.selectOptionByValue(findTestObject('Page_SmartPantry/select_Category'), 'Vegetables', false)
+		WebUI.setText(findTestObject('Page_SmartPantry/input_0'), '1')
+		WebUI.selectOptionByValue(findTestObject('Page_SmartPantry/select_Unit'), 'kg', false)
+		WebUI.setText(findTestObject('Page_SmartPantry/input_Expiration date'), tomorrow)
+		WebUI.click(findTestObject('Page_SmartPantry/button_Save item'))
 	}
+	
+	
+//	def addItemExpiringTomorrow(String itemName) {
+//		addItem(itemName, 'Vegetables', '1', 'units', LocalDate.now().plusDays(1))
+//	}
 
 	@When("I tap the item {string}")
 	def tapItem(String itemName) {
@@ -104,7 +120,8 @@ class DashboardFoodTrackingAndPantryItemsStepDefinition {
 		selectCategory(category)
 		WebUI.setText(byTestId('quantity-input'), quantity)
 		selectUnit(unit)
-		setExpirationDate(expirationDate)
+		WebUI.setText(findTestObject('Page_SmartPantry/input_Expiration date'), expirationDate.format(DateTimeFormatter.ofPattern('ddMMyyyy')))
+		//setExpirationDate(expirationDate)
 		WebUI.click(byTestId('save-item-button'))
 		verifyItemInPantry(name)
 	}

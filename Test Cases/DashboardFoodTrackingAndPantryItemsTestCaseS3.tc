@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scenario: Edit the quantity of a pantry item&#xd;
+    Given I have completed the onboarding&#xd;
+    And the pantry contains the item &quot;Milk&quot; with the quantity &quot;2&quot;&#xd;
+    When I tap the item &quot;Milk&quot;&#xd;
+    And I insert &quot;1&quot; in the &quot;Quantity&quot; field&#xd;
+    And I tap the &quot;Save changes&quot; button&#xd;
+    Then I see &quot;Milk&quot; with the quantity &quot;1&quot; in the pantry&#xd;
+    And I close the AUT</description>
+   <name>DashboardFoodTrackingAndPantryItemsTestCaseS3</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>CristianoSantos</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>CristianoSantos</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>f900190e-083f-423c-896f-cd3bfb5fb43c</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>f900190e-083f-423c-896f-cd3bfb5fb43c</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d356a77f-332a-4efd-b8a6-cc97ad36f3cb</testCaseGuid>
+</TestCaseEntity>
