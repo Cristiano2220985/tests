@@ -1,121 +1,139 @@
 package stepDefinitions
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import com.kms.katalon.core.annotation.Keyword
-import com.kms.katalon.core.checkpoint.Checkpoint
-import com.kms.katalon.core.checkpoint.CheckpointFactory
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.testcase.TestCase
-import com.kms.katalon.core.testcase.TestCaseFactory
-import com.kms.katalon.core.testdata.TestData
-import com.kms.katalon.core.testdata.TestDataFactory
-import com.kms.katalon.core.testobject.ObjectRepository
+import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-import internal.GlobalVariable
-
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.By
-
-import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
-import com.kms.katalon.core.webui.driver.DriverFactory
-
-import com.kms.katalon.core.testobject.RequestObject
-import com.kms.katalon.core.testobject.ResponseObject
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.testobject.TestObjectProperty
-
-import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
-import com.kms.katalon.core.util.KeywordUtil
-
-import com.kms.katalon.core.webui.exception.WebElementNotFoundException
-
-import io.cucumber.java.en.And
 import io.cucumber.java.en.Given
 import io.cucumber.java.en.Then
 import io.cucumber.java.en.When
 
-
-
+/**
+ * Glue code for the feature "Dashboard, food tracking and pantry items".
+ *
+ * All elements are located through data-testid attributes (the contract between the app and the
+ * tests). The generic steps "I tap the {string} button", "I insert {string} in the {string} field"
+ * and "I close the AUT" are shared and defined in OnboardingProfileCreationAndSwitchingStepDefinition.
+ */
 class DashboardFoodTrackingAndPantryItemsStepDefinition {
 
+	private static final String DEFAULT_PROFILE = 'Family'
+
+	// Given: set up the context ------------------------------------------------
+
 	@Given("I have completed the onboarding")
-	public void i_have_completed_the_onboarding() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+	def completeOnboarding() {
+		new OnboardingProfileCreationAndSwitchingStepDefinition().completeOnboardingWithProfile(DEFAULT_PROFILE)
 	}
-	
+
 	@Given("the pantry is empty")
-	public void the_pantry_is_empty() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+	def verifyPantryIsEmpty() {
+		WebUI.verifyElementVisible(byTestId('pantry-empty'))
 	}
-	
-	@When("I select the {string} category")
-	public void i_select_the_category(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
-	}
-	
-	@When("I select the {string} unit")
-	public void i_select_the_unit(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
-	}
-	
-	@When("I set the expiration date to {string}")
-	public void i_set_the_expiration_date_to(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
-	}
-	
-	@Then("I see {string} in the pantry")
-	public void i_see_in_the_pantry(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
-	}
-	
-	@When("I add the item {string} expiring tomorrow")
-	public void i_add_the_item_expiring_tomorrow(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
-	}
-	
-	@Then("I see {string} in the expiry alert tray")
-	public void i_see_in_the_expiry_alert_tray(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
-	}
-	
-	@Then("I see {string} highlighted in the pantry")
-	public void i_see_highlighted_in_the_pantry(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
-	}
-	
+
 	@Given("the pantry contains the item {string} with the quantity {string}")
-	public void the_pantry_contains_the_item_with_the_quantity(String string, String string2) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+	def addItemWithQuantity(String itemName, String quantity) {
+		addItem(itemName, 'Dairy', quantity, 'L', LocalDate.now().plusDays(30))
+	}
+
+	// When: perform the actions ------------------------------------------------
+
+	@When("I select the {string} category")
+	def selectCategory(String category) {
+		WebUI.selectOptionByLabel(byTestId('category-select'), category, false)
+	}
+
+	@When("I select the {string} unit")
+	def selectUnit(String unit) {
+		WebUI.selectOptionByLabel(byTestId('unit-select'), unit, false)
+	}
+
+	@When("I set the expiration date to {string}")
+	def setExpirationDate(String date) {
+		WebUI.setText(findTestObject('Page_SmartPantry/input_Expiration date'), date.replace('/', ''))
+	}
+
+	@When("I add the item {string} expiring tomorrow")
+	public void i_add_the_item_expiring_tomorrow(String name) {
+		
+		String tomorrow = new Date().plus(1).format('ddMMyyyy')
+		
+		WebUI.click(findTestObject('Page_SmartPantry/button_Add item'))
+		WebUI.setText(findTestObject('Page_SmartPantry/input_e.g. Pesto sauce'), name)
+		//Os proximos passos seriam facultativos, mas foi definido como obrigario durante o desenvolvimento.
+		WebUI.selectOptionByValue(findTestObject('Page_SmartPantry/select_Category'), 'Vegetables', false)
+		WebUI.setText(findTestObject('Page_SmartPantry/input_0'), '1')
+		WebUI.selectOptionByValue(findTestObject('Page_SmartPantry/select_Unit'), 'kg', false)
+		WebUI.setText(findTestObject('Page_SmartPantry/input_Expiration date'), tomorrow)
+		WebUI.click(findTestObject('Page_SmartPantry/button_Save item'))
 	}
 	
+	
+//	def addItemExpiringTomorrow(String itemName) {
+//		addItem(itemName, 'Vegetables', '1', 'units', LocalDate.now().plusDays(1))
+//	}
+
 	@When("I tap the item {string}")
-	public void i_tap_the_item(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+	def tapItem(String itemName) {
+		WebUI.click(byTestId('pantry-item-' + itemName))
 	}
-	
+
+	// Then: verify the expected outcomes ---------------------------------------
+
+	@Then("I see {string} in the pantry")
+	def verifyItemInPantry(String itemName) {
+		WebUI.verifyElementVisible(byTestId('pantry-item-' + itemName))
+	}
+
+	@Then("I see {string} in the expiry alert tray")
+	def verifyItemInAlertTray(String itemName) {
+		WebUI.verifyElementVisible(byTestId('expiring-tray-item-' + itemName))
+	}
+
+	@Then("I see {string} highlighted in the pantry")
+	def verifyItemHighlighted(String itemName) {
+		WebUI.verifyEqual(WebUI.getAttribute(byTestId('pantry-item-' + itemName), 'data-highlighted'), 'true')
+	}
+
 	@Then("I see {string} with the quantity {string} in the pantry")
-	public void i_see_with_the_quantity_in_the_pantry(String string, String string2) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+	def verifyItemQuantity(String itemName, String quantity) {
+		WebUI.verifyEqual(WebUI.getText(byTestId('pantry-item-quantity-' + itemName)), quantity)
 	}
- 
+
+	// Helpers ------------------------------------------------------------------
+
+	/** Builds a TestObject that targets an element by its data-testid attribute. */
+	private TestObject byTestId(String testId) {
+		TestObject testObject = new TestObject(testId)
+		testObject.addProperty('css', ConditionType.EQUALS, "[data-testid='${testId}']")
+		return testObject
+	}
+
+	/** Adds an item through the "Add item" form and checks that it appears in the pantry. */
+	private void addItem(String name, String category, String quantity, String unit, LocalDate expirationDate) {
+		WebUI.click(byTestId('add-item-button'))
+		WebUI.setText(byTestId('item-name-input'), name)
+		selectCategory(category)
+		WebUI.setText(byTestId('quantity-input'), quantity)
+		selectUnit(unit)
+		WebUI.setText(findTestObject('Page_SmartPantry/input_Expiration date'), expirationDate.format(DateTimeFormatter.ofPattern('ddMMyyyy')))
+		//setExpirationDate(expirationDate)
+		WebUI.click(byTestId('save-item-button'))
+		verifyItemInPantry(name)
+	}
+
+	/**
+	 * Sets the date input value (yyyy-MM-dd). Typing into a date input depends on the browser
+	 * language (dd/mm/yyyy or mm/dd/yyyy), so the value is set directly and the "input" event is
+	 * fired to update the form.
+	 */
+	private void setExpirationDate_1(LocalDate date) {
+		WebUI.executeJavaScript(
+				"arguments[0].value = arguments[1]; arguments[0].dispatchEvent(new Event('input'))",
+				[WebUI.findWebElement(byTestId('expiration-date-input')), date.toString()])
+	}
 }
