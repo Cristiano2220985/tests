@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Runs every scenario of the feature &quot;Product insertion and lookup&quot; (US-08): Include/features/ProcutInsertionAndLookup.feature</description>
+   <name>ProductInsertionAndLookupTestCase</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9e57aa94-8b52-4532-99c2-ed1f372dfff0</testCaseGuid>
+</TestCaseEntity>
