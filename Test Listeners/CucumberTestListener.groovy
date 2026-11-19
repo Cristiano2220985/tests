@@ -22,6 +22,7 @@ import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
+import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 class CucumberTestListener {
 	/**
@@ -31,5 +32,13 @@ class CucumberTestListener {
 	@BeforeTestCase
 	def beforeTestCase(TestCaseContext testCaseContext) {
 		CucumberKW.GLUE = ["stepDefinitions"]
+
+		// The tests never use the real camera: Chrome replaces it with a fake device and accepts
+		// the permission prompt. The scenarios that scan a barcode replace the camera again with
+		// their own simulated camera (see ProductInsertionAndLookupStepDefinition).
+		RunConfiguration.setWebDriverPreferencesProperty('args', [
+			'--use-fake-device-for-media-stream',
+			'--use-fake-ui-for-media-stream',
+		])
 	}
 }
