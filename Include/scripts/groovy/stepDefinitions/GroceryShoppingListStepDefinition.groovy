@@ -18,7 +18,6 @@ import io.cucumber.java.en.When
  * Shared steps defined in other step definitions:
  *  - US-01: "I insert {string} in the {string} field", "I tap the {string} button", "I close the AUT"
  *  - US-02: "I have completed the onboarding", "I see {string} in the pantry"
- *  - US-08: "camera access is allowed", "I scan the barcode {string}", "I see the message {string}"
  */
 class GroceryShoppingListStepDefinition {
 
@@ -45,6 +44,7 @@ class GroceryShoppingListStepDefinition {
 	}
 
 	// When: perform the actions ------------------------------------------------
+	
 
 	@When("I tap the shopping list button in the header")
 	def openShoppingList() {
@@ -85,6 +85,13 @@ class GroceryShoppingListStepDefinition {
 	}
 
 	// Then: check the outcome --------------------------------------------------
+	
+	@Then("I see the scan notification {string}")
+	def verifyScanNotification(String message) {
+		TestObject notification = object('p_Scan message')
+		WebUI.waitForElementVisible(notification, TIMEOUT)
+		WebUI.verifyEqual(WebUI.getText(notification).trim(), message)
+	}
 
 	@Then("I see the shopping list")
 	def verifyShoppingListIsVisible() {

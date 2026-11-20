@@ -25,7 +25,7 @@ Feature: Grocery shopping list
     When I tap the shopping list button in the header
     And I tap the scan button of the item "Nutella"
     And I scan the barcode "3017620422003"
-    Then I see the message "Nutella scanned"
+        Then I see the scan notification "Nutella scanned"
     And I see the item "Nutella" checked
     And I close the AUT
 
@@ -49,7 +49,7 @@ Feature: Grocery shopping list
     And I do not see "Nutella" in the shopping list
     And I do not see "Eggs" in the shopping list
     And I close the AUT
-
+#
   Scenario: Transfer the checked items to the pantry
     Given I have completed the onboarding
     And the shopping list contains the items "Eggs" and "Butter"
