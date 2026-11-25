@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RecipeDiscoveryandPantryOverlapFeatureCase</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>CristianoSantos</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>CristianoSantos</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>f900190e-083f-423c-896f-cd3bfb5fb43c</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>f900190e-083f-423c-896f-cd3bfb5fb43c</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2182f315-c1c9-4dd4-8661-2b26e654c1b4</testCaseGuid>
+</TestCaseEntity>
