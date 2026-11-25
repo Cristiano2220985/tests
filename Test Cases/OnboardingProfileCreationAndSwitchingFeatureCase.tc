@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OnboardingProfileCreationAndSwitchingFeatureCase</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>CristianoSantos</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>f900190e-083f-423c-896f-cd3bfb5fb43c</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>CristianoSantos</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>f900190e-083f-423c-896f-cd3bfb5fb43c</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8fe9b3c8-4391-487d-89a1-2d2912b9b367</testCaseGuid>
+</TestCaseEntity>
