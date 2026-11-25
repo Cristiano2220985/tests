@@ -48,4 +48,11 @@
       <testCaseId>Test Cases/RecipeDiscoveryandPantryOverlapFeatureCase</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e00c507c-f864-4a88-ade8-9d5889010baa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/US8RecipeBookAndCollectionsFeatureCase</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
