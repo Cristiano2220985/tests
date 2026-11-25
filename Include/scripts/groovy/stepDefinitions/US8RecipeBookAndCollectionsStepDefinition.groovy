@@ -1,123 +1,167 @@
 package stepDefinitions
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import com.kms.katalon.core.annotation.Keyword
-import com.kms.katalon.core.checkpoint.Checkpoint
-import com.kms.katalon.core.checkpoint.CheckpointFactory
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.testcase.TestCase
-import com.kms.katalon.core.testcase.TestCaseFactory
-import com.kms.katalon.core.testdata.TestData
-import com.kms.katalon.core.testdata.TestDataFactory
-import com.kms.katalon.core.testobject.ObjectRepository
+import org.openqa.selenium.Keys
+
 import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-import internal.GlobalVariable
-
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.By
-
-import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
-import com.kms.katalon.core.webui.driver.DriverFactory
-
-import com.kms.katalon.core.testobject.RequestObject
-import com.kms.katalon.core.testobject.ResponseObject
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.testobject.TestObjectProperty
-
-import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
-import com.kms.katalon.core.util.KeywordUtil
-
-import com.kms.katalon.core.webui.exception.WebElementNotFoundException
-
-import io.cucumber.java.en.And
 import io.cucumber.java.en.Given
 import io.cucumber.java.en.Then
 import io.cucumber.java.en.When
 
-
-
+/**
+ * Glue code for the feature "Recipe Book" (US-8, formerly US-24).
+ *
+ * The elements are the test objects of "Object Repository/Page_RecipeBook", all located by
+ * data-testid. Objects that depend on a recipe or a collection receive its name as the
+ * "recipeName" or "collectionName" parameter.
+ *
+ * The recipes come from TheMealDB (recipe discovery, US-19): the step "I am viewing the recipe"
+ * adds one of the recipe's ingredients to the pantry and searches for recipes.
+ *
+ * The scenario remembers the recipe and the collection named in the steps, so steps such as
+ * "I add the recipe to the collection" know which ones to use.
+ *
+ * Shared steps defined in other step definitions:
+ *  - US-01: "I tap the {string} button" (used for "Save Recipe"), "I close the AUT"
+ *  - US-02: "I have completed the onboarding"
+ */
 class US8RecipeBookAndCollectionsStepDefinition {
- /**
-* The step definitions below match with Katalon sample Gherkin steps
-*/
-@Given("I am viewing the recipe {string}")
-public void i_am_viewing_the_recipe(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
 
-@Then("{string} appears in my recipe book")
-public void appears_in_my_recipe_book(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	private static final int TIMEOUT = 10
+	private static final int SEARCH_TIMEOUT = 30 // the recipe search calls TheMealDB
 
-@When("I open the recipe book")
-public void i_open_the_recipe_book() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	/** Pantry ingredient used to find each recipe in recipe discovery. */
+	private static final Map<String, String> RECIPE_INGREDIENTS = [
+		'Fettuccine Alfredo': 'Fettuccine',
+	]
 
-@When("I create a collection named {string}")
-public void i_create_a_collection_named(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	private String recipeName
+	private String collectionName
 
-@Then("I see the collection {string}")
-public void i_see_the_collection(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	// Given: set up the context ------------------------------------------------
 
-@Given("the collection {string} exists")
-public void the_collection_exists(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@Given("I am viewing the recipe {string}")
+	def viewRecipe(String recipe) {
+		recipeName = recipe
+		WebUI.click(object('a_Nav pantry'))
+		new DashboardFoodTrackingAndPantryItemsStepDefinition().addItemWithQuantity(RECIPE_INGREDIENTS[recipe], '1')
+		WebUI.click(object('a_Nav recipes'))
+		WebUI.click(object('button_Recipes search'))
+		WebUI.waitForElementClickable(object('button_Recipe card title'), SEARCH_TIMEOUT)
+		WebUI.click(object('button_Recipe card title'))
+		WebUI.waitForElementVisible(object('section_Recipe detail'), TIMEOUT)
+	}
 
-@Given("the recipe {string} is saved")
-public void the_recipe_is_saved(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@Given("the collection {string} exists")
+	def createCollectionAfterOnboarding(String collection) {
+		new DashboardFoodTrackingAndPantryItemsStepDefinition().completeOnboarding()
+		openRecipeBook()
+		createCollection(collection)
+		verifyCollection(collection)
+	}
 
-@When("I add the recipe to the collection")
-public void i_add_the_recipe_to_the_collection() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@Given("the recipe {string} is saved")
+	def saveRecipe(String recipe) {
+		viewRecipe(recipe)
+		new OnboardingProfileCreationAndSwitchingStepDefinition().tapButton('Save Recipe')
+		verifyRecipeInBook(recipe)
+	}
 
-@Then("{string} appears in {string}")
-public void appears_in(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@Given("the recipe {string} belongs to the collection {string}")
+	def addRecipeToNewCollection(String recipe, String collection) {
+		createCollectionAfterOnboarding(collection)
+		saveRecipe(recipe)
+		addRecipeToCollection()
+		verifyRecipeInCollection(recipe, collection)
+	}
 
-@Given("the recipe {string} belongs to the collection {string}")
-public void the_recipe_belongs_to_the_collection(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	// When: perform the actions ------------------------------------------------
 
-@When("I remove the recipe from the collection")
-public void i_remove_the_recipe_from_the_collection() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@When("I open the recipe book")
+	def openRecipeBook() {
+		closeRecipeDetail()
+		WebUI.click(object('a_Nav book'))
+		WebUI.waitForElementVisible(object('div_Book view'), TIMEOUT)
+	}
 
-@Then("I do not see {string} in {string}")
-public void i_do_not_see_in(String string, String string2) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
- 
+	@When("I create a collection named {string}")
+	def createCollection(String collection) {
+		collectionName = collection
+		WebUI.click(object('button_New collection'))
+		WebUI.waitForElementVisible(object('section_Create collection'), TIMEOUT)
+		WebUI.setText(object('input_Collection name'), collection)
+		WebUI.click(object('button_Create collection'))
+		WebUI.waitForElementNotPresent(object('section_Create collection'), TIMEOUT)
+	}
+
+	@When("I add the recipe to the collection")
+	def addRecipeToCollection() {
+		openRecipeBook()
+		WebUI.click(object('button_Add to collection'))
+		WebUI.waitForElementVisible(object('ul_Collection picker'), TIMEOUT)
+		WebUI.click(object('button_Collection option'))
+		WebUI.waitForElementNotPresent(object('ul_Collection picker'), TIMEOUT)
+	}
+
+	@When("I remove the recipe from the collection")
+	def removeRecipeFromCollection() {
+		openCollection(collectionName)
+		WebUI.click(object('button_Remove from collection'))
+	}
+
+	// Then: check the outcome --------------------------------------------------
+
+	@Then("{string} appears in my recipe book")
+	def verifyRecipeInBook(String recipe) {
+		openRecipeBook()
+		WebUI.verifyElementVisible(object('article_Saved recipe', recipe))
+	}
+
+	@Then("I see the collection {string}")
+	def verifyCollection(String collection) {
+		WebUI.verifyElementVisible(object('button_Collection card', null, collection))
+		WebUI.verifyEqual(WebUI.getText(object('span_Collection name', null, collection)).trim(), collection)
+	}
+
+	@Then("{string} appears in {string}")
+	def verifyRecipeInCollection(String recipe, String collection) {
+		openCollection(collection)
+		WebUI.verifyElementVisible(object('article_Collection recipe', recipe))
+	}
+
+	@Then("I do not see {string} in {string}")
+	def verifyRecipeNotInCollection(String recipe, String collection) {
+		openCollection(collection)
+		WebUI.verifyElementNotPresent(object('article_Collection recipe', recipe), TIMEOUT)
+	}
+
+	// Helpers ------------------------------------------------------------------
+
+	private void openCollection(String collection) {
+		WebUI.click(object('button_Collection card', null, collection))
+		WebUI.waitForElementVisible(object('section_Collection detail', null, collection), TIMEOUT)
+	}
+
+	/** The recipe details cover the navigation, so they are closed (Escape) when open. */
+	private void closeRecipeDetail() {
+		if (!recipeName) {
+			return
+		}
+		TestObject detail = object('section_Recipe detail')
+		if (WebUI.waitForElementPresent(detail, 1)) {
+			WebUI.sendKeys(detail, Keys.chord(Keys.ESCAPE))
+			WebUI.waitForElementNotPresent(detail, TIMEOUT)
+		}
+	}
+
+	/**
+	 * Returns a test object of Page_RecipeBook. By default it uses the recipe and the collection
+	 * remembered by the scenario.
+	 */
+	private TestObject object(String name, String recipe = recipeName, String collection = collectionName) {
+		return findTestObject("Page_RecipeBook/${name}", [('recipeName') : recipe, ('collectionName') : collection])
+	}
 }
