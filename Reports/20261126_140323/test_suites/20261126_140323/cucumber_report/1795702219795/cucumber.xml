@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="103.851" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-26T14:10:19.801593Z">
+<testcase classname="GenAI Sous-Chef" name="Generate a recipe from leftovers" time="34.758">
+<system-out><![CDATA[
+Given I have completed the onboarding.......................................passed
+And the pantry contains "Rice", "Chicken" and "Carrot"......................passed
+When I open GenAI Sous-Chef.................................................passed
+And I select those ingredients..............................................passed
+And I tap "Generate Recipe".................................................passed
+Then I receive a generated recipe...........................................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="GenAI Sous-Chef" name="Apply dietary restrictions to generated recipes" time="34.271">
+<system-out><![CDATA[
+Given the active profile is "Vegetarian"....................................passed
+When I generate a recipe....................................................passed
+Then the generated recipe does not contain meat ingredients.................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="GenAI Sous-Chef" name="Save an AI recipe" time="34.806">
+<system-out><![CDATA[
+Given an AI recipe was generated............................................passed
+When I tap "Save Recipe"....................................................passed
+Then the recipe appears in the recipe book..................................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

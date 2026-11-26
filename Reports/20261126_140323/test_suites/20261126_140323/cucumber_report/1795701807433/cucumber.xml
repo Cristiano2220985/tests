@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="45.066" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-26T14:03:27.820336Z">
+<testcase classname="Onboarding, profile creation and switching" name="Set up the default profile on first launch" time="15.673">
+<system-out><![CDATA[
+Given I start the application for the first time............................passed
+When I tap the "Get started" button.........................................passed
+And I insert "Family" in the "Profile name" field...........................passed
+And I set the typical servings to 4.........................................passed
+And I tap the "Next" button.................................................passed
+And I select the "Vegetarian" dietary lifestyle.............................passed
+And I tap the "Next" button.................................................passed
+And I select the "Peanuts" allergy..........................................passed
+And I add "Mushrooms" to the excluded ingredients...........................passed
+And I tap the "Finish setup" button.........................................passed
+Then I see the dashboard....................................................passed
+And I see "Family" as the active profile....................................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Onboarding, profile creation and switching" name="Create a new profile from the dashboard" time="12.994">
+<system-out><![CDATA[
+Given I have completed the onboarding with the profile "Family".............passed
+When I tap the profile switcher in the header...............................passed
+And I tap the "+ Add new profile" button....................................passed
+And I complete the setup for the profile "Ana"..............................passed
+And I tap the profile switcher in the header................................passed
+Then I see "Ana" in the list of profiles....................................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Onboarding, profile creation and switching" name="Switch the active profile from the header" time="16.238">
+<system-out><![CDATA[
+Given I have the profiles "Family" and "Ana"................................passed
+And I have the profile "Family" active......................................passed
+When I tap the profile switcher in the header...............................passed
+And I choose the profile "Ana"..............................................passed
+Then I see "Ana" as the active profile......................................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,3727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="test_suites" time="516.408" tests="7" passed="7" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="test_suites" tests="7" passed="7" failures="0" errors="0" incompleted="0" skipped="0" time="516.408" timestamp="2026-11-26T14:03:27.265Z" hostname="leonardoferreira - localhost" id="Test Suites/test_suites" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323"/>
+         <property name="logFiles" value="/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/execution0.log, /Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="leonardoferreira - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="11.6.0"/>
+         <property name="browser" value="Chrome 158.0.8127.88"/>
+         <property name="userFullName" value="Leonardo Ferreira"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="530aaf90a2c3f05f282ef2c795eee057"/>
+         <property name="projectName" value="PantryTests"/>
+         <property name="seleniumVersion" value="4.46.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/OnboardingProfileCreationAndSwitchingFeatureCase" time="45.617" classname="Test Cases/OnboardingProfileCreationAndSwitchingFeatureCase" status="PASSED">
+         <system-out><![CDATA[26-11-2026T14:03:27 - [TEST_CASE][PASSED] - Test Cases/OnboardingProfileCreationAndSwitchingFeatureCase: Test Cases/OnboardingProfileCreationAndSwitchingFeatureCase
+
+26-11-2026T14:03:27 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+26-11-2026T14:03:27 - [TEST_STEP][PASSED] - GLUE = ["stepDefinitions"]: null
+
+26-11-2026T14:03:27 - [TEST_STEP][PASSED] - setWebDriverPreferencesProperty("args", ["--use-fake-device-for-media-stream", "--use-fake-ui-for-media-stream"]): null
+
+26-11-2026T14:03:27 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/OnboardingProfileCreationAndSwitching.feature"): Feature file: 'Include/features/OnboardingProfileCreationAndSwitching.feature' was passed
+
+26-11-2026T14:03:27 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/OnboardingProfileCreationAndSwitching.feature' and extract report to folder: '/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/cucumber_report/1795701807433'...
+
+26-11-2026T14:03:27 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Set up the default profile on first launch: SCENARIO Set up the default profile on first launch
+
+26-11-2026T14:03:27 - [TEST_STEP][PASSED] - I start the application for the first time: I start the application for the first time
+
+26-11-2026T14:03:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:03:28 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:03:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:03:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:03:31 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:03:31 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:03:31 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:03:31 - [MESSAGE][PASSED] - I start the application for the first time
+
+26-11-2026T14:03:31 - [TEST_STEP][PASSED] - I tap the "Get started" button: I tap the "Get started" button
+
+26-11-2026T14:03:31 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:03:32 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:03:32 - [MESSAGE][PASSED] - I tap the "Get started" button
+
+26-11-2026T14:03:32 - [TEST_STEP][PASSED] - I insert "Family" in the "Profile name" field: I insert "Family" in the "Profile name" field
+
+26-11-2026T14:03:32 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:03:33 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:03:33 - [MESSAGE][PASSED] - I insert "Family" in the "Profile name" field
+
+26-11-2026T14:03:33 - [TEST_STEP][PASSED] - I set the typical servings to 4: I set the typical servings to 4
+
+26-11-2026T14:03:33 - [MESSAGE][PASSED] - Object 'servings-value' is visible
+
+26-11-2026T14:03:33 - [MESSAGE][PASSED] - Text of object 'servings-value' is: '2'
+
+26-11-2026T14:03:34 - [MESSAGE][PASSED] - Object 'servings-increase' is clickable
+
+26-11-2026T14:03:34 - [MESSAGE][PASSED] - Object: 'servings-increase' is clicked on
+
+26-11-2026T14:03:34 - [MESSAGE][PASSED] - Object 'servings-value' is visible
+
+26-11-2026T14:03:34 - [MESSAGE][PASSED] - Text of object 'servings-value' is: '3'
+
+26-11-2026T14:03:35 - [MESSAGE][PASSED] - Object 'servings-increase' is clickable
+
+26-11-2026T14:03:35 - [MESSAGE][PASSED] - Object: 'servings-increase' is clicked on
+
+26-11-2026T14:03:35 - [MESSAGE][PASSED] - Object 'servings-value' is visible
+
+26-11-2026T14:03:36 - [MESSAGE][PASSED] - Text of object 'servings-value' is: '4'
+
+26-11-2026T14:03:36 - [MESSAGE][PASSED] - Object 'servings-value' is visible
+
+26-11-2026T14:03:36 - [MESSAGE][PASSED] - Text of object 'servings-value' is: '4'
+
+26-11-2026T14:03:36 - [MESSAGE][PASSED] - Object 'servings-value' is visible
+
+26-11-2026T14:03:37 - [MESSAGE][PASSED] - Text of object 'servings-value' is: '4'
+
+26-11-2026T14:03:37 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+26-11-2026T14:03:37 - [MESSAGE][PASSED] - I set the typical servings to 4
+
+26-11-2026T14:03:37 - [TEST_STEP][PASSED] - I tap the "Next" button: I tap the "Next" button
+
+26-11-2026T14:03:37 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:03:37 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:03:37 - [MESSAGE][PASSED] - I tap the "Next" button
+
+26-11-2026T14:03:37 - [TEST_STEP][PASSED] - I select the "Vegetarian" dietary lifestyle: I select the "Vegetarian" dietary lifestyle
+
+26-11-2026T14:03:38 - [MESSAGE][PASSED] - Object 'lifestyle-vegetarian' is clickable
+
+26-11-2026T14:03:38 - [MESSAGE][PASSED] - Object: 'lifestyle-vegetarian' is clicked on
+
+26-11-2026T14:03:38 - [MESSAGE][PASSED] - Object 'lifestyle-vegetarian' has attribute 'aria-pressed' with value 'true'
+
+26-11-2026T14:03:38 - [MESSAGE][PASSED] - I select the "Vegetarian" dietary lifestyle
+
+26-11-2026T14:03:38 - [TEST_STEP][PASSED] - I tap the "Next" button: I tap the "Next" button
+
+26-11-2026T14:03:38 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:03:39 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:03:39 - [MESSAGE][PASSED] - I tap the "Next" button
+
+26-11-2026T14:03:39 - [TEST_STEP][PASSED] - I select the "Peanuts" allergy: I select the "Peanuts" allergy
+
+26-11-2026T14:03:39 - [MESSAGE][PASSED] - Object 'allergy-peanuts' is clickable
+
+26-11-2026T14:03:39 - [MESSAGE][PASSED] - Object: 'allergy-peanuts' is clicked on
+
+26-11-2026T14:03:39 - [MESSAGE][PASSED] - Object 'allergy-peanuts' has attribute 'aria-pressed' with value 'true'
+
+26-11-2026T14:03:39 - [MESSAGE][PASSED] - I select the "Peanuts" allergy
+
+26-11-2026T14:03:39 - [TEST_STEP][PASSED] - I add "Mushrooms" to the excluded ingredients: I add "Mushrooms" to the excluded ingredients
+
+26-11-2026T14:03:40 - [MESSAGE][PASSED] - Object 'excluded-ingredient-input' is visible
+
+26-11-2026T14:03:40 - [MESSAGE][PASSED] - Text 'Mushrooms' is set on object 'excluded-ingredient-input'
+
+26-11-2026T14:03:41 - [MESSAGE][PASSED] - Object 'excluded-ingredient-add' is clickable
+
+26-11-2026T14:03:41 - [MESSAGE][PASSED] - Object: 'excluded-ingredient-add' is clicked on
+
+26-11-2026T14:03:41 - [MESSAGE][PASSED] - Object 'excluded-Mushrooms' is visible
+
+26-11-2026T14:03:41 - [MESSAGE][PASSED] - I add "Mushrooms" to the excluded ingredients
+
+26-11-2026T14:03:41 - [TEST_STEP][PASSED] - I tap the "Finish setup" button: I tap the "Finish setup" button
+
+26-11-2026T14:03:41 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:03:42 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:03:42 - [MESSAGE][PASSED] - I tap the "Finish setup" button
+
+26-11-2026T14:03:42 - [TEST_STEP][PASSED] - I see the dashboard: I see the dashboard
+
+26-11-2026T14:03:42 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:03:43 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:03:43 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:03:43 - [MESSAGE][PASSED] - I see the dashboard
+
+26-11-2026T14:03:43 - [TEST_STEP][PASSED] - I see "Family" as the active profile: I see "Family" as the active profile
+
+26-11-2026T14:03:43 - [MESSAGE][PASSED] - Object 'active-profile-name' is visible
+
+26-11-2026T14:03:43 - [MESSAGE][PASSED] - Text of object 'active-profile-name' is: 'Family'
+
+26-11-2026T14:03:43 - [MESSAGE][PASSED] - Actual object 'Family' and expected object 'Family' are equal
+
+26-11-2026T14:03:43 - [MESSAGE][PASSED] - I see "Family" as the active profile
+
+26-11-2026T14:03:43 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:03:43 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:03:43 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:03:43 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Create a new profile from the dashboard: SCENARIO Create a new profile from the dashboard
+
+26-11-2026T14:03:43 - [TEST_STEP][PASSED] - I have completed the onboarding with the profile "Family": I have completed the onboarding with the profile "Family"
+
+26-11-2026T14:03:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:03:43 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:03:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:03:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:03:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:03:45 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:03:45 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:03:46 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:03:46 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:03:46 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:03:47 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:03:47 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:03:48 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:03:48 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:03:48 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:03:49 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:03:49 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:03:50 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:03:50 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:03:50 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:03:50 - [MESSAGE][PASSED] - I have completed the onboarding with the profile "Family"
+
+26-11-2026T14:03:50 - [TEST_STEP][PASSED] - I tap the profile switcher in the header: I tap the profile switcher in the header
+
+26-11-2026T14:03:50 - [MESSAGE][PASSED] - Object 'profile-switcher-toggle' is clickable
+
+26-11-2026T14:03:50 - [MESSAGE][PASSED] - Object: 'profile-switcher-toggle' is clicked on
+
+26-11-2026T14:03:51 - [MESSAGE][PASSED] - Object 'profile-switcher-menu' is visible
+
+26-11-2026T14:03:51 - [MESSAGE][PASSED] - I tap the profile switcher in the header
+
+26-11-2026T14:03:51 - [TEST_STEP][PASSED] - I tap the "+ Add new profile" button: I tap the "+ Add new profile" button
+
+26-11-2026T14:03:51 - [MESSAGE][PASSED] - Object 'add-new-profile-button' is clickable
+
+26-11-2026T14:03:51 - [MESSAGE][PASSED] - Object: 'add-new-profile-button' is clicked on
+
+26-11-2026T14:03:51 - [MESSAGE][PASSED] - I tap the "+ Add new profile" button
+
+26-11-2026T14:03:51 - [TEST_STEP][PASSED] - I complete the setup for the profile "Ana": I complete the setup for the profile "Ana"
+
+26-11-2026T14:03:52 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:03:52 - [MESSAGE][PASSED] - Text 'Ana' is set on object 'profile-name-input'
+
+26-11-2026T14:03:53 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:03:53 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:03:53 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:03:53 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:03:54 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:03:54 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:03:55 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:03:55 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:03:55 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:03:55 - [MESSAGE][PASSED] - I complete the setup for the profile "Ana"
+
+26-11-2026T14:03:55 - [TEST_STEP][PASSED] - I tap the profile switcher in the header: I tap the profile switcher in the header
+
+26-11-2026T14:03:55 - [MESSAGE][PASSED] - Object 'profile-switcher-toggle' is clickable
+
+26-11-2026T14:03:55 - [MESSAGE][PASSED] - Object: 'profile-switcher-toggle' is clicked on
+
+26-11-2026T14:03:56 - [MESSAGE][PASSED] - Object 'profile-switcher-menu' is visible
+
+26-11-2026T14:03:56 - [MESSAGE][PASSED] - I tap the profile switcher in the header
+
+26-11-2026T14:03:56 - [TEST_STEP][PASSED] - I see "Ana" in the list of profiles: I see "Ana" in the list of profiles
+
+26-11-2026T14:03:56 - [MESSAGE][PASSED] - Object 'profile-option-Ana' is visible
+
+26-11-2026T14:03:56 - [MESSAGE][PASSED] - I see "Ana" in the list of profiles
+
+26-11-2026T14:03:56 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:03:56 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:03:56 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:03:56 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Switch the active profile from the header: SCENARIO Switch the active profile from the header
+
+26-11-2026T14:03:56 - [TEST_STEP][PASSED] - I have the profiles "Family" and "Ana": I have the profiles "Family" and "Ana"
+
+26-11-2026T14:03:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:03:56 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:03:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:03:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:03:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:03:58 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:03:58 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:03:59 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:03:59 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:04:00 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:04:00 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:04:01 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:04:01 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:04:01 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:04:02 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:04:02 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:04:02 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:04:03 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:04:03 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:04:03 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:04:03 - [MESSAGE][PASSED] - Object 'profile-switcher-toggle' is clickable
+
+26-11-2026T14:04:04 - [MESSAGE][PASSED] - Object: 'profile-switcher-toggle' is clicked on
+
+26-11-2026T14:04:04 - [MESSAGE][PASSED] - Object 'profile-switcher-menu' is visible
+
+26-11-2026T14:04:04 - [MESSAGE][PASSED] - Object 'add-new-profile-button' is clickable
+
+26-11-2026T14:04:04 - [MESSAGE][PASSED] - Object: 'add-new-profile-button' is clicked on
+
+26-11-2026T14:04:05 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:04:05 - [MESSAGE][PASSED] - Text 'Ana' is set on object 'profile-name-input'
+
+26-11-2026T14:04:06 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:04:06 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:04:06 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:04:07 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:04:07 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:04:07 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:04:08 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:04:08 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:04:08 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:04:08 - [MESSAGE][PASSED] - I have the profiles "Family" and "Ana"
+
+26-11-2026T14:04:08 - [TEST_STEP][PASSED] - I have the profile "Family" active: I have the profile "Family" active
+
+26-11-2026T14:04:08 - [MESSAGE][PASSED] - Object 'profile-switcher-toggle' is clickable
+
+26-11-2026T14:04:09 - [MESSAGE][PASSED] - Object: 'profile-switcher-toggle' is clicked on
+
+26-11-2026T14:04:09 - [MESSAGE][PASSED] - Object 'profile-switcher-menu' is visible
+
+26-11-2026T14:04:09 - [MESSAGE][PASSED] - Object 'profile-option-Family' is clickable
+
+26-11-2026T14:04:09 - [MESSAGE][PASSED] - Object: 'profile-option-Family' is clicked on
+
+26-11-2026T14:04:10 - [MESSAGE][PASSED] - Object 'active-profile-name' is visible
+
+26-11-2026T14:04:10 - [MESSAGE][PASSED] - Text of object 'active-profile-name' is: 'Family'
+
+26-11-2026T14:04:10 - [MESSAGE][PASSED] - Actual object 'Family' and expected object 'Family' are equal
+
+26-11-2026T14:04:10 - [MESSAGE][PASSED] - I have the profile "Family" active
+
+26-11-2026T14:04:10 - [TEST_STEP][PASSED] - I tap the profile switcher in the header: I tap the profile switcher in the header
+
+26-11-2026T14:04:10 - [MESSAGE][PASSED] - Object 'profile-switcher-toggle' is clickable
+
+26-11-2026T14:04:11 - [MESSAGE][PASSED] - Object: 'profile-switcher-toggle' is clicked on
+
+26-11-2026T14:04:11 - [MESSAGE][PASSED] - Object 'profile-switcher-menu' is visible
+
+26-11-2026T14:04:11 - [MESSAGE][PASSED] - I tap the profile switcher in the header
+
+26-11-2026T14:04:11 - [TEST_STEP][PASSED] - I choose the profile "Ana": I choose the profile "Ana"
+
+26-11-2026T14:04:11 - [MESSAGE][PASSED] - Object 'profile-option-Ana' is clickable
+
+26-11-2026T14:04:12 - [MESSAGE][PASSED] - Object: 'profile-option-Ana' is clicked on
+
+26-11-2026T14:04:12 - [MESSAGE][PASSED] - I choose the profile "Ana"
+
+26-11-2026T14:04:12 - [TEST_STEP][PASSED] - I see "Ana" as the active profile: I see "Ana" as the active profile
+
+26-11-2026T14:04:12 - [MESSAGE][PASSED] - Object 'active-profile-name' is visible
+
+26-11-2026T14:04:12 - [MESSAGE][PASSED] - Text of object 'active-profile-name' is: 'Ana'
+
+26-11-2026T14:04:12 - [MESSAGE][PASSED] - Actual object 'Ana' and expected object 'Ana' are equal
+
+26-11-2026T14:04:12 - [MESSAGE][PASSED] - I see "Ana" as the active profile
+
+26-11-2026T14:04:12 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:04:12 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:04:12 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:04:12 - [MESSAGE][PASSED] - Feature file: 'Include/features/OnboardingProfileCreationAndSwitching.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DashboardFoodTrackingAndPantryItemsFeatureCase" time="36.811" classname="Test Cases/DashboardFoodTrackingAndPantryItemsFeatureCase" status="PASSED">
+         <system-out><![CDATA[26-11-2026T14:04:12 - [TEST_CASE][PASSED] - Test Cases/DashboardFoodTrackingAndPantryItemsFeatureCase: Test Cases/DashboardFoodTrackingAndPantryItemsFeatureCase
+
+26-11-2026T14:04:12 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+26-11-2026T14:04:12 - [TEST_STEP][PASSED] - GLUE = ["stepDefinitions"]: null
+
+26-11-2026T14:04:12 - [TEST_STEP][PASSED] - setWebDriverPreferencesProperty("args", ["--use-fake-device-for-media-stream", "--use-fake-ui-for-media-stream"]): null
+
+26-11-2026T14:04:12 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/DashboardFoodTrackingAndPantryItems.feature"): Feature file: 'Include/features/DashboardFoodTrackingAndPantryItems.feature' was passed
+
+26-11-2026T14:04:12 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/DashboardFoodTrackingAndPantryItems.feature' and extract report to folder: '/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/cucumber_report/1795701852984'...
+
+26-11-2026T14:04:13 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Add an item to the pantry: SCENARIO Add an item to the pantry
+
+26-11-2026T14:04:13 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:04:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:04:13 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:04:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:04:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:04:15 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:04:15 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:04:15 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:04:15 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:04:16 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:04:16 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:04:17 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:04:17 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:04:17 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:04:18 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:04:18 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:04:19 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:04:19 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:04:19 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:04:20 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:04:20 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:04:20 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:04:20 - [TEST_STEP][PASSED] - the pantry is empty: the pantry is empty
+
+26-11-2026T14:04:20 - [MESSAGE][PASSED] - Object 'pantry-empty' is visible
+
+26-11-2026T14:04:20 - [MESSAGE][PASSED] - the pantry is empty
+
+26-11-2026T14:04:20 - [TEST_STEP][PASSED] - I tap the "+ Add item" button: I tap the "+ Add item" button
+
+26-11-2026T14:04:20 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:04:20 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:04:20 - [MESSAGE][PASSED] - I tap the "+ Add item" button
+
+26-11-2026T14:04:20 - [TEST_STEP][PASSED] - I insert "Milk" in the "Item name" field: I insert "Milk" in the "Item name" field
+
+26-11-2026T14:04:21 - [MESSAGE][PASSED] - Object 'item-name-input' is visible
+
+26-11-2026T14:04:21 - [MESSAGE][PASSED] - Text 'Milk' is set on object 'item-name-input'
+
+26-11-2026T14:04:21 - [MESSAGE][PASSED] - I insert "Milk" in the "Item name" field
+
+26-11-2026T14:04:21 - [TEST_STEP][PASSED] - I select the "Dairy" category: I select the "Dairy" category
+
+26-11-2026T14:04:22 - [MESSAGE][PASSED] - All options with label 'Dairy' are selected in object 'category-select' 
+
+26-11-2026T14:04:22 - [MESSAGE][PASSED] - I select the "Dairy" category
+
+26-11-2026T14:04:22 - [TEST_STEP][PASSED] - I insert "2" in the "Quantity" field: I insert "2" in the "Quantity" field
+
+26-11-2026T14:04:22 - [MESSAGE][PASSED] - Object 'quantity-input' is visible
+
+26-11-2026T14:04:23 - [MESSAGE][PASSED] - Text '2' is set on object 'quantity-input'
+
+26-11-2026T14:04:23 - [MESSAGE][PASSED] - I insert "2" in the "Quantity" field
+
+26-11-2026T14:04:23 - [TEST_STEP][PASSED] - I select the "L" unit: I select the "L" unit
+
+26-11-2026T14:04:23 - [MESSAGE][PASSED] - All options with label 'L' are selected in object 'unit-select' 
+
+26-11-2026T14:04:23 - [MESSAGE][PASSED] - I select the "L" unit
+
+26-11-2026T14:04:23 - [TEST_STEP][PASSED] - I set the expiration date to "30/11/2026": I set the expiration date to "30/11/2026"
+
+26-11-2026T14:04:24 - [MESSAGE][PASSED] - Text '30112026' is set on object 'Object Repository/Page_SmartPantry/input_Expiration date'
+
+26-11-2026T14:04:24 - [MESSAGE][PASSED] - I set the expiration date to "30/11/2026"
+
+26-11-2026T14:04:24 - [TEST_STEP][PASSED] - I tap the "Save item" button: I tap the "Save item" button
+
+26-11-2026T14:04:24 - [MESSAGE][PASSED] - Object 'save-item-button' is clickable
+
+26-11-2026T14:04:24 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:04:24 - [MESSAGE][PASSED] - I tap the "Save item" button
+
+26-11-2026T14:04:24 - [TEST_STEP][PASSED] - I see "Milk" in the pantry: I see "Milk" in the pantry
+
+26-11-2026T14:04:25 - [MESSAGE][PASSED] - Object 'pantry-item-Milk' is visible
+
+26-11-2026T14:04:25 - [MESSAGE][PASSED] - I see "Milk" in the pantry
+
+26-11-2026T14:04:25 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:04:25 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:04:25 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:04:25 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Show items expiring within 48 hours in the alert tray: SCENARIO Show items expiring within 48 hours in the alert tray
+
+26-11-2026T14:04:25 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:04:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:04:25 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:04:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:04:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:04:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:04:27 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:04:27 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:04:27 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:04:28 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:04:28 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:04:29 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:04:29 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:04:29 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:04:30 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:04:30 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:04:31 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:04:31 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:04:31 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:04:32 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:04:32 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:04:32 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:04:32 - [TEST_STEP][PASSED] - the pantry is empty: the pantry is empty
+
+26-11-2026T14:04:32 - [MESSAGE][PASSED] - Object 'pantry-empty' is visible
+
+26-11-2026T14:04:32 - [MESSAGE][PASSED] - the pantry is empty
+
+26-11-2026T14:04:32 - [TEST_STEP][PASSED] - I add the item "Spinach" expiring tomorrow: I add the item "Spinach" expiring tomorrow
+
+26-11-2026T14:04:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SmartPantry/button_Add item' is clicked on
+
+26-11-2026T14:04:33 - [MESSAGE][PASSED] - Text 'Spinach' is set on object 'Object Repository/Page_SmartPantry/input_e.g. Pesto sauce'
+
+26-11-2026T14:04:34 - [MESSAGE][PASSED] - All options with value 'Vegetables' are selected in object 'Object Repository/Page_SmartPantry/select_Category' 
+
+26-11-2026T14:04:34 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Page_SmartPantry/input_0'
+
+26-11-2026T14:04:35 - [MESSAGE][PASSED] - All options with value 'kg' are selected in object 'Object Repository/Page_SmartPantry/select_Unit' 
+
+26-11-2026T14:04:35 - [MESSAGE][PASSED] - Text '27112026' is set on object 'Object Repository/Page_SmartPantry/input_Expiration date'
+
+26-11-2026T14:04:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_SmartPantry/button_Save item' is clicked on
+
+26-11-2026T14:04:35 - [MESSAGE][PASSED] - I add the item "Spinach" expiring tomorrow
+
+26-11-2026T14:04:35 - [TEST_STEP][PASSED] - I see "Spinach" in the expiry alert tray: I see "Spinach" in the expiry alert tray
+
+26-11-2026T14:04:36 - [MESSAGE][PASSED] - Object 'expiring-tray-item-Spinach' is visible
+
+26-11-2026T14:04:36 - [MESSAGE][PASSED] - I see "Spinach" in the expiry alert tray
+
+26-11-2026T14:04:36 - [TEST_STEP][PASSED] - I see "Spinach" highlighted in the pantry: I see "Spinach" highlighted in the pantry
+
+26-11-2026T14:04:36 - [MESSAGE][PASSED] - Attribute 'data-highlighted' of object 'pantry-item-Spinach' is: 'true'
+
+26-11-2026T14:04:36 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+26-11-2026T14:04:36 - [MESSAGE][PASSED] - I see "Spinach" highlighted in the pantry
+
+26-11-2026T14:04:36 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:04:36 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:04:36 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:04:36 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Edit the quantity of a pantry item: SCENARIO Edit the quantity of a pantry item
+
+26-11-2026T14:04:36 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:04:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:04:36 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:04:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:04:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:04:38 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:04:38 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:04:38 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:04:39 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:04:39 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:04:39 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:04:40 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:04:40 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:04:41 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:04:41 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:04:41 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:04:42 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:04:42 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:04:43 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:04:43 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:04:43 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:04:43 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:04:43 - [TEST_STEP][PASSED] - the pantry contains the item "Milk" with the quantity "2": the pantry contains the item "Milk" with the quantity "2"
+
+26-11-2026T14:04:43 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:04:44 - [MESSAGE][PASSED] - Text 'Milk' is set on object 'item-name-input'
+
+26-11-2026T14:04:45 - [MESSAGE][PASSED] - All options with label 'Dairy' are selected in object 'category-select' 
+
+26-11-2026T14:04:45 - [MESSAGE][PASSED] - Text '2' is set on object 'quantity-input'
+
+26-11-2026T14:04:46 - [MESSAGE][PASSED] - All options with label 'L' are selected in object 'unit-select' 
+
+26-11-2026T14:04:46 - [MESSAGE][PASSED] - Text '26122026' is set on object 'Object Repository/Page_SmartPantry/input_Expiration date'
+
+26-11-2026T14:04:46 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:04:47 - [MESSAGE][PASSED] - Object 'pantry-item-Milk' is visible
+
+26-11-2026T14:04:47 - [MESSAGE][PASSED] - the pantry contains the item "Milk" with the quantity "2"
+
+26-11-2026T14:04:47 - [TEST_STEP][PASSED] - I tap the item "Milk": I tap the item "Milk"
+
+26-11-2026T14:04:47 - [MESSAGE][PASSED] - Object: 'pantry-item-Milk' is clicked on
+
+26-11-2026T14:04:47 - [MESSAGE][PASSED] - I tap the item "Milk"
+
+26-11-2026T14:04:47 - [TEST_STEP][PASSED] - I insert "1" in the "Quantity" field: I insert "1" in the "Quantity" field
+
+26-11-2026T14:04:48 - [MESSAGE][PASSED] - Object 'quantity-input' is visible
+
+26-11-2026T14:04:48 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:04:48 - [MESSAGE][PASSED] - I insert "1" in the "Quantity" field
+
+26-11-2026T14:04:48 - [TEST_STEP][PASSED] - I tap the "Save changes" button: I tap the "Save changes" button
+
+26-11-2026T14:04:48 - [MESSAGE][PASSED] - Object 'save-changes-button' is clickable
+
+26-11-2026T14:04:49 - [MESSAGE][PASSED] - Object: 'save-changes-button' is clicked on
+
+26-11-2026T14:04:49 - [MESSAGE][PASSED] - I tap the "Save changes" button
+
+26-11-2026T14:04:49 - [TEST_STEP][PASSED] - I see "Milk" with the quantity "1" in the pantry: I see "Milk" with the quantity "1" in the pantry
+
+26-11-2026T14:04:49 - [MESSAGE][PASSED] - Text of object 'pantry-item-quantity-Milk' is: '1'
+
+26-11-2026T14:04:49 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+26-11-2026T14:04:49 - [MESSAGE][PASSED] - I see "Milk" with the quantity "1" in the pantry
+
+26-11-2026T14:04:49 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:04:49 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:04:49 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:04:49 - [MESSAGE][PASSED] - Feature file: 'Include/features/DashboardFoodTrackingAndPantryItems.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ProductInsertionAndLookupFeatureCase" time="66.364" classname="Test Cases/ProductInsertionAndLookupFeatureCase" status="PASSED">
+         <system-out><![CDATA[26-11-2026T14:04:49 - [TEST_CASE][PASSED] - Test Cases/ProductInsertionAndLookupFeatureCase: Test Cases/ProductInsertionAndLookupFeatureCase
+
+26-11-2026T14:04:49 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+26-11-2026T14:04:49 - [TEST_STEP][PASSED] - GLUE = ["stepDefinitions"]: null
+
+26-11-2026T14:04:49 - [TEST_STEP][PASSED] - setWebDriverPreferencesProperty("args", ["--use-fake-device-for-media-stream", "--use-fake-ui-for-media-stream"]): null
+
+26-11-2026T14:04:49 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/ProcutInsertionAndLookup.feature"): Feature file: 'Include/features/ProcutInsertionAndLookup.feature' was passed
+
+26-11-2026T14:04:49 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/ProcutInsertionAndLookup.feature' and extract report to folder: '/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/cucumber_report/1795701889792'...
+
+26-11-2026T14:04:49 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Auto-fill the item form from a scanned barcode: SCENARIO Auto-fill the item form from a scanned barcode
+
+26-11-2026T14:04:49 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:04:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:04:49 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:04:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:04:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:04:51 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:04:51 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:04:51 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:04:52 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:04:52 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:04:53 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:04:53 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:04:53 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:04:54 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:04:54 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:04:54 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:04:55 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:04:55 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:04:56 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:04:56 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:04:56 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:04:56 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:04:56 - [TEST_STEP][PASSED] - camera access is allowed: camera access is allowed
+
+26-11-2026T14:04:56 - [MESSAGE][PASSED] - Execute JavaScript '
+			const canvas = document.createElement('canvas')
+			canvas.width = 640
+			canvas.height = 360
+			const context = canvas.getContext('2d')
+			window.fakeCamera = { barcode: null }
+			setInterval(() => {
+				context.fillStyle = 'white'
+				context.fillRect(0, 0, canvas.width, canvas.height)
+				const barcode = window.fakeCamera.barcode
+				if (barcode) {
+					context.drawImage(barcode, (canvas.width - barcode.width) / 2, (canvas.height - barcode.height) / 2)
+				}
+			}, 100)
+			navigator.mediaDevices.getUserMedia = () => Promise.resolve(canvas.captureStream(10))' successfully
+
+26-11-2026T14:04:56 - [MESSAGE][PASSED] - camera access is allowed
+
+26-11-2026T14:04:56 - [TEST_STEP][PASSED] - I tap the "+ Add item" button: I tap the "+ Add item" button
+
+26-11-2026T14:04:56 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:04:56 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:04:56 - [MESSAGE][PASSED] - I tap the "+ Add item" button
+
+26-11-2026T14:04:56 - [TEST_STEP][PASSED] - I tap the "Scan barcode" button: I tap the "Scan barcode" button
+
+26-11-2026T14:04:57 - [MESSAGE][PASSED] - Object 'scan-barcode-button' is clickable
+
+26-11-2026T14:04:57 - [MESSAGE][PASSED] - Object: 'scan-barcode-button' is clicked on
+
+26-11-2026T14:04:57 - [MESSAGE][PASSED] - I tap the "Scan barcode" button
+
+26-11-2026T14:04:57 - [TEST_STEP][PASSED] - I scan the barcode "3017620422003": I scan the barcode "3017620422003"
+
+26-11-2026T14:04:58 - [MESSAGE][PASSED] - Object '[data-testid='barcode-scanner-preview']' is visible
+
+26-11-2026T14:04:58 - [MESSAGE][PASSED] - Execute JavaScript '
+			const image = new Image()
+			image.onload = () => { window.fakeCamera.barcode = image }
+			image.src = 'data:image/png;base64,' + arguments[0]' successfully
+
+26-11-2026T14:04:58 - [MESSAGE][PASSED] - I scan the barcode "3017620422003"
+
+26-11-2026T14:04:58 - [TEST_STEP][PASSED] - I see "Nutella" in the "Item name" field: I see "Nutella" in the "Item name" field
+
+26-11-2026T14:04:59 - [MESSAGE][PASSED] - Object '[data-testid='item-name-input']' has attribute 'value' with value 'Nutella'
+
+26-11-2026T14:04:59 - [MESSAGE][PASSED] - I see "Nutella" in the "Item name" field
+
+26-11-2026T14:04:59 - [TEST_STEP][PASSED] - I see "400" in the "Quantity" field: I see "400" in the "Quantity" field
+
+26-11-2026T14:04:59 - [MESSAGE][PASSED] - Object '[data-testid='quantity-input']' has attribute 'value' with value '400'
+
+26-11-2026T14:04:59 - [MESSAGE][PASSED] - I see "400" in the "Quantity" field
+
+26-11-2026T14:04:59 - [TEST_STEP][PASSED] - I see "g" in the "Unit" field: I see "g" in the "Unit" field
+
+26-11-2026T14:04:59 - [MESSAGE][PASSED] - Object '[data-testid='unit-select']' has attribute 'value' with value 'g'
+
+26-11-2026T14:04:59 - [MESSAGE][PASSED] - I see "g" in the "Unit" field
+
+26-11-2026T14:04:59 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:05:00 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:05:00 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:05:00 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Adjust the auto-filled data before saving the item: SCENARIO Adjust the auto-filled data before saving the item
+
+26-11-2026T14:05:00 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:05:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:05:00 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:05:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:05:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:05:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:05:01 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:05:01 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:05:02 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:05:02 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:05:03 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:05:03 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:05:04 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:05:04 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:05:04 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:05:05 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:05:05 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:05:05 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:05:06 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:05:06 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:05:06 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:05:06 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:05:06 - [TEST_STEP][PASSED] - camera access is allowed: camera access is allowed
+
+26-11-2026T14:05:06 - [MESSAGE][PASSED] - Execute JavaScript '
+			const canvas = document.createElement('canvas')
+			canvas.width = 640
+			canvas.height = 360
+			const context = canvas.getContext('2d')
+			window.fakeCamera = { barcode: null }
+			setInterval(() => {
+				context.fillStyle = 'white'
+				context.fillRect(0, 0, canvas.width, canvas.height)
+				const barcode = window.fakeCamera.barcode
+				if (barcode) {
+					context.drawImage(barcode, (canvas.width - barcode.width) / 2, (canvas.height - barcode.height) / 2)
+				}
+			}, 100)
+			navigator.mediaDevices.getUserMedia = () => Promise.resolve(canvas.captureStream(10))' successfully
+
+26-11-2026T14:05:06 - [MESSAGE][PASSED] - camera access is allowed
+
+26-11-2026T14:05:06 - [TEST_STEP][PASSED] - I tap the "+ Add item" button: I tap the "+ Add item" button
+
+26-11-2026T14:05:06 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:05:07 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:05:07 - [MESSAGE][PASSED] - I tap the "+ Add item" button
+
+26-11-2026T14:05:07 - [TEST_STEP][PASSED] - I tap the "Scan barcode" button: I tap the "Scan barcode" button
+
+26-11-2026T14:05:07 - [MESSAGE][PASSED] - Object 'scan-barcode-button' is clickable
+
+26-11-2026T14:05:07 - [MESSAGE][PASSED] - Object: 'scan-barcode-button' is clicked on
+
+26-11-2026T14:05:07 - [MESSAGE][PASSED] - I tap the "Scan barcode" button
+
+26-11-2026T14:05:07 - [TEST_STEP][PASSED] - I scan the barcode "3017620422003": I scan the barcode "3017620422003"
+
+26-11-2026T14:05:08 - [MESSAGE][PASSED] - Object '[data-testid='barcode-scanner-preview']' is visible
+
+26-11-2026T14:05:08 - [MESSAGE][PASSED] - Execute JavaScript '
+			const image = new Image()
+			image.onload = () => { window.fakeCamera.barcode = image }
+			image.src = 'data:image/png;base64,' + arguments[0]' successfully
+
+26-11-2026T14:05:08 - [MESSAGE][PASSED] - I scan the barcode "3017620422003"
+
+26-11-2026T14:05:08 - [TEST_STEP][PASSED] - I insert "Chocolate spread" in the "Item name" field: I insert "Chocolate spread" in the "Item name" field
+
+26-11-2026T14:05:09 - [MESSAGE][PASSED] - Object 'item-name-input' is visible
+
+26-11-2026T14:05:10 - [MESSAGE][PASSED] - Text 'Chocolate spread' is set on object 'item-name-input'
+
+26-11-2026T14:05:10 - [MESSAGE][PASSED] - I insert "Chocolate spread" in the "Item name" field
+
+26-11-2026T14:05:10 - [TEST_STEP][PASSED] - I select the "Sweets" category: I select the "Sweets" category
+
+26-11-2026T14:05:10 - [MESSAGE][PASSED] - All options with label 'Sweets' are selected in object 'category-select' 
+
+26-11-2026T14:05:10 - [MESSAGE][PASSED] - I select the "Sweets" category
+
+26-11-2026T14:05:10 - [TEST_STEP][PASSED] - I set the expiration date to "30/11/2026": I set the expiration date to "30/11/2026"
+
+26-11-2026T14:05:11 - [MESSAGE][PASSED] - Text '30112026' is set on object 'Object Repository/Page_SmartPantry/input_Expiration date'
+
+26-11-2026T14:05:11 - [MESSAGE][PASSED] - I set the expiration date to "30/11/2026"
+
+26-11-2026T14:05:11 - [TEST_STEP][PASSED] - I tap the "Save item" button: I tap the "Save item" button
+
+26-11-2026T14:05:11 - [MESSAGE][PASSED] - Object 'save-item-button' is clickable
+
+26-11-2026T14:05:11 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:05:11 - [MESSAGE][PASSED] - I tap the "Save item" button
+
+26-11-2026T14:05:11 - [TEST_STEP][PASSED] - I see "Chocolate spread" in the pantry: I see "Chocolate spread" in the pantry
+
+26-11-2026T14:05:12 - [MESSAGE][PASSED] - Object 'pantry-item-Chocolate spread' is visible
+
+26-11-2026T14:05:12 - [MESSAGE][PASSED] - I see "Chocolate spread" in the pantry
+
+26-11-2026T14:05:12 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:05:12 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:05:12 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:05:12 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Offer the fallback options when camera access is denied: SCENARIO Offer the fallback options when camera access is denied
+
+26-11-2026T14:05:12 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:05:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:05:12 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:05:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:05:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:05:14 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:05:14 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:05:14 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:05:14 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:05:15 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:05:15 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:05:16 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:05:16 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:05:16 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:05:17 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:05:17 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:05:18 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:05:18 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:05:18 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:05:19 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:05:19 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:05:19 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:05:19 - [TEST_STEP][PASSED] - camera access is denied: camera access is denied
+
+26-11-2026T14:05:19 - [MESSAGE][PASSED] - Execute JavaScript '
+			navigator.mediaDevices.getUserMedia = () =>
+				Promise.reject(new DOMException('Permission denied', 'NotAllowedError'))' successfully
+
+26-11-2026T14:05:19 - [MESSAGE][PASSED] - camera access is denied
+
+26-11-2026T14:05:19 - [TEST_STEP][PASSED] - I tap the "+ Add item" button: I tap the "+ Add item" button
+
+26-11-2026T14:05:19 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:05:19 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:05:19 - [MESSAGE][PASSED] - I tap the "+ Add item" button
+
+26-11-2026T14:05:19 - [TEST_STEP][PASSED] - I tap the "Scan barcode" button: I tap the "Scan barcode" button
+
+26-11-2026T14:05:20 - [MESSAGE][PASSED] - Object 'scan-barcode-button' is clickable
+
+26-11-2026T14:05:20 - [MESSAGE][PASSED] - Object: 'scan-barcode-button' is clicked on
+
+26-11-2026T14:05:20 - [MESSAGE][PASSED] - I tap the "Scan barcode" button
+
+26-11-2026T14:05:20 - [TEST_STEP][PASSED] - I see the message "Camera access is not available": I see the message "Camera access is not available"
+
+26-11-2026T14:05:20 - [MESSAGE][PASSED] - Object '[data-testid='barcode-camera-unavailable-message']' is visible
+
+26-11-2026T14:05:21 - [MESSAGE][PASSED] - Text of object '[data-testid='barcode-camera-unavailable-message']' is: 'Camera access is not available'
+
+26-11-2026T14:05:21 - [MESSAGE][PASSED] - Actual object 'Camera access is not available' and expected object 'Camera access is not available' are equal
+
+26-11-2026T14:05:21 - [MESSAGE][PASSED] - I see the message "Camera access is not available"
+
+26-11-2026T14:05:21 - [TEST_STEP][PASSED] - I see the "Upload image" button: I see the "Upload image" button
+
+26-11-2026T14:05:21 - [MESSAGE][PASSED] - Object '[data-testid='barcode-fallback-options'] [data-testid='upload-image-button']' is visible
+
+26-11-2026T14:05:21 - [MESSAGE][PASSED] - I see the "Upload image" button
+
+26-11-2026T14:05:21 - [TEST_STEP][PASSED] - I see the "Enter manually" button: I see the "Enter manually" button
+
+26-11-2026T14:05:21 - [MESSAGE][PASSED] - Object '[data-testid='barcode-fallback-options'] [data-testid='enter-manually-button']' is visible
+
+26-11-2026T14:05:21 - [MESSAGE][PASSED] - I see the "Enter manually" button
+
+26-11-2026T14:05:21 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:05:21 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:05:21 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:05:21 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Offer the fallback options when the barcode is not listed: SCENARIO Offer the fallback options when the barcode is not listed
+
+26-11-2026T14:05:21 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:05:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:05:21 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:05:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:05:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:05:23 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:05:23 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:05:23 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:05:24 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:05:24 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:05:24 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:05:25 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:05:25 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:05:26 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:05:26 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:05:26 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:05:27 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:05:27 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:05:28 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:05:28 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:05:28 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:05:28 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:05:28 - [TEST_STEP][PASSED] - camera access is allowed: camera access is allowed
+
+26-11-2026T14:05:28 - [MESSAGE][PASSED] - Execute JavaScript '
+			const canvas = document.createElement('canvas')
+			canvas.width = 640
+			canvas.height = 360
+			const context = canvas.getContext('2d')
+			window.fakeCamera = { barcode: null }
+			setInterval(() => {
+				context.fillStyle = 'white'
+				context.fillRect(0, 0, canvas.width, canvas.height)
+				const barcode = window.fakeCamera.barcode
+				if (barcode) {
+					context.drawImage(barcode, (canvas.width - barcode.width) / 2, (canvas.height - barcode.height) / 2)
+				}
+			}, 100)
+			navigator.mediaDevices.getUserMedia = () => Promise.resolve(canvas.captureStream(10))' successfully
+
+26-11-2026T14:05:28 - [MESSAGE][PASSED] - camera access is allowed
+
+26-11-2026T14:05:28 - [TEST_STEP][PASSED] - I tap the "+ Add item" button: I tap the "+ Add item" button
+
+26-11-2026T14:05:28 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:05:28 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:05:28 - [MESSAGE][PASSED] - I tap the "+ Add item" button
+
+26-11-2026T14:05:28 - [TEST_STEP][PASSED] - I tap the "Scan barcode" button: I tap the "Scan barcode" button
+
+26-11-2026T14:05:29 - [MESSAGE][PASSED] - Object 'scan-barcode-button' is clickable
+
+26-11-2026T14:05:29 - [MESSAGE][PASSED] - Object: 'scan-barcode-button' is clicked on
+
+26-11-2026T14:05:29 - [MESSAGE][PASSED] - I tap the "Scan barcode" button
+
+26-11-2026T14:05:29 - [TEST_STEP][PASSED] - I scan the barcode "0000000000000": I scan the barcode "0000000000000"
+
+26-11-2026T14:05:30 - [MESSAGE][PASSED] - Object '[data-testid='barcode-scanner-preview']' is visible
+
+26-11-2026T14:05:30 - [MESSAGE][PASSED] - Execute JavaScript '
+			const image = new Image()
+			image.onload = () => { window.fakeCamera.barcode = image }
+			image.src = 'data:image/png;base64,' + arguments[0]' successfully
+
+26-11-2026T14:05:30 - [MESSAGE][PASSED] - I scan the barcode "0000000000000"
+
+26-11-2026T14:05:30 - [TEST_STEP][PASSED] - I see the message "Product not found": I see the message "Product not found"
+
+26-11-2026T14:05:31 - [MESSAGE][PASSED] - Object '[data-testid='barcode-product-not-found-message']' is visible
+
+26-11-2026T14:05:31 - [MESSAGE][PASSED] - Text of object '[data-testid='barcode-product-not-found-message']' is: 'Product not found'
+
+26-11-2026T14:05:31 - [MESSAGE][PASSED] - Actual object 'Product not found' and expected object 'Product not found' are equal
+
+26-11-2026T14:05:31 - [MESSAGE][PASSED] - I see the message "Product not found"
+
+26-11-2026T14:05:31 - [TEST_STEP][PASSED] - I see the "Upload image" button: I see the "Upload image" button
+
+26-11-2026T14:05:32 - [MESSAGE][PASSED] - Object '[data-testid='barcode-fallback-options'] [data-testid='upload-image-button']' is visible
+
+26-11-2026T14:05:32 - [MESSAGE][PASSED] - I see the "Upload image" button
+
+26-11-2026T14:05:32 - [TEST_STEP][PASSED] - I see the "Enter manually" button: I see the "Enter manually" button
+
+26-11-2026T14:05:32 - [MESSAGE][PASSED] - Object '[data-testid='barcode-fallback-options'] [data-testid='enter-manually-button']' is visible
+
+26-11-2026T14:05:32 - [MESSAGE][PASSED] - I see the "Enter manually" button
+
+26-11-2026T14:05:32 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:05:32 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:05:32 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:05:32 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Auto-fill the item form from an uploaded barcode image: SCENARIO Auto-fill the item form from an uploaded barcode image
+
+26-11-2026T14:05:32 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:05:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:05:32 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:05:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:05:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:05:34 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:05:34 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:05:34 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:05:34 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:05:34 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:05:35 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:05:36 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:05:36 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:05:36 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:05:37 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:05:37 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:05:37 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:05:38 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:05:38 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:05:38 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:05:38 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:05:38 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:05:38 - [TEST_STEP][PASSED] - I tap the "+ Add item" button: I tap the "+ Add item" button
+
+26-11-2026T14:05:39 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:05:39 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:05:39 - [MESSAGE][PASSED] - I tap the "+ Add item" button
+
+26-11-2026T14:05:39 - [TEST_STEP][PASSED] - I tap the "Scan barcode" button: I tap the "Scan barcode" button
+
+26-11-2026T14:05:39 - [MESSAGE][PASSED] - Object 'scan-barcode-button' is clickable
+
+26-11-2026T14:05:40 - [MESSAGE][PASSED] - Object: 'scan-barcode-button' is clicked on
+
+26-11-2026T14:05:40 - [MESSAGE][PASSED] - I tap the "Scan barcode" button
+
+26-11-2026T14:05:40 - [TEST_STEP][PASSED] - I tap the "Upload image" button: I tap the "Upload image" button
+
+26-11-2026T14:05:41 - [MESSAGE][PASSED] - Object 'upload-image-button' is clickable
+
+26-11-2026T14:05:41 - [MESSAGE][PASSED] - Object: 'upload-image-button' is clicked on
+
+26-11-2026T14:05:41 - [MESSAGE][PASSED] - I tap the "Upload image" button
+
+26-11-2026T14:05:41 - [TEST_STEP][PASSED] - I upload the image "nutella-barcode.jpg": I upload the image "nutella-barcode.jpg"
+
+26-11-2026T14:05:42 - [MESSAGE][PASSED] - File '/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Data Files/images/nutella-barcode.jpg' sent to object: '[data-testid='barcode-image-file-input']'
+
+26-11-2026T14:05:42 - [MESSAGE][PASSED] - I upload the image "nutella-barcode.jpg"
+
+26-11-2026T14:05:42 - [TEST_STEP][PASSED] - I see "Nutella" in the "Item name" field: I see "Nutella" in the "Item name" field
+
+26-11-2026T14:05:42 - [MESSAGE][PASSED] - Object '[data-testid='item-name-input']' has attribute 'value' with value 'Nutella'
+
+26-11-2026T14:05:42 - [MESSAGE][PASSED] - I see "Nutella" in the "Item name" field
+
+26-11-2026T14:05:42 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:05:43 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:05:43 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:05:43 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Enter the item manually after the fallback: SCENARIO Enter the item manually after the fallback
+
+26-11-2026T14:05:43 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:05:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:05:43 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:05:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:05:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:05:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:05:44 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:05:44 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:05:45 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:05:45 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:05:46 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:05:46 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:05:47 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:05:47 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:05:47 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:05:48 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:05:48 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:05:48 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:05:49 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:05:49 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:05:49 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:05:49 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:05:49 - [TEST_STEP][PASSED] - camera access is denied: camera access is denied
+
+26-11-2026T14:05:49 - [MESSAGE][PASSED] - Execute JavaScript '
+			navigator.mediaDevices.getUserMedia = () =>
+				Promise.reject(new DOMException('Permission denied', 'NotAllowedError'))' successfully
+
+26-11-2026T14:05:49 - [MESSAGE][PASSED] - camera access is denied
+
+26-11-2026T14:05:49 - [TEST_STEP][PASSED] - I tap the "+ Add item" button: I tap the "+ Add item" button
+
+26-11-2026T14:05:49 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:05:50 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:05:50 - [MESSAGE][PASSED] - I tap the "+ Add item" button
+
+26-11-2026T14:05:50 - [TEST_STEP][PASSED] - I tap the "Scan barcode" button: I tap the "Scan barcode" button
+
+26-11-2026T14:05:50 - [MESSAGE][PASSED] - Object 'scan-barcode-button' is clickable
+
+26-11-2026T14:05:50 - [MESSAGE][PASSED] - Object: 'scan-barcode-button' is clicked on
+
+26-11-2026T14:05:50 - [MESSAGE][PASSED] - I tap the "Scan barcode" button
+
+26-11-2026T14:05:50 - [TEST_STEP][PASSED] - I tap the "Enter manually" button: I tap the "Enter manually" button
+
+26-11-2026T14:05:51 - [MESSAGE][PASSED] - Object 'enter-manually-button' is clickable
+
+26-11-2026T14:05:51 - [MESSAGE][PASSED] - Object: 'enter-manually-button' is clicked on
+
+26-11-2026T14:05:51 - [MESSAGE][PASSED] - I tap the "Enter manually" button
+
+26-11-2026T14:05:51 - [TEST_STEP][PASSED] - I insert "Homemade jam" in the "Item name" field: I insert "Homemade jam" in the "Item name" field
+
+26-11-2026T14:05:52 - [MESSAGE][PASSED] - Object 'item-name-input' is visible
+
+26-11-2026T14:05:52 - [MESSAGE][PASSED] - Text 'Homemade jam' is set on object 'item-name-input'
+
+26-11-2026T14:05:52 - [MESSAGE][PASSED] - I insert "Homemade jam" in the "Item name" field
+
+26-11-2026T14:05:52 - [TEST_STEP][PASSED] - I select the "Sweets" category: I select the "Sweets" category
+
+26-11-2026T14:05:53 - [MESSAGE][PASSED] - All options with label 'Sweets' are selected in object 'category-select' 
+
+26-11-2026T14:05:53 - [MESSAGE][PASSED] - I select the "Sweets" category
+
+26-11-2026T14:05:53 - [TEST_STEP][PASSED] - I insert "1" in the "Quantity" field: I insert "1" in the "Quantity" field
+
+26-11-2026T14:05:53 - [MESSAGE][PASSED] - Object 'quantity-input' is visible
+
+26-11-2026T14:05:53 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:05:53 - [MESSAGE][PASSED] - I insert "1" in the "Quantity" field
+
+26-11-2026T14:05:53 - [TEST_STEP][PASSED] - I select the "Units" unit: I select the "Units" unit
+
+26-11-2026T14:05:54 - [MESSAGE][PASSED] - All options with label 'Units' are selected in object 'unit-select' 
+
+26-11-2026T14:05:54 - [MESSAGE][PASSED] - I select the "Units" unit
+
+26-11-2026T14:05:54 - [TEST_STEP][PASSED] - I set the expiration date to "30/11/2026": I set the expiration date to "30/11/2026"
+
+26-11-2026T14:05:55 - [MESSAGE][PASSED] - Text '30112026' is set on object 'Object Repository/Page_SmartPantry/input_Expiration date'
+
+26-11-2026T14:05:55 - [MESSAGE][PASSED] - I set the expiration date to "30/11/2026"
+
+26-11-2026T14:05:55 - [TEST_STEP][PASSED] - I tap the "Save item" button: I tap the "Save item" button
+
+26-11-2026T14:05:55 - [MESSAGE][PASSED] - Object 'save-item-button' is clickable
+
+26-11-2026T14:05:55 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:05:55 - [MESSAGE][PASSED] - I tap the "Save item" button
+
+26-11-2026T14:05:55 - [TEST_STEP][PASSED] - I see "Homemade jam" in the pantry: I see "Homemade jam" in the pantry
+
+26-11-2026T14:05:55 - [MESSAGE][PASSED] - Object 'pantry-item-Homemade jam' is visible
+
+26-11-2026T14:05:55 - [MESSAGE][PASSED] - I see "Homemade jam" in the pantry
+
+26-11-2026T14:05:55 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:05:56 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:05:56 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:05:56 - [MESSAGE][PASSED] - Feature file: 'Include/features/ProcutInsertionAndLookup.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GroceryShoppingListFeatureCase" time="101.704" classname="Test Cases/GroceryShoppingListFeatureCase" status="PASSED">
+         <system-out><![CDATA[26-11-2026T14:05:56 - [TEST_CASE][PASSED] - Test Cases/GroceryShoppingListFeatureCase: Test Cases/GroceryShoppingListFeatureCase
+
+26-11-2026T14:05:56 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+26-11-2026T14:05:56 - [TEST_STEP][PASSED] - GLUE = ["stepDefinitions"]: null
+
+26-11-2026T14:05:56 - [TEST_STEP][PASSED] - setWebDriverPreferencesProperty("args", ["--use-fake-device-for-media-stream", "--use-fake-ui-for-media-stream"]): null
+
+26-11-2026T14:05:56 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/GroceryShoppingList.feature"): Feature file: 'Include/features/GroceryShoppingList.feature' was passed
+
+26-11-2026T14:05:56 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/GroceryShoppingList.feature' and extract report to folder: '/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/cucumber_report/1795701956158'...
+
+26-11-2026T14:05:56 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Open the shopping list from the header: SCENARIO Open the shopping list from the header
+
+26-11-2026T14:05:56 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:05:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:05:56 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:05:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:05:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:05:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:05:57 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:05:57 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:05:58 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:05:58 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:05:59 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:05:59 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:06:00 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:06:00 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:06:00 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:06:01 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:06:01 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:06:01 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:06:02 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:06:02 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:06:02 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:06:02 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:06:02 - [TEST_STEP][PASSED] - I tap the shopping list button in the header: I tap the shopping list button in the header
+
+26-11-2026T14:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Shopping list' is clicked on
+
+26-11-2026T14:06:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/section_Shopping list' is visible
+
+26-11-2026T14:06:03 - [MESSAGE][PASSED] - I tap the shopping list button in the header
+
+26-11-2026T14:06:03 - [TEST_STEP][PASSED] - I see the shopping list: I see the shopping list
+
+26-11-2026T14:06:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/section_Shopping list' is visible
+
+26-11-2026T14:06:03 - [MESSAGE][PASSED] - I see the shopping list
+
+26-11-2026T14:06:03 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:06:03 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:06:03 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:06:03 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Add an item to the shopping list manually: SCENARIO Add an item to the shopping list manually
+
+26-11-2026T14:06:03 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:06:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:06:03 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:06:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:06:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:06:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:06:05 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:06:05 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:06:06 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:06:06 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:06:07 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:06:07 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:06:08 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:06:08 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:06:08 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:06:09 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:06:09 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:06:09 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:06:10 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:06:10 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:06:10 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:06:10 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:06:10 - [TEST_STEP][PASSED] - the shopping list is empty: the shopping list is empty
+
+26-11-2026T14:06:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Shopping list' is clicked on
+
+26-11-2026T14:06:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/section_Shopping list' is visible
+
+26-11-2026T14:06:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/div_Empty shopping list' is visible
+
+26-11-2026T14:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Close shopping list' is clicked on
+
+26-11-2026T14:06:12 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_GroceryShoppingList/section_Shopping list' located by 'By.cssSelector: [data-testid='shopping-list-screen']' is not present after '10' second(s)
+
+26-11-2026T14:06:12 - [MESSAGE][PASSED] - the shopping list is empty
+
+26-11-2026T14:06:12 - [TEST_STEP][PASSED] - I tap the shopping list button in the header: I tap the shopping list button in the header
+
+26-11-2026T14:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Shopping list' is clicked on
+
+26-11-2026T14:06:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/section_Shopping list' is visible
+
+26-11-2026T14:06:12 - [MESSAGE][PASSED] - I tap the shopping list button in the header
+
+26-11-2026T14:06:12 - [TEST_STEP][PASSED] - I insert "Eggs" in the "Item name" field: I insert "Eggs" in the "Item name" field
+
+26-11-2026T14:06:13 - [MESSAGE][PASSED] - Object 'item-name-input' is visible
+
+26-11-2026T14:06:13 - [MESSAGE][PASSED] - Text 'Eggs' is set on object 'item-name-input'
+
+26-11-2026T14:06:13 - [MESSAGE][PASSED] - I insert "Eggs" in the "Item name" field
+
+26-11-2026T14:06:13 - [TEST_STEP][PASSED] - I tap the "Add" button: I tap the "Add" button
+
+26-11-2026T14:06:13 - [MESSAGE][PASSED] - Object 'add-button' is clickable
+
+26-11-2026T14:06:14 - [MESSAGE][PASSED] - Object: 'add-button' is clicked on
+
+26-11-2026T14:06:14 - [MESSAGE][PASSED] - I tap the "Add" button
+
+26-11-2026T14:06:14 - [TEST_STEP][PASSED] - I see "Eggs" in the shopping list: I see "Eggs" in the shopping list
+
+26-11-2026T14:06:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/label_Item' is visible
+
+26-11-2026T14:06:14 - [MESSAGE][PASSED] - I see "Eggs" in the shopping list
+
+26-11-2026T14:06:14 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:06:14 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:06:14 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:06:14 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Scan a product from the shopping list: SCENARIO Scan a product from the shopping list
+
+26-11-2026T14:06:14 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:06:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:06:14 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:06:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:06:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:06:16 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:06:16 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:06:16 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:06:16 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:06:17 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:06:17 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:06:18 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:06:18 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:06:18 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:06:19 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:06:19 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:06:20 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:06:20 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:06:20 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:06:21 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:06:21 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:06:21 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:06:21 - [TEST_STEP][PASSED] - camera access is allowed: camera access is allowed
+
+26-11-2026T14:06:21 - [MESSAGE][PASSED] - Execute JavaScript '
+			const canvas = document.createElement('canvas')
+			canvas.width = 640
+			canvas.height = 360
+			const context = canvas.getContext('2d')
+			window.fakeCamera = { barcode: null }
+			setInterval(() => {
+				context.fillStyle = 'white'
+				context.fillRect(0, 0, canvas.width, canvas.height)
+				const barcode = window.fakeCamera.barcode
+				if (barcode) {
+					context.drawImage(barcode, (canvas.width - barcode.width) / 2, (canvas.height - barcode.height) / 2)
+				}
+			}, 100)
+			navigator.mediaDevices.getUserMedia = () => Promise.resolve(canvas.captureStream(10))' successfully
+
+26-11-2026T14:06:21 - [MESSAGE][PASSED] - camera access is allowed
+
+26-11-2026T14:06:21 - [TEST_STEP][PASSED] - the shopping list contains the item "Nutella": the shopping list contains the item "Nutella"
+
+26-11-2026T14:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Shopping list' is clicked on
+
+26-11-2026T14:06:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/section_Shopping list' is visible
+
+26-11-2026T14:06:22 - [MESSAGE][PASSED] - Text 'Nutella' is set on object 'Object Repository/Page_GroceryShoppingList/input_Item name'
+
+26-11-2026T14:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Add' is clicked on
+
+26-11-2026T14:06:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/label_Item' is visible
+
+26-11-2026T14:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Close shopping list' is clicked on
+
+26-11-2026T14:06:23 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_GroceryShoppingList/section_Shopping list' located by 'By.cssSelector: [data-testid='shopping-list-screen']' is not present after '10' second(s)
+
+26-11-2026T14:06:23 - [MESSAGE][PASSED] - the shopping list contains the item "Nutella"
+
+26-11-2026T14:06:23 - [TEST_STEP][PASSED] - I tap the shopping list button in the header: I tap the shopping list button in the header
+
+26-11-2026T14:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Shopping list' is clicked on
+
+26-11-2026T14:06:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/section_Shopping list' is visible
+
+26-11-2026T14:06:24 - [MESSAGE][PASSED] - I tap the shopping list button in the header
+
+26-11-2026T14:06:24 - [TEST_STEP][PASSED] - I tap the scan button of the item "Nutella": I tap the scan button of the item "Nutella"
+
+26-11-2026T14:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Item scan' is clicked on
+
+26-11-2026T14:06:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/div_Scanner' is visible
+
+26-11-2026T14:06:25 - [MESSAGE][PASSED] - I tap the scan button of the item "Nutella"
+
+26-11-2026T14:06:25 - [TEST_STEP][PASSED] - I scan the barcode "3017620422003": I scan the barcode "3017620422003"
+
+26-11-2026T14:06:25 - [MESSAGE][PASSED] - Object '[data-testid='barcode-scanner-preview']' is visible
+
+26-11-2026T14:06:25 - [MESSAGE][PASSED] - Execute JavaScript '
+			const image = new Image()
+			image.onload = () => { window.fakeCamera.barcode = image }
+			image.src = 'data:image/png;base64,' + arguments[0]' successfully
+
+26-11-2026T14:06:25 - [MESSAGE][PASSED] - I scan the barcode "3017620422003"
+
+26-11-2026T14:06:25 - [TEST_STEP][PASSED] - I see the scan notification "Nutella scanned": I see the scan notification "Nutella scanned"
+
+26-11-2026T14:06:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/p_Scan message' is visible
+
+26-11-2026T14:06:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_GroceryShoppingList/p_Scan message' is: 'Nutella scanned'
+
+26-11-2026T14:06:26 - [MESSAGE][PASSED] - Actual object 'Nutella scanned' and expected object 'Nutella scanned' are equal
+
+26-11-2026T14:06:26 - [MESSAGE][PASSED] - I see the scan notification "Nutella scanned"
+
+26-11-2026T14:06:26 - [TEST_STEP][PASSED] - I see the item "Nutella" checked: I see the item "Nutella" checked
+
+26-11-2026T14:06:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/input_Item checkbox' is checked
+
+26-11-2026T14:06:27 - [MESSAGE][PASSED] - I see the item "Nutella" checked
+
+26-11-2026T14:06:27 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:06:27 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:06:27 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:06:27 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Move scanned and checked items to the pantry: SCENARIO Move scanned and checked items to the pantry
+
+26-11-2026T14:06:27 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:06:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:06:27 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:06:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:06:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:06:28 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:06:28 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:06:28 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:06:29 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:06:29 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:06:30 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:06:30 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:06:31 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:06:31 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:06:31 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:06:32 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:06:32 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:06:32 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:06:33 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:06:33 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:06:33 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:06:33 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:06:33 - [TEST_STEP][PASSED] - camera access is allowed: camera access is allowed
+
+26-11-2026T14:06:33 - [MESSAGE][PASSED] - Execute JavaScript '
+			const canvas = document.createElement('canvas')
+			canvas.width = 640
+			canvas.height = 360
+			const context = canvas.getContext('2d')
+			window.fakeCamera = { barcode: null }
+			setInterval(() => {
+				context.fillStyle = 'white'
+				context.fillRect(0, 0, canvas.width, canvas.height)
+				const barcode = window.fakeCamera.barcode
+				if (barcode) {
+					context.drawImage(barcode, (canvas.width - barcode.width) / 2, (canvas.height - barcode.height) / 2)
+				}
+			}, 100)
+			navigator.mediaDevices.getUserMedia = () => Promise.resolve(canvas.captureStream(10))' successfully
+
+26-11-2026T14:06:33 - [MESSAGE][PASSED] - camera access is allowed
+
+26-11-2026T14:06:33 - [TEST_STEP][PASSED] - the shopping list contains the items "Eggs" and "Nutella": the shopping list contains the items "Eggs" and "Nutella"
+
+26-11-2026T14:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Shopping list' is clicked on
+
+26-11-2026T14:06:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/section_Shopping list' is visible
+
+26-11-2026T14:06:34 - [MESSAGE][PASSED] - Text 'Eggs' is set on object 'Object Repository/Page_GroceryShoppingList/input_Item name'
+
+26-11-2026T14:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Add' is clicked on
+
+26-11-2026T14:06:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/label_Item' is visible
+
+26-11-2026T14:06:36 - [MESSAGE][PASSED] - Text 'Nutella' is set on object 'Object Repository/Page_GroceryShoppingList/input_Item name'
+
+26-11-2026T14:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Add' is clicked on
+
+26-11-2026T14:06:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/label_Item' is visible
+
+26-11-2026T14:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Close shopping list' is clicked on
+
+26-11-2026T14:06:37 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_GroceryShoppingList/section_Shopping list' located by 'By.cssSelector: [data-testid='shopping-list-screen']' is not present after '10' second(s)
+
+26-11-2026T14:06:37 - [MESSAGE][PASSED] - the shopping list contains the items "Eggs" and "Nutella"
+
+26-11-2026T14:06:37 - [TEST_STEP][PASSED] - I tap the shopping list button in the header: I tap the shopping list button in the header
+
+26-11-2026T14:06:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Shopping list' is clicked on
+
+26-11-2026T14:06:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/section_Shopping list' is visible
+
+26-11-2026T14:06:38 - [MESSAGE][PASSED] - I tap the shopping list button in the header
+
+26-11-2026T14:06:38 - [TEST_STEP][PASSED] - I tap the scan button of the item "Nutella": I tap the scan button of the item "Nutella"
+
+26-11-2026T14:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Item scan' is clicked on
+
+26-11-2026T14:06:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/div_Scanner' is visible
+
+26-11-2026T14:06:39 - [MESSAGE][PASSED] - I tap the scan button of the item "Nutella"
+
+26-11-2026T14:06:39 - [TEST_STEP][PASSED] - I scan the barcode "3017620422003": I scan the barcode "3017620422003"
+
+26-11-2026T14:06:39 - [MESSAGE][PASSED] - Object '[data-testid='barcode-scanner-preview']' is visible
+
+26-11-2026T14:06:39 - [MESSAGE][PASSED] - Execute JavaScript '
+			const image = new Image()
+			image.onload = () => { window.fakeCamera.barcode = image }
+			image.src = 'data:image/png;base64,' + arguments[0]' successfully
+
+26-11-2026T14:06:39 - [MESSAGE][PASSED] - I scan the barcode "3017620422003"
+
+26-11-2026T14:06:39 - [TEST_STEP][PASSED] - I check the item "Eggs": I check the item "Eggs"
+
+26-11-2026T14:06:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/input_Item checkbox' is checked
+
+26-11-2026T14:06:40 - [MESSAGE][PASSED] - I check the item "Eggs"
+
+26-11-2026T14:06:40 - [TEST_STEP][PASSED] - I tap the "Move to pantry" button: I tap the "Move to pantry" button
+
+26-11-2026T14:06:40 - [MESSAGE][PASSED] - Object 'move-to-pantry-button' is clickable
+
+26-11-2026T14:06:40 - [MESSAGE][PASSED] - Object: 'move-to-pantry-button' is clicked on
+
+26-11-2026T14:06:40 - [MESSAGE][PASSED] - I tap the "Move to pantry" button
+
+26-11-2026T14:06:40 - [TEST_STEP][PASSED] - I see the quantity "400" "g" filled in for "Nutella": I see the quantity "400" "g" filled in for "Nutella"
+
+26-11-2026T14:06:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/section_Move to pantry' is visible
+
+26-11-2026T14:06:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/input_Quantity' has attribute 'value' with value '400'
+
+26-11-2026T14:06:42 - [MESSAGE][PASSED] - All options with label 'g' are selected in object 'Object Repository/Page_GroceryShoppingList/select_Unit' 
+
+26-11-2026T14:06:42 - [MESSAGE][PASSED] - I see the quantity "400" "g" filled in for "Nutella"
+
+26-11-2026T14:06:42 - [TEST_STEP][PASSED] - I create the category "Spreads" for "Nutella": I create the category "Spreads" for "Nutella"
+
+26-11-2026T14:06:43 - [MESSAGE][PASSED] - All options with label '+ Create new category' are selected in object 'Object Repository/Page_GroceryShoppingList/select_Category' 
+
+26-11-2026T14:06:43 - [MESSAGE][PASSED] - Text 'Spreads' is set on object 'Object Repository/Page_GroceryShoppingList/input_New category'
+
+26-11-2026T14:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Add category' is clicked on
+
+26-11-2026T14:06:45 - [MESSAGE][PASSED] - All options with label 'Spreads' are selected in object 'Object Repository/Page_GroceryShoppingList/select_Category' 
+
+26-11-2026T14:06:45 - [MESSAGE][PASSED] - I create the category "Spreads" for "Nutella"
+
+26-11-2026T14:06:45 - [TEST_STEP][PASSED] - I set "Nutella" to the expiration date "31/12/2026": I set "Nutella" to the expiration date "31/12/2026"
+
+26-11-2026T14:06:46 - [MESSAGE][PASSED] - Text '31122026' is set on object 'Object Repository/Page_GroceryShoppingList/input_Expiration date'
+
+26-11-2026T14:06:46 - [MESSAGE][PASSED] - I set "Nutella" to the expiration date "31/12/2026"
+
+26-11-2026T14:06:46 - [TEST_STEP][PASSED] - I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026": I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026"
+
+26-11-2026T14:06:46 - [MESSAGE][PASSED] - All options with label 'Dairy' are selected in object 'Object Repository/Page_GroceryShoppingList/select_Category' 
+
+26-11-2026T14:06:47 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Page_GroceryShoppingList/input_Quantity'
+
+26-11-2026T14:06:47 - [MESSAGE][PASSED] - All options with label 'Units' are selected in object 'Object Repository/Page_GroceryShoppingList/select_Unit' 
+
+26-11-2026T14:06:48 - [MESSAGE][PASSED] - Text '30112026' is set on object 'Object Repository/Page_GroceryShoppingList/input_Expiration date'
+
+26-11-2026T14:06:48 - [MESSAGE][PASSED] - I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026"
+
+26-11-2026T14:06:48 - [TEST_STEP][PASSED] - I tap the "Confirm" button: I tap the "Confirm" button
+
+26-11-2026T14:06:48 - [MESSAGE][PASSED] - Object 'confirm-button' is clickable
+
+26-11-2026T14:06:48 - [MESSAGE][PASSED] - Object: 'confirm-button' is clicked on
+
+26-11-2026T14:06:48 - [MESSAGE][PASSED] - I tap the "Confirm" button
+
+26-11-2026T14:06:48 - [TEST_STEP][PASSED] - I see "Nutella" in the pantry: I see "Nutella" in the pantry
+
+26-11-2026T14:06:49 - [MESSAGE][PASSED] - Object 'pantry-item-Nutella' is visible
+
+26-11-2026T14:06:49 - [MESSAGE][PASSED] - I see "Nutella" in the pantry
+
+26-11-2026T14:06:49 - [TEST_STEP][PASSED] - I see "Eggs" in the pantry: I see "Eggs" in the pantry
+
+26-11-2026T14:06:49 - [MESSAGE][PASSED] - Object 'pantry-item-Eggs' is visible
+
+26-11-2026T14:06:49 - [MESSAGE][PASSED] - I see "Eggs" in the pantry
+
+26-11-2026T14:06:49 - [TEST_STEP][PASSED] - I see the "Spreads" category in the pantry filters: I see the "Spreads" category in the pantry filters
+
+26-11-2026T14:06:49 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_GroceryShoppingList/button_Pantry category filter
+
+26-11-2026T14:06:49 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+26-11-2026T14:06:49 - [MESSAGE][PASSED] - I see the "Spreads" category in the pantry filters
+
+26-11-2026T14:06:49 - [TEST_STEP][PASSED] - I do not see "Nutella" in the shopping list: I do not see "Nutella" in the shopping list
+
+26-11-2026T14:06:49 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_GroceryShoppingList/label_Item' located by 'By.cssSelector: [data-testid='shopping-list-item-Nutella']' is not present after '10' second(s)
+
+26-11-2026T14:06:49 - [MESSAGE][PASSED] - I do not see "Nutella" in the shopping list
+
+26-11-2026T14:06:49 - [TEST_STEP][PASSED] - I do not see "Eggs" in the shopping list: I do not see "Eggs" in the shopping list
+
+26-11-2026T14:06:50 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_GroceryShoppingList/label_Item' located by 'By.cssSelector: [data-testid='shopping-list-item-Eggs']' is not present after '10' second(s)
+
+26-11-2026T14:06:50 - [MESSAGE][PASSED] - I do not see "Eggs" in the shopping list
+
+26-11-2026T14:06:50 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:07:03 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:07:03 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:07:03 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Transfer the checked items to the pantry: SCENARIO Transfer the checked items to the pantry
+
+26-11-2026T14:07:03 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:07:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:07:03 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:07:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:07:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:07:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:07:05 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:07:05 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:07:05 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:07:05 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:07:06 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:07:07 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:07:07 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:07:07 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:07:08 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:07:08 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:07:08 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:07:09 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:07:09 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:07:09 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:07:09 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:07:09 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:07:09 - [TEST_STEP][PASSED] - the shopping list contains the items "Eggs" and "Butter": the shopping list contains the items "Eggs" and "Butter"
+
+26-11-2026T14:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Shopping list' is clicked on
+
+26-11-2026T14:07:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/section_Shopping list' is visible
+
+26-11-2026T14:07:11 - [MESSAGE][PASSED] - Text 'Eggs' is set on object 'Object Repository/Page_GroceryShoppingList/input_Item name'
+
+26-11-2026T14:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Add' is clicked on
+
+26-11-2026T14:07:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/label_Item' is visible
+
+26-11-2026T14:07:12 - [MESSAGE][PASSED] - Text 'Butter' is set on object 'Object Repository/Page_GroceryShoppingList/input_Item name'
+
+26-11-2026T14:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Add' is clicked on
+
+26-11-2026T14:07:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/label_Item' is visible
+
+26-11-2026T14:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Close shopping list' is clicked on
+
+26-11-2026T14:07:13 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_GroceryShoppingList/section_Shopping list' located by 'By.cssSelector: [data-testid='shopping-list-screen']' is not present after '10' second(s)
+
+26-11-2026T14:07:13 - [MESSAGE][PASSED] - the shopping list contains the items "Eggs" and "Butter"
+
+26-11-2026T14:07:13 - [TEST_STEP][PASSED] - I tap the shopping list button in the header: I tap the shopping list button in the header
+
+26-11-2026T14:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Shopping list' is clicked on
+
+26-11-2026T14:07:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/section_Shopping list' is visible
+
+26-11-2026T14:07:14 - [MESSAGE][PASSED] - I tap the shopping list button in the header
+
+26-11-2026T14:07:14 - [TEST_STEP][PASSED] - I check the item "Eggs": I check the item "Eggs"
+
+26-11-2026T14:07:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/input_Item checkbox' is checked
+
+26-11-2026T14:07:14 - [MESSAGE][PASSED] - I check the item "Eggs"
+
+26-11-2026T14:07:14 - [TEST_STEP][PASSED] - I check the item "Butter": I check the item "Butter"
+
+26-11-2026T14:07:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/input_Item checkbox' is checked
+
+26-11-2026T14:07:15 - [MESSAGE][PASSED] - I check the item "Butter"
+
+26-11-2026T14:07:15 - [TEST_STEP][PASSED] - I tap the "Move to pantry" button: I tap the "Move to pantry" button
+
+26-11-2026T14:07:15 - [MESSAGE][PASSED] - Object 'move-to-pantry-button' is clickable
+
+26-11-2026T14:07:15 - [MESSAGE][PASSED] - Object: 'move-to-pantry-button' is clicked on
+
+26-11-2026T14:07:15 - [MESSAGE][PASSED] - I tap the "Move to pantry" button
+
+26-11-2026T14:07:15 - [TEST_STEP][PASSED] - I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026": I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026"
+
+26-11-2026T14:07:16 - [MESSAGE][PASSED] - All options with label 'Dairy' are selected in object 'Object Repository/Page_GroceryShoppingList/select_Category' 
+
+26-11-2026T14:07:17 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Page_GroceryShoppingList/input_Quantity'
+
+26-11-2026T14:07:17 - [MESSAGE][PASSED] - All options with label 'Units' are selected in object 'Object Repository/Page_GroceryShoppingList/select_Unit' 
+
+26-11-2026T14:07:18 - [MESSAGE][PASSED] - Text '30112026' is set on object 'Object Repository/Page_GroceryShoppingList/input_Expiration date'
+
+26-11-2026T14:07:18 - [MESSAGE][PASSED] - I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026"
+
+26-11-2026T14:07:18 - [TEST_STEP][PASSED] - I set "Butter" to the category "Dairy", the quantity "250" "g" and the expiration date "15/12/2026": I set "Butter" to the category "Dairy", the quantity "250" "g" and the expiration date "15/12/2026"
+
+26-11-2026T14:07:18 - [MESSAGE][PASSED] - All options with label 'Dairy' are selected in object 'Object Repository/Page_GroceryShoppingList/select_Category' 
+
+26-11-2026T14:07:19 - [MESSAGE][PASSED] - Text '250' is set on object 'Object Repository/Page_GroceryShoppingList/input_Quantity'
+
+26-11-2026T14:07:19 - [MESSAGE][PASSED] - All options with label 'g' are selected in object 'Object Repository/Page_GroceryShoppingList/select_Unit' 
+
+26-11-2026T14:07:20 - [MESSAGE][PASSED] - Text '15122026' is set on object 'Object Repository/Page_GroceryShoppingList/input_Expiration date'
+
+26-11-2026T14:07:20 - [MESSAGE][PASSED] - I set "Butter" to the category "Dairy", the quantity "250" "g" and the expiration date "15/12/2026"
+
+26-11-2026T14:07:20 - [TEST_STEP][PASSED] - I tap the "Confirm" button: I tap the "Confirm" button
+
+26-11-2026T14:07:20 - [MESSAGE][PASSED] - Object 'confirm-button' is clickable
+
+26-11-2026T14:07:21 - [MESSAGE][PASSED] - Object: 'confirm-button' is clicked on
+
+26-11-2026T14:07:21 - [MESSAGE][PASSED] - I tap the "Confirm" button
+
+26-11-2026T14:07:21 - [TEST_STEP][PASSED] - I see "Eggs" in the pantry: I see "Eggs" in the pantry
+
+26-11-2026T14:07:21 - [MESSAGE][PASSED] - Object 'pantry-item-Eggs' is visible
+
+26-11-2026T14:07:21 - [MESSAGE][PASSED] - I see "Eggs" in the pantry
+
+26-11-2026T14:07:21 - [TEST_STEP][PASSED] - I see "Butter" in the pantry: I see "Butter" in the pantry
+
+26-11-2026T14:07:21 - [MESSAGE][PASSED] - Object 'pantry-item-Butter' is visible
+
+26-11-2026T14:07:21 - [MESSAGE][PASSED] - I see "Butter" in the pantry
+
+26-11-2026T14:07:21 - [TEST_STEP][PASSED] - I do not see "Eggs" in the shopping list: I do not see "Eggs" in the shopping list
+
+26-11-2026T14:07:21 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_GroceryShoppingList/label_Item' located by 'By.cssSelector: [data-testid='shopping-list-item-Eggs']' is not present after '10' second(s)
+
+26-11-2026T14:07:21 - [MESSAGE][PASSED] - I do not see "Eggs" in the shopping list
+
+26-11-2026T14:07:21 - [TEST_STEP][PASSED] - I do not see "Butter" in the shopping list: I do not see "Butter" in the shopping list
+
+26-11-2026T14:07:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_GroceryShoppingList/label_Item' located by 'By.cssSelector: [data-testid='shopping-list-item-Butter']' is not present after '10' second(s)
+
+26-11-2026T14:07:22 - [MESSAGE][PASSED] - I do not see "Butter" in the shopping list
+
+26-11-2026T14:07:22 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:07:22 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:07:22 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:07:22 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Keep the unchecked items in the shopping list after the transfer: SCENARIO Keep the unchecked items in the shopping list after the transfer
+
+26-11-2026T14:07:22 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:07:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:07:22 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:07:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:07:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:07:23 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:07:23 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:07:24 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:07:24 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:07:24 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:07:25 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:07:25 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:07:26 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:07:26 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:07:26 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:07:27 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:07:27 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:07:27 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:07:28 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:07:28 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:07:28 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:07:28 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:07:28 - [TEST_STEP][PASSED] - the shopping list contains the items "Eggs" and "Butter": the shopping list contains the items "Eggs" and "Butter"
+
+26-11-2026T14:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Shopping list' is clicked on
+
+26-11-2026T14:07:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/section_Shopping list' is visible
+
+26-11-2026T14:07:29 - [MESSAGE][PASSED] - Text 'Eggs' is set on object 'Object Repository/Page_GroceryShoppingList/input_Item name'
+
+26-11-2026T14:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Add' is clicked on
+
+26-11-2026T14:07:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/label_Item' is visible
+
+26-11-2026T14:07:31 - [MESSAGE][PASSED] - Text 'Butter' is set on object 'Object Repository/Page_GroceryShoppingList/input_Item name'
+
+26-11-2026T14:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Add' is clicked on
+
+26-11-2026T14:07:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/label_Item' is visible
+
+26-11-2026T14:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Close shopping list' is clicked on
+
+26-11-2026T14:07:32 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_GroceryShoppingList/section_Shopping list' located by 'By.cssSelector: [data-testid='shopping-list-screen']' is not present after '10' second(s)
+
+26-11-2026T14:07:32 - [MESSAGE][PASSED] - the shopping list contains the items "Eggs" and "Butter"
+
+26-11-2026T14:07:32 - [TEST_STEP][PASSED] - I tap the shopping list button in the header: I tap the shopping list button in the header
+
+26-11-2026T14:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GroceryShoppingList/button_Shopping list' is clicked on
+
+26-11-2026T14:07:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/section_Shopping list' is visible
+
+26-11-2026T14:07:33 - [MESSAGE][PASSED] - I tap the shopping list button in the header
+
+26-11-2026T14:07:33 - [TEST_STEP][PASSED] - I check the item "Eggs": I check the item "Eggs"
+
+26-11-2026T14:07:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/input_Item checkbox' is checked
+
+26-11-2026T14:07:33 - [MESSAGE][PASSED] - I check the item "Eggs"
+
+26-11-2026T14:07:33 - [TEST_STEP][PASSED] - I tap the "Move to pantry" button: I tap the "Move to pantry" button
+
+26-11-2026T14:07:33 - [MESSAGE][PASSED] - Object 'move-to-pantry-button' is clickable
+
+26-11-2026T14:07:34 - [MESSAGE][PASSED] - Object: 'move-to-pantry-button' is clicked on
+
+26-11-2026T14:07:34 - [MESSAGE][PASSED] - I tap the "Move to pantry" button
+
+26-11-2026T14:07:34 - [TEST_STEP][PASSED] - I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026": I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026"
+
+26-11-2026T14:07:34 - [MESSAGE][PASSED] - All options with label 'Dairy' are selected in object 'Object Repository/Page_GroceryShoppingList/select_Category' 
+
+26-11-2026T14:07:35 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Page_GroceryShoppingList/input_Quantity'
+
+26-11-2026T14:07:35 - [MESSAGE][PASSED] - All options with label 'Units' are selected in object 'Object Repository/Page_GroceryShoppingList/select_Unit' 
+
+26-11-2026T14:07:36 - [MESSAGE][PASSED] - Text '30112026' is set on object 'Object Repository/Page_GroceryShoppingList/input_Expiration date'
+
+26-11-2026T14:07:36 - [MESSAGE][PASSED] - I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026"
+
+26-11-2026T14:07:36 - [TEST_STEP][PASSED] - I tap the "Confirm" button: I tap the "Confirm" button
+
+26-11-2026T14:07:36 - [MESSAGE][PASSED] - Object 'confirm-button' is clickable
+
+26-11-2026T14:07:37 - [MESSAGE][PASSED] - Object: 'confirm-button' is clicked on
+
+26-11-2026T14:07:37 - [MESSAGE][PASSED] - I tap the "Confirm" button
+
+26-11-2026T14:07:37 - [TEST_STEP][PASSED] - I see "Butter" in the shopping list: I see "Butter" in the shopping list
+
+26-11-2026T14:07:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GroceryShoppingList/label_Item' is visible
+
+26-11-2026T14:07:37 - [MESSAGE][PASSED] - I see "Butter" in the shopping list
+
+26-11-2026T14:07:37 - [TEST_STEP][PASSED] - I see "Eggs" in the pantry: I see "Eggs" in the pantry
+
+26-11-2026T14:07:37 - [MESSAGE][PASSED] - Object 'pantry-item-Eggs' is visible
+
+26-11-2026T14:07:37 - [MESSAGE][PASSED] - I see "Eggs" in the pantry
+
+26-11-2026T14:07:37 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:07:37 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:07:37 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:07:37 - [MESSAGE][PASSED] - Feature file: 'Include/features/GroceryShoppingList.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RecipeDiscoveryandPantryOverlapFeatureCase" time="62.989" classname="Test Cases/RecipeDiscoveryandPantryOverlapFeatureCase" status="PASSED">
+         <system-out><![CDATA[26-11-2026T14:07:37 - [TEST_CASE][PASSED] - Test Cases/RecipeDiscoveryandPantryOverlapFeatureCase: Test Cases/RecipeDiscoveryandPantryOverlapFeatureCase
+
+26-11-2026T14:07:37 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+26-11-2026T14:07:37 - [TEST_STEP][PASSED] - GLUE = ["stepDefinitions"]: null
+
+26-11-2026T14:07:37 - [TEST_STEP][PASSED] - setWebDriverPreferencesProperty("args", ["--use-fake-device-for-media-stream", "--use-fake-ui-for-media-stream"]): null
+
+26-11-2026T14:07:37 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/RecipeDiscoveryandPantryOverlap.feature"): Feature file: 'Include/features/RecipeDiscoveryandPantryOverlap.feature' was passed
+
+26-11-2026T14:07:37 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/RecipeDiscoveryandPantryOverlap.feature' and extract report to folder: '/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/cucumber_report/1795702057937'...
+
+26-11-2026T14:07:37 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search recipes using pantry ingredients: SCENARIO Search recipes using pantry ingredients
+
+26-11-2026T14:07:37 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:07:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:07:37 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:07:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:07:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:07:39 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:07:39 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:07:39 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:07:40 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:07:40 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:07:41 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:07:41 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:07:42 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:07:42 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:07:42 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:07:43 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:07:43 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:07:43 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:07:44 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:07:44 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:07:44 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:07:44 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:07:44 - [TEST_STEP][PASSED] - the pantry contains "Fettuccine" and "Parmesan": the pantry contains "Fettuccine" and "Parmesan"
+
+26-11-2026T14:07:44 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:07:45 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:07:45 - [MESSAGE][PASSED] - Text 'Fettuccine' is set on object 'item-name-input'
+
+26-11-2026T14:07:46 - [MESSAGE][PASSED] - All options with value 'Vegetables' are selected in object 'category-select' 
+
+26-11-2026T14:07:46 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:07:47 - [MESSAGE][PASSED] - All options with value 'units' are selected in object 'unit-select' 
+
+26-11-2026T14:07:47 - [MESSAGE][PASSED] - Text '26122026' is set on object 'expiration-date-input'
+
+26-11-2026T14:07:48 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:07:48 - [MESSAGE][PASSED] - Object 'pantry-item-Fettuccine' is visible
+
+26-11-2026T14:07:48 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:07:49 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:07:49 - [MESSAGE][PASSED] - Text 'Parmesan' is set on object 'item-name-input'
+
+26-11-2026T14:07:50 - [MESSAGE][PASSED] - All options with value 'Vegetables' are selected in object 'category-select' 
+
+26-11-2026T14:07:50 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:07:51 - [MESSAGE][PASSED] - All options with value 'units' are selected in object 'unit-select' 
+
+26-11-2026T14:07:51 - [MESSAGE][PASSED] - Text '26122026' is set on object 'expiration-date-input'
+
+26-11-2026T14:07:52 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:07:52 - [MESSAGE][PASSED] - Object 'pantry-item-Parmesan' is visible
+
+26-11-2026T14:07:52 - [MESSAGE][PASSED] - the pantry contains "Fettuccine" and "Parmesan"
+
+26-11-2026T14:07:52 - [TEST_STEP][PASSED] - I open the recipe discovery page: I open the recipe discovery page
+
+26-11-2026T14:07:52 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_RecipeDiscovery/a_Recipes nav
+
+26-11-2026T14:07:52 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+26-11-2026T14:07:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/div_Recipe discovery' is visible
+
+26-11-2026T14:07:53 - [MESSAGE][PASSED] - I open the recipe discovery page
+
+26-11-2026T14:07:53 - [TEST_STEP][PASSED] - I tap the search recipes button: I tap the search recipes button
+
+26-11-2026T14:07:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/button_Search recipes' is clickable
+
+26-11-2026T14:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeDiscovery/button_Search recipes' is clicked on
+
+26-11-2026T14:07:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/section_Search results' is visible
+
+26-11-2026T14:07:54 - [MESSAGE][PASSED] - I tap the search recipes button
+
+26-11-2026T14:07:54 - [TEST_STEP][PASSED] - I see a list of matching recipes: I see a list of matching recipes
+
+26-11-2026T14:07:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/section_Search results' is visible
+
+26-11-2026T14:07:55 - [MESSAGE][PASSED] - Found web elements by test object recipe-card
+
+26-11-2026T14:07:55 - [MESSAGE][PASSED] - I see a list of matching recipes
+
+26-11-2026T14:07:55 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:07:55 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:07:55 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:07:55 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Show missing ingredients and pantry overlap: SCENARIO Show missing ingredients and pantry overlap
+
+26-11-2026T14:07:55 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:07:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:07:55 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:07:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:07:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:07:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:07:57 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:07:57 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:07:57 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:07:58 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:07:58 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:07:59 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:07:59 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:07:59 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:08:00 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:08:00 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:08:01 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:08:01 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:08:01 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:08:02 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:08:02 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:08:02 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:08:02 - [TEST_STEP][PASSED] - the pantry contains "Fettuccine": the pantry contains "Fettuccine"
+
+26-11-2026T14:08:02 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:08:02 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:08:03 - [MESSAGE][PASSED] - Text 'Fettuccine' is set on object 'item-name-input'
+
+26-11-2026T14:08:04 - [MESSAGE][PASSED] - All options with value 'Vegetables' are selected in object 'category-select' 
+
+26-11-2026T14:08:04 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:08:05 - [MESSAGE][PASSED] - All options with value 'units' are selected in object 'unit-select' 
+
+26-11-2026T14:08:05 - [MESSAGE][PASSED] - Text '26122026' is set on object 'expiration-date-input'
+
+26-11-2026T14:08:05 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:08:06 - [MESSAGE][PASSED] - Object 'pantry-item-Fettuccine' is visible
+
+26-11-2026T14:08:06 - [MESSAGE][PASSED] - the pantry contains "Fettuccine"
+
+26-11-2026T14:08:06 - [TEST_STEP][PASSED] - I search for recipes: I search for recipes
+
+26-11-2026T14:08:06 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_RecipeDiscovery/a_Recipes nav
+
+26-11-2026T14:08:06 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+26-11-2026T14:08:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/div_Recipe discovery' is visible
+
+26-11-2026T14:08:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/button_Search recipes' is clickable
+
+26-11-2026T14:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeDiscovery/button_Search recipes' is clicked on
+
+26-11-2026T14:08:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/section_Search results' is visible
+
+26-11-2026T14:08:08 - [MESSAGE][PASSED] - I search for recipes
+
+26-11-2026T14:08:08 - [TEST_STEP][PASSED] - I open the recipe "Fettuccine Alfredo": I open the recipe "Fettuccine Alfredo"
+
+26-11-2026T14:08:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/button_Recipe card title' is clickable
+
+26-11-2026T14:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeDiscovery/button_Recipe card title' is clicked on
+
+26-11-2026T14:08:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/section_Recipe detail' is visible
+
+26-11-2026T14:08:09 - [MESSAGE][PASSED] - I open the recipe "Fettuccine Alfredo"
+
+26-11-2026T14:08:09 - [TEST_STEP][PASSED] - I see the available ingredients: I see the available ingredients
+
+26-11-2026T14:08:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/section_Available ingredients' is visible
+
+26-11-2026T14:08:10 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_RecipeDiscovery/section_Available ingredients
+
+26-11-2026T14:08:10 - [MESSAGE][PASSED] - I see the available ingredients
+
+26-11-2026T14:08:10 - [TEST_STEP][PASSED] - I see the missing ingredients: I see the missing ingredients
+
+26-11-2026T14:08:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/section_Missing ingredients' is visible
+
+26-11-2026T14:08:10 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_RecipeDiscovery/section_Missing ingredients
+
+26-11-2026T14:08:10 - [MESSAGE][PASSED] - I see the missing ingredients
+
+26-11-2026T14:08:10 - [TEST_STEP][PASSED] - I see the ingredient overlap percentage: I see the ingredient overlap percentage
+
+26-11-2026T14:08:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/p_Overlap percentage' is visible
+
+26-11-2026T14:08:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_RecipeDiscovery/p_Overlap percentage' is: '17%'
+
+26-11-2026T14:08:11 - [MESSAGE][PASSED] - I see the ingredient overlap percentage
+
+26-11-2026T14:08:11 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:08:11 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:08:11 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:08:11 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Prioritize recipes that use expiring ingredients: SCENARIO Prioritize recipes that use expiring ingredients
+
+26-11-2026T14:08:11 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:08:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:08:11 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:08:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:08:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:08:13 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:08:13 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:08:13 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:08:13 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:08:14 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:08:14 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:08:15 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:08:15 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:08:15 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:08:16 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:08:16 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:08:16 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:08:17 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:08:17 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:08:17 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:08:17 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:08:17 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:08:17 - [TEST_STEP][PASSED] - the pantry contains "Milk" expiring within 48 hours: the pantry contains "Milk" expiring within 48 hours
+
+26-11-2026T14:08:18 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:08:18 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:08:19 - [MESSAGE][PASSED] - Text 'Milk' is set on object 'item-name-input'
+
+26-11-2026T14:08:19 - [MESSAGE][PASSED] - All options with value 'Vegetables' are selected in object 'category-select' 
+
+26-11-2026T14:08:20 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:08:20 - [MESSAGE][PASSED] - All options with value 'units' are selected in object 'unit-select' 
+
+26-11-2026T14:08:21 - [MESSAGE][PASSED] - Text '27112026' is set on object 'expiration-date-input'
+
+26-11-2026T14:08:21 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:08:21 - [MESSAGE][PASSED] - Object 'pantry-item-Milk' is visible
+
+26-11-2026T14:08:21 - [MESSAGE][PASSED] - the pantry contains "Milk" expiring within 48 hours
+
+26-11-2026T14:08:21 - [TEST_STEP][PASSED] - I search for recipes: I search for recipes
+
+26-11-2026T14:08:22 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_RecipeDiscovery/a_Recipes nav
+
+26-11-2026T14:08:22 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+26-11-2026T14:08:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/div_Recipe discovery' is visible
+
+26-11-2026T14:08:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/button_Search recipes' is clickable
+
+26-11-2026T14:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeDiscovery/button_Search recipes' is clicked on
+
+26-11-2026T14:08:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/section_Search results' is visible
+
+26-11-2026T14:08:24 - [MESSAGE][PASSED] - I search for recipes
+
+26-11-2026T14:08:24 - [TEST_STEP][PASSED] - recipes using "Milk" are shown with higher priority: recipes using "Milk" are shown with higher priority
+
+26-11-2026T14:08:24 - [MESSAGE][PASSED] - Found web elements by test object recipe-card
+
+26-11-2026T14:08:25 - [MESSAGE][PASSED] - recipes using "Milk" are shown with higher priority
+
+26-11-2026T14:08:25 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:08:25 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:08:25 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:08:25 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Filter recipes by dietary restrictions: SCENARIO Filter recipes by dietary restrictions
+
+26-11-2026T14:08:25 - [TEST_STEP][PASSED] - the active profile is "Vegan": the active profile is "Vegan"
+
+26-11-2026T14:08:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:08:25 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:08:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:08:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:08:26 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:08:26 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:08:26 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:08:27 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:08:27 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:08:28 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:08:28 - [MESSAGE][PASSED] - Text 'Vegan' is set on object 'profile-name-input'
+
+26-11-2026T14:08:29 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:08:29 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:08:29 - [MESSAGE][PASSED] - Object 'lifestyle-vegan' is clickable
+
+26-11-2026T14:08:30 - [MESSAGE][PASSED] - Object: 'lifestyle-vegan' is clicked on
+
+26-11-2026T14:08:30 - [MESSAGE][PASSED] - Object 'lifestyle-vegan' has attribute 'aria-pressed' with value 'true'
+
+26-11-2026T14:08:30 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:08:30 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:08:31 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:08:31 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:08:32 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:08:32 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:08:32 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:08:32 - [MESSAGE][PASSED] - Object 'active-profile-name' is visible
+
+26-11-2026T14:08:32 - [MESSAGE][PASSED] - Text of object 'active-profile-name' is: 'Vegan'
+
+26-11-2026T14:08:32 - [MESSAGE][PASSED] - Actual object 'Vegan' and expected object 'Vegan' are equal
+
+26-11-2026T14:08:32 - [MESSAGE][PASSED] - the active profile is "Vegan"
+
+26-11-2026T14:08:32 - [TEST_STEP][PASSED] - I search for recipes: I search for recipes
+
+26-11-2026T14:08:33 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_RecipeDiscovery/a_Recipes nav
+
+26-11-2026T14:08:33 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+26-11-2026T14:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/div_Recipe discovery' is visible
+
+26-11-2026T14:08:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/button_Search recipes' is clickable
+
+26-11-2026T14:08:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeDiscovery/button_Search recipes' is clicked on
+
+26-11-2026T14:08:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/section_Search results' is visible
+
+26-11-2026T14:08:34 - [MESSAGE][PASSED] - I search for recipes
+
+26-11-2026T14:08:34 - [TEST_STEP][PASSED] - I do not see recipes containing animal products: I do not see recipes containing animal products
+
+26-11-2026T14:08:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: [data-testid='recipe-card']'. Please recheck the objects properties to make sure the desired element is located. 
+
+26-11-2026T14:08:40 - [MESSAGE][PASSED] - Found web elements by test object recipe-card
+
+26-11-2026T14:08:40 - [MESSAGE][PASSED] - I do not see recipes containing animal products
+
+26-11-2026T14:08:40 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:08:40 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:08:40 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:08:40 - [MESSAGE][PASSED] - Feature file: 'Include/features/RecipeDiscoveryandPantryOverlap.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US8RecipeBookAndCollectionsFeatureCase" time="98.928" classname="Test Cases/US8RecipeBookAndCollectionsFeatureCase" status="PASSED">
+         <system-out><![CDATA[26-11-2026T14:08:40 - [TEST_CASE][PASSED] - Test Cases/US8RecipeBookAndCollectionsFeatureCase: Test Cases/US8RecipeBookAndCollectionsFeatureCase
+
+26-11-2026T14:08:40 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+26-11-2026T14:08:40 - [TEST_STEP][PASSED] - GLUE = ["stepDefinitions"]: null
+
+26-11-2026T14:08:40 - [TEST_STEP][PASSED] - setWebDriverPreferencesProperty("args", ["--use-fake-device-for-media-stream", "--use-fake-ui-for-media-stream"]): null
+
+26-11-2026T14:08:40 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US8RecipeBookandCollections.feature"): Feature file: 'Include/features/US8RecipeBookandCollections.feature' was passed
+
+26-11-2026T14:08:40 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US8RecipeBookandCollections.feature' and extract report to folder: '/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/cucumber_report/1795702120886'...
+
+26-11-2026T14:08:40 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Save a recipe to the recipe book: SCENARIO Save a recipe to the recipe book
+
+26-11-2026T14:08:40 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:08:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:08:40 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:08:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:08:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:08:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:08:42 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:08:42 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:08:43 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:08:43 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:08:44 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:08:44 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:08:45 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:08:45 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:08:45 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:08:46 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:08:46 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:08:46 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:08:47 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:08:47 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:08:47 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:08:47 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:08:47 - [TEST_STEP][PASSED] - I am viewing the recipe "Fettuccine Alfredo": I am viewing the recipe "Fettuccine Alfredo"
+
+26-11-2026T14:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/a_Nav pantry' is clicked on
+
+26-11-2026T14:08:48 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:08:48 - [MESSAGE][PASSED] - Text 'Fettuccine' is set on object 'item-name-input'
+
+26-11-2026T14:08:49 - [MESSAGE][PASSED] - All options with label 'Dairy' are selected in object 'category-select' 
+
+26-11-2026T14:08:49 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:08:50 - [MESSAGE][PASSED] - All options with label 'L' are selected in object 'unit-select' 
+
+26-11-2026T14:08:51 - [MESSAGE][PASSED] - Text '26122026' is set on object 'Object Repository/Page_SmartPantry/input_Expiration date'
+
+26-11-2026T14:08:51 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:08:51 - [MESSAGE][PASSED] - Object 'pantry-item-Fettuccine' is visible
+
+26-11-2026T14:08:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/a_Nav recipes' is clicked on
+
+26-11-2026T14:08:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Recipes search' is clicked on
+
+26-11-2026T14:08:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/button_Recipe card title' is clickable
+
+26-11-2026T14:08:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Recipe card title' is clicked on
+
+26-11-2026T14:08:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/section_Recipe detail' is visible
+
+26-11-2026T14:08:54 - [MESSAGE][PASSED] - I am viewing the recipe "Fettuccine Alfredo"
+
+26-11-2026T14:08:54 - [TEST_STEP][PASSED] - I tap the "Save Recipe" button: I tap the "Save Recipe" button
+
+26-11-2026T14:08:54 - [MESSAGE][PASSED] - Object 'save-recipe-button' is clickable
+
+26-11-2026T14:08:54 - [MESSAGE][PASSED] - Object: 'save-recipe-button' is clicked on
+
+26-11-2026T14:08:54 - [MESSAGE][PASSED] - I tap the "Save Recipe" button
+
+26-11-2026T14:08:54 - [TEST_STEP][PASSED] - "Fettuccine Alfredo" appears in my recipe book: "Fettuccine Alfredo" appears in my recipe book
+
+26-11-2026T14:08:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/section_Recipe detail' is present
+
+26-11-2026T14:08:55 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/Page_RecipeBook/section_Recipe detail'
+
+26-11-2026T14:08:55 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_RecipeBook/section_Recipe detail' located by 'By.cssSelector: [data-testid='recipe-detail-screen'][data-recipe-name='Fettuccine Alfredo']' is not present after '10' second(s)
+
+26-11-2026T14:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/a_Nav book' is clicked on
+
+26-11-2026T14:08:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/div_Book view' is visible
+
+26-11-2026T14:08:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/article_Saved recipe' is visible
+
+26-11-2026T14:08:56 - [MESSAGE][PASSED] - "Fettuccine Alfredo" appears in my recipe book
+
+26-11-2026T14:08:56 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:08:56 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:08:56 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:08:56 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Create a collection: SCENARIO Create a collection
+
+26-11-2026T14:08:56 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:08:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:08:56 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:08:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:08:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:08:58 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:08:58 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:08:58 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:08:59 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:08:59 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:09:00 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:09:00 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:09:00 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:09:01 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:09:01 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:09:01 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:09:02 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:09:02 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:09:03 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:09:03 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:09:03 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:09:03 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:09:03 - [TEST_STEP][PASSED] - I open the recipe book: I open the recipe book
+
+26-11-2026T14:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/a_Nav book' is clicked on
+
+26-11-2026T14:09:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/div_Book view' is visible
+
+26-11-2026T14:09:04 - [MESSAGE][PASSED] - I open the recipe book
+
+26-11-2026T14:09:04 - [TEST_STEP][PASSED] - I create a collection named "Italian Favorites": I create a collection named "Italian Favorites"
+
+26-11-2026T14:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_New collection' is clicked on
+
+26-11-2026T14:09:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/section_Create collection' is visible
+
+26-11-2026T14:09:05 - [MESSAGE][PASSED] - Text 'Italian Favorites' is set on object 'Object Repository/Page_RecipeBook/input_Collection name'
+
+26-11-2026T14:09:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Create collection' is clicked on
+
+26-11-2026T14:09:06 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_RecipeBook/section_Create collection' located by 'By.cssSelector: [data-testid='recipe-book-create-collection-dialog']' is not present after '10' second(s)
+
+26-11-2026T14:09:06 - [MESSAGE][PASSED] - I create a collection named "Italian Favorites"
+
+26-11-2026T14:09:06 - [TEST_STEP][PASSED] - I see the collection "Italian Favorites": I see the collection "Italian Favorites"
+
+26-11-2026T14:09:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/button_Collection card' is visible
+
+26-11-2026T14:09:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_RecipeBook/span_Collection name' is: 'Italian Favorites'
+
+26-11-2026T14:09:06 - [MESSAGE][PASSED] - Actual object 'Italian Favorites' and expected object 'Italian Favorites' are equal
+
+26-11-2026T14:09:06 - [MESSAGE][PASSED] - I see the collection "Italian Favorites"
+
+26-11-2026T14:09:06 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:09:06 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:09:06 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:09:06 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Add a recipe to a collection: SCENARIO Add a recipe to a collection
+
+26-11-2026T14:09:06 - [TEST_STEP][PASSED] - the collection "Italian Favorites" exists: the collection "Italian Favorites" exists
+
+26-11-2026T14:09:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:09:06 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:09:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:09:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:09:08 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:09:08 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:09:08 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:09:09 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:09:09 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:09:09 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:09:10 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:09:10 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:09:11 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:09:11 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:09:11 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:09:12 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:09:12 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:09:13 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:09:13 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:09:13 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:09:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/a_Nav book' is clicked on
+
+26-11-2026T14:09:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/div_Book view' is visible
+
+26-11-2026T14:09:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_New collection' is clicked on
+
+26-11-2026T14:09:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/section_Create collection' is visible
+
+26-11-2026T14:09:15 - [MESSAGE][PASSED] - Text 'Italian Favorites' is set on object 'Object Repository/Page_RecipeBook/input_Collection name'
+
+26-11-2026T14:09:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Create collection' is clicked on
+
+26-11-2026T14:09:16 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_RecipeBook/section_Create collection' located by 'By.cssSelector: [data-testid='recipe-book-create-collection-dialog']' is not present after '10' second(s)
+
+26-11-2026T14:09:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/button_Collection card' is visible
+
+26-11-2026T14:09:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_RecipeBook/span_Collection name' is: 'Italian Favorites'
+
+26-11-2026T14:09:16 - [MESSAGE][PASSED] - Actual object 'Italian Favorites' and expected object 'Italian Favorites' are equal
+
+26-11-2026T14:09:16 - [MESSAGE][PASSED] - the collection "Italian Favorites" exists
+
+26-11-2026T14:09:16 - [TEST_STEP][PASSED] - the recipe "Fettuccine Alfredo" is saved: the recipe "Fettuccine Alfredo" is saved
+
+26-11-2026T14:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/a_Nav pantry' is clicked on
+
+26-11-2026T14:09:17 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:09:18 - [MESSAGE][PASSED] - Text 'Fettuccine' is set on object 'item-name-input'
+
+26-11-2026T14:09:18 - [MESSAGE][PASSED] - All options with label 'Dairy' are selected in object 'category-select' 
+
+26-11-2026T14:09:19 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:09:19 - [MESSAGE][PASSED] - All options with label 'L' are selected in object 'unit-select' 
+
+26-11-2026T14:09:20 - [MESSAGE][PASSED] - Text '26122026' is set on object 'Object Repository/Page_SmartPantry/input_Expiration date'
+
+26-11-2026T14:09:20 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:09:20 - [MESSAGE][PASSED] - Object 'pantry-item-Fettuccine' is visible
+
+26-11-2026T14:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/a_Nav recipes' is clicked on
+
+26-11-2026T14:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Recipes search' is clicked on
+
+26-11-2026T14:09:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/button_Recipe card title' is clickable
+
+26-11-2026T14:09:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Recipe card title' is clicked on
+
+26-11-2026T14:09:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/section_Recipe detail' is visible
+
+26-11-2026T14:09:23 - [MESSAGE][PASSED] - Object 'save-recipe-button' is clickable
+
+26-11-2026T14:09:24 - [MESSAGE][PASSED] - Object: 'save-recipe-button' is clicked on
+
+26-11-2026T14:09:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/section_Recipe detail' is present
+
+26-11-2026T14:09:24 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/Page_RecipeBook/section_Recipe detail'
+
+26-11-2026T14:09:25 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_RecipeBook/section_Recipe detail' located by 'By.cssSelector: [data-testid='recipe-detail-screen'][data-recipe-name='Fettuccine Alfredo']' is not present after '10' second(s)
+
+26-11-2026T14:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/a_Nav book' is clicked on
+
+26-11-2026T14:09:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/div_Book view' is visible
+
+26-11-2026T14:09:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/article_Saved recipe' is visible
+
+26-11-2026T14:09:25 - [MESSAGE][PASSED] - the recipe "Fettuccine Alfredo" is saved
+
+26-11-2026T14:09:25 - [TEST_STEP][PASSED] - I add the recipe to the collection: I add the recipe to the collection
+
+26-11-2026T14:09:27 - [MESSAGE][WARNING] - Object 'Object Repository/Page_RecipeBook/section_Recipe detail' is not present after 1 second(s)
+
+26-11-2026T14:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/a_Nav book' is clicked on
+
+26-11-2026T14:09:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/div_Book view' is visible
+
+26-11-2026T14:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Add to collection' is clicked on
+
+26-11-2026T14:09:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/ul_Collection picker' is visible
+
+26-11-2026T14:09:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Collection option' is clicked on
+
+26-11-2026T14:09:28 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_RecipeBook/ul_Collection picker' located by 'By.cssSelector: [data-testid='recipe-book-collection-picker']' is not present after '10' second(s)
+
+26-11-2026T14:09:28 - [MESSAGE][PASSED] - I add the recipe to the collection
+
+26-11-2026T14:09:28 - [TEST_STEP][PASSED] - "Fettuccine Alfredo" appears in "Italian Favorites": "Fettuccine Alfredo" appears in "Italian Favorites"
+
+26-11-2026T14:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Collection card' is clicked on
+
+26-11-2026T14:09:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/section_Collection detail' is visible
+
+26-11-2026T14:09:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/article_Collection recipe' is visible
+
+26-11-2026T14:09:29 - [MESSAGE][PASSED] - "Fettuccine Alfredo" appears in "Italian Favorites"
+
+26-11-2026T14:09:29 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:09:43 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:09:43 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:09:43 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Remove a recipe from a collection: SCENARIO Remove a recipe from a collection
+
+26-11-2026T14:09:43 - [TEST_STEP][PASSED] - the recipe "Fettuccine Alfredo" belongs to the collection "Italian Favorites": the recipe "Fettuccine Alfredo" belongs to the collection "Italian Favorites"
+
+26-11-2026T14:09:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:09:43 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:09:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:09:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:09:45 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:09:45 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:09:45 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:09:45 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:09:45 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:09:46 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:09:47 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:09:47 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:09:47 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:09:48 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:09:48 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:09:48 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:09:49 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:09:49 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:09:49 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:09:49 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/a_Nav book' is clicked on
+
+26-11-2026T14:09:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/div_Book view' is visible
+
+26-11-2026T14:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_New collection' is clicked on
+
+26-11-2026T14:09:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/section_Create collection' is visible
+
+26-11-2026T14:09:51 - [MESSAGE][PASSED] - Text 'Italian Favorites' is set on object 'Object Repository/Page_RecipeBook/input_Collection name'
+
+26-11-2026T14:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Create collection' is clicked on
+
+26-11-2026T14:09:52 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_RecipeBook/section_Create collection' located by 'By.cssSelector: [data-testid='recipe-book-create-collection-dialog']' is not present after '10' second(s)
+
+26-11-2026T14:09:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/button_Collection card' is visible
+
+26-11-2026T14:09:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_RecipeBook/span_Collection name' is: 'Italian Favorites'
+
+26-11-2026T14:09:53 - [MESSAGE][PASSED] - Actual object 'Italian Favorites' and expected object 'Italian Favorites' are equal
+
+26-11-2026T14:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/a_Nav pantry' is clicked on
+
+26-11-2026T14:09:53 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:09:54 - [MESSAGE][PASSED] - Text 'Fettuccine' is set on object 'item-name-input'
+
+26-11-2026T14:09:55 - [MESSAGE][PASSED] - All options with label 'Dairy' are selected in object 'category-select' 
+
+26-11-2026T14:09:55 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:09:56 - [MESSAGE][PASSED] - All options with label 'L' are selected in object 'unit-select' 
+
+26-11-2026T14:09:56 - [MESSAGE][PASSED] - Text '26122026' is set on object 'Object Repository/Page_SmartPantry/input_Expiration date'
+
+26-11-2026T14:09:57 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:09:57 - [MESSAGE][PASSED] - Object 'pantry-item-Fettuccine' is visible
+
+26-11-2026T14:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/a_Nav recipes' is clicked on
+
+26-11-2026T14:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Recipes search' is clicked on
+
+26-11-2026T14:09:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/button_Recipe card title' is clickable
+
+26-11-2026T14:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Recipe card title' is clicked on
+
+26-11-2026T14:10:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/section_Recipe detail' is visible
+
+26-11-2026T14:10:00 - [MESSAGE][PASSED] - Object 'save-recipe-button' is clickable
+
+26-11-2026T14:10:00 - [MESSAGE][PASSED] - Object: 'save-recipe-button' is clicked on
+
+26-11-2026T14:10:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/section_Recipe detail' is present
+
+26-11-2026T14:10:01 - [MESSAGE][PASSED] - Keys 'ESCAPE + ' sent to object: 'Object Repository/Page_RecipeBook/section_Recipe detail'
+
+26-11-2026T14:10:01 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_RecipeBook/section_Recipe detail' located by 'By.cssSelector: [data-testid='recipe-detail-screen'][data-recipe-name='Fettuccine Alfredo']' is not present after '10' second(s)
+
+26-11-2026T14:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/a_Nav book' is clicked on
+
+26-11-2026T14:10:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/div_Book view' is visible
+
+26-11-2026T14:10:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/article_Saved recipe' is visible
+
+26-11-2026T14:10:03 - [MESSAGE][WARNING] - Object 'Object Repository/Page_RecipeBook/section_Recipe detail' is not present after 1 second(s)
+
+26-11-2026T14:10:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/a_Nav book' is clicked on
+
+26-11-2026T14:10:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/div_Book view' is visible
+
+26-11-2026T14:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Add to collection' is clicked on
+
+26-11-2026T14:10:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/ul_Collection picker' is visible
+
+26-11-2026T14:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Collection option' is clicked on
+
+26-11-2026T14:10:05 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_RecipeBook/ul_Collection picker' located by 'By.cssSelector: [data-testid='recipe-book-collection-picker']' is not present after '10' second(s)
+
+26-11-2026T14:10:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Collection card' is clicked on
+
+26-11-2026T14:10:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/section_Collection detail' is visible
+
+26-11-2026T14:10:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/article_Collection recipe' is visible
+
+26-11-2026T14:10:06 - [MESSAGE][PASSED] - the recipe "Fettuccine Alfredo" belongs to the collection "Italian Favorites"
+
+26-11-2026T14:10:06 - [TEST_STEP][PASSED] - I remove the recipe from the collection: I remove the recipe from the collection
+
+26-11-2026T14:10:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Collection card' is clicked on
+
+26-11-2026T14:10:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/section_Collection detail' is visible
+
+26-11-2026T14:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Remove from collection' is clicked on
+
+26-11-2026T14:10:07 - [MESSAGE][PASSED] - I remove the recipe from the collection
+
+26-11-2026T14:10:07 - [TEST_STEP][PASSED] - I do not see "Fettuccine Alfredo" in "Italian Favorites": I do not see "Fettuccine Alfredo" in "Italian Favorites"
+
+26-11-2026T14:10:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_RecipeBook/button_Collection card' is clicked on
+
+26-11-2026T14:10:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeBook/section_Collection detail' is visible
+
+26-11-2026T14:10:08 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_RecipeBook/article_Collection recipe' located by 'By.cssSelector: [data-testid='recipe-book-collection-recipes-list'] [data-testid='recipe-card'][data-recipe-name='Fettuccine Alfredo']' is not present after '10' second(s)
+
+26-11-2026T14:10:08 - [MESSAGE][PASSED] - I do not see "Fettuccine Alfredo" in "Italian Favorites"
+
+26-11-2026T14:10:08 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:10:19 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:10:19 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:10:19 - [MESSAGE][PASSED] - Feature file: 'Include/features/US8RecipeBookandCollections.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/US5GenAISousChefFeatureCase" time="103.904" classname="Test Cases/US5GenAISousChefFeatureCase" status="PASSED">
+         <system-out><![CDATA[26-11-2026T14:10:19 - [TEST_CASE][PASSED] - Test Cases/US5GenAISousChefFeatureCase: Test Cases/US5GenAISousChefFeatureCase
+
+26-11-2026T14:10:19 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+26-11-2026T14:10:19 - [TEST_STEP][PASSED] - GLUE = ["stepDefinitions"]: null
+
+26-11-2026T14:10:19 - [TEST_STEP][PASSED] - setWebDriverPreferencesProperty("args", ["--use-fake-device-for-media-stream", "--use-fake-ui-for-media-stream"]): null
+
+26-11-2026T14:10:19 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/US5GenAISousChef.feature"): Feature file: 'Include/features/US5GenAISousChef.feature' was passed
+
+26-11-2026T14:10:19 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/US5GenAISousChef.feature' and extract report to folder: '/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/cucumber_report/1795702219795'...
+
+26-11-2026T14:10:19 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Generate a recipe from leftovers: SCENARIO Generate a recipe from leftovers
+
+26-11-2026T14:10:19 - [TEST_STEP][PASSED] - I have completed the onboarding: I have completed the onboarding
+
+26-11-2026T14:10:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:10:19 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:10:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:10:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:10:21 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:10:21 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:10:21 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:10:22 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:10:22 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:10:23 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:10:23 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:10:24 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:10:24 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:10:24 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:10:25 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:10:25 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:10:25 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:10:26 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:10:26 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:10:26 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:10:26 - [MESSAGE][PASSED] - I have completed the onboarding
+
+26-11-2026T14:10:26 - [TEST_STEP][PASSED] - the pantry contains "Rice", "Chicken" and "Carrot": the pantry contains "Rice", "Chicken" and "Carrot"
+
+26-11-2026T14:10:26 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:10:27 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:10:27 - [MESSAGE][PASSED] - Text 'Rice' is set on object 'item-name-input'
+
+26-11-2026T14:10:28 - [MESSAGE][PASSED] - All options with value 'Vegetables' are selected in object 'category-select' 
+
+26-11-2026T14:10:28 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:10:29 - [MESSAGE][PASSED] - All options with value 'units' are selected in object 'unit-select' 
+
+26-11-2026T14:10:29 - [MESSAGE][PASSED] - Text '26122026' is set on object 'expiration-date-input'
+
+26-11-2026T14:10:30 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:10:30 - [MESSAGE][PASSED] - Object 'pantry-item-Rice' is visible
+
+26-11-2026T14:10:30 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:10:31 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:10:32 - [MESSAGE][PASSED] - Text 'Chicken' is set on object 'item-name-input'
+
+26-11-2026T14:10:32 - [MESSAGE][PASSED] - All options with value 'Vegetables' are selected in object 'category-select' 
+
+26-11-2026T14:10:33 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:10:33 - [MESSAGE][PASSED] - All options with value 'units' are selected in object 'unit-select' 
+
+26-11-2026T14:10:34 - [MESSAGE][PASSED] - Text '26122026' is set on object 'expiration-date-input'
+
+26-11-2026T14:10:34 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:10:34 - [MESSAGE][PASSED] - Object 'pantry-item-Chicken' is visible
+
+26-11-2026T14:10:35 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:10:35 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:10:36 - [MESSAGE][PASSED] - Text 'Carrot' is set on object 'item-name-input'
+
+26-11-2026T14:10:36 - [MESSAGE][PASSED] - All options with value 'Vegetables' are selected in object 'category-select' 
+
+26-11-2026T14:10:37 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:10:37 - [MESSAGE][PASSED] - All options with value 'units' are selected in object 'unit-select' 
+
+26-11-2026T14:10:38 - [MESSAGE][PASSED] - Text '26122026' is set on object 'expiration-date-input'
+
+26-11-2026T14:10:38 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:10:38 - [MESSAGE][PASSED] - Object 'pantry-item-Carrot' is visible
+
+26-11-2026T14:10:38 - [MESSAGE][PASSED] - the pantry contains "Rice", "Chicken" and "Carrot"
+
+26-11-2026T14:10:38 - [TEST_STEP][PASSED] - I open GenAI Sous-Chef: I open GenAI Sous-Chef
+
+26-11-2026T14:10:39 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_RecipeDiscovery/a_Recipes nav
+
+26-11-2026T14:10:39 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+26-11-2026T14:10:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/div_Recipe discovery' is visible
+
+26-11-2026T14:10:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Nav Sous Chef' is clickable
+
+26-11-2026T14:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GenAISousChef/button_Nav Sous Chef' is clicked on
+
+26-11-2026T14:10:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/div_GenAI Sous-Chef' is visible
+
+26-11-2026T14:10:40 - [MESSAGE][PASSED] - I open GenAI Sous-Chef
+
+26-11-2026T14:10:40 - [TEST_STEP][PASSED] - I select those ingredients: I select those ingredients
+
+26-11-2026T14:10:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/ul_Pantry ingredients' is visible
+
+26-11-2026T14:10:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Ingredient option' is clickable
+
+26-11-2026T14:10:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GenAISousChef/button_Ingredient option' is clicked on
+
+26-11-2026T14:10:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Ingredient option' has attribute 'aria-pressed' with value 'true'
+
+26-11-2026T14:10:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Ingredient option' is clickable
+
+26-11-2026T14:10:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GenAISousChef/button_Ingredient option' is clicked on
+
+26-11-2026T14:10:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Ingredient option' has attribute 'aria-pressed' with value 'true'
+
+26-11-2026T14:10:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Ingredient option' is clickable
+
+26-11-2026T14:10:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GenAISousChef/button_Ingredient option' is clicked on
+
+26-11-2026T14:10:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Ingredient option' has attribute 'aria-pressed' with value 'true'
+
+26-11-2026T14:10:43 - [MESSAGE][PASSED] - I select those ingredients
+
+26-11-2026T14:10:43 - [TEST_STEP][PASSED] - I tap "Generate Recipe": I tap "Generate Recipe"
+
+26-11-2026T14:10:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Generate recipe' is clickable
+
+26-11-2026T14:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GenAISousChef/button_Generate recipe' is clicked on
+
+26-11-2026T14:10:44 - [MESSAGE][PASSED] - I tap "Generate Recipe"
+
+26-11-2026T14:10:44 - [TEST_STEP][PASSED] - I receive a generated recipe: I receive a generated recipe
+
+26-11-2026T14:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/section_Generated recipe' is visible
+
+26-11-2026T14:10:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_GenAISousChef/h2_Generated recipe title' is: 'Chicken, Rice & Carrot Bowl'
+
+26-11-2026T14:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/ul_Generated ingredients' is visible
+
+26-11-2026T14:10:45 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_GenAISousChef/li_Generated ingredient
+
+26-11-2026T14:10:45 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_GenAISousChef/ol_Generated steps
+
+26-11-2026T14:10:45 - [MESSAGE][PASSED] - I receive a generated recipe
+
+26-11-2026T14:10:45 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:10:54 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:10:54 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:10:54 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Apply dietary restrictions to generated recipes: SCENARIO Apply dietary restrictions to generated recipes
+
+26-11-2026T14:10:54 - [TEST_STEP][PASSED] - the active profile is "Vegetarian": the active profile is "Vegetarian"
+
+26-11-2026T14:10:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:10:54 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:10:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:10:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:10:56 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:10:56 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:10:56 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:10:56 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:10:57 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:10:57 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:10:58 - [MESSAGE][PASSED] - Text 'Vegetarian' is set on object 'profile-name-input'
+
+26-11-2026T14:10:58 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:10:58 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:10:59 - [MESSAGE][PASSED] - Object 'lifestyle-vegetarian' is clickable
+
+26-11-2026T14:10:59 - [MESSAGE][PASSED] - Object: 'lifestyle-vegetarian' is clicked on
+
+26-11-2026T14:10:59 - [MESSAGE][PASSED] - Object 'lifestyle-vegetarian' has attribute 'aria-pressed' with value 'true'
+
+26-11-2026T14:11:00 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:11:00 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:11:00 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:11:00 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:11:01 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:11:01 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:11:01 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:11:01 - [MESSAGE][PASSED] - Object 'active-profile-name' is visible
+
+26-11-2026T14:11:02 - [MESSAGE][PASSED] - Text of object 'active-profile-name' is: 'Vegetarian'
+
+26-11-2026T14:11:02 - [MESSAGE][PASSED] - Actual object 'Vegetarian' and expected object 'Vegetarian' are equal
+
+26-11-2026T14:11:02 - [MESSAGE][PASSED] - the active profile is "Vegetarian"
+
+26-11-2026T14:11:02 - [TEST_STEP][PASSED] - I generate a recipe: I generate a recipe
+
+26-11-2026T14:11:02 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:11:02 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:11:03 - [MESSAGE][PASSED] - Text 'Chicken' is set on object 'item-name-input'
+
+26-11-2026T14:11:03 - [MESSAGE][PASSED] - All options with value 'Vegetables' are selected in object 'category-select' 
+
+26-11-2026T14:11:04 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:11:04 - [MESSAGE][PASSED] - All options with value 'units' are selected in object 'unit-select' 
+
+26-11-2026T14:11:05 - [MESSAGE][PASSED] - Text '26122026' is set on object 'expiration-date-input'
+
+26-11-2026T14:11:05 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:11:06 - [MESSAGE][PASSED] - Object 'pantry-item-Chicken' is visible
+
+26-11-2026T14:11:06 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:11:06 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:11:07 - [MESSAGE][PASSED] - Text 'Carrot' is set on object 'item-name-input'
+
+26-11-2026T14:11:07 - [MESSAGE][PASSED] - All options with value 'Vegetables' are selected in object 'category-select' 
+
+26-11-2026T14:11:08 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:11:09 - [MESSAGE][PASSED] - All options with value 'units' are selected in object 'unit-select' 
+
+26-11-2026T14:11:09 - [MESSAGE][PASSED] - Text '26122026' is set on object 'expiration-date-input'
+
+26-11-2026T14:11:09 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:11:10 - [MESSAGE][PASSED] - Object 'pantry-item-Carrot' is visible
+
+26-11-2026T14:11:10 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_RecipeDiscovery/a_Recipes nav
+
+26-11-2026T14:11:10 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+26-11-2026T14:11:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/div_Recipe discovery' is visible
+
+26-11-2026T14:11:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Nav Sous Chef' is clickable
+
+26-11-2026T14:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GenAISousChef/button_Nav Sous Chef' is clicked on
+
+26-11-2026T14:11:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/div_GenAI Sous-Chef' is visible
+
+26-11-2026T14:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/ul_Pantry ingredients' is visible
+
+26-11-2026T14:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Ingredient option' is clickable
+
+26-11-2026T14:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GenAISousChef/button_Ingredient option' is clicked on
+
+26-11-2026T14:11:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Ingredient option' has attribute 'aria-pressed' with value 'true'
+
+26-11-2026T14:11:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Ingredient option' is clickable
+
+26-11-2026T14:11:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GenAISousChef/button_Ingredient option' is clicked on
+
+26-11-2026T14:11:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Ingredient option' has attribute 'aria-pressed' with value 'true'
+
+26-11-2026T14:11:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Generate recipe' is clickable
+
+26-11-2026T14:11:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GenAISousChef/button_Generate recipe' is clicked on
+
+26-11-2026T14:11:14 - [MESSAGE][PASSED] - I generate a recipe
+
+26-11-2026T14:11:14 - [TEST_STEP][PASSED] - the generated recipe does not contain meat ingredients: the generated recipe does not contain meat ingredients
+
+26-11-2026T14:11:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/section_Generated recipe' is visible
+
+26-11-2026T14:11:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_GenAISousChef/h2_Generated recipe title' is: 'Carrot Stir-Fry'
+
+26-11-2026T14:11:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/ul_Generated ingredients' is visible
+
+26-11-2026T14:11:15 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_GenAISousChef/li_Generated ingredient
+
+26-11-2026T14:11:15 - [MESSAGE][PASSED] - the generated recipe does not contain meat ingredients
+
+26-11-2026T14:11:15 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:11:28 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:11:28 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:11:28 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Save an AI recipe: SCENARIO Save an AI recipe
+
+26-11-2026T14:11:28 - [TEST_STEP][PASSED] - an AI recipe was generated: an AI recipe was generated
+
+26-11-2026T14:11:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-11-2026T14:11:28 - [MESSAGE][INFO] - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+
+26-11-2026T14:11:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-11-2026T14:11:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-11-2026T14:11:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost:5173/' successfully
+
+26-11-2026T14:11:30 - [MESSAGE][PASSED] - Execute JavaScript 'window.localStorage.clear()' successfully
+
+26-11-2026T14:11:30 - [MESSAGE][PASSED] - Refresh successfully
+
+26-11-2026T14:11:31 - [MESSAGE][PASSED] - Object 'get-started-button' is clickable
+
+26-11-2026T14:11:31 - [MESSAGE][PASSED] - Object: 'get-started-button' is clicked on
+
+26-11-2026T14:11:31 - [MESSAGE][PASSED] - Object 'profile-name-input' is visible
+
+26-11-2026T14:11:32 - [MESSAGE][PASSED] - Text 'Family' is set on object 'profile-name-input'
+
+26-11-2026T14:11:32 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:11:33 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:11:33 - [MESSAGE][PASSED] - Object 'next-button' is clickable
+
+26-11-2026T14:11:33 - [MESSAGE][PASSED] - Object: 'next-button' is clicked on
+
+26-11-2026T14:11:34 - [MESSAGE][PASSED] - Object 'finish-setup-button' is clickable
+
+26-11-2026T14:11:34 - [MESSAGE][PASSED] - Object: 'finish-setup-button' is clicked on
+
+26-11-2026T14:11:34 - [MESSAGE][PASSED] - Object 'pantry-title' is visible
+
+26-11-2026T14:11:35 - [MESSAGE][PASSED] - Text of object 'pantry-title' is: 'My Pantry'
+
+26-11-2026T14:11:35 - [MESSAGE][PASSED] - Actual object 'My Pantry' and expected object 'My Pantry' are equal
+
+26-11-2026T14:11:35 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:11:35 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:11:36 - [MESSAGE][PASSED] - Text 'Rice' is set on object 'item-name-input'
+
+26-11-2026T14:11:36 - [MESSAGE][PASSED] - All options with value 'Vegetables' are selected in object 'category-select' 
+
+26-11-2026T14:11:37 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:11:38 - [MESSAGE][PASSED] - All options with value 'units' are selected in object 'unit-select' 
+
+26-11-2026T14:11:38 - [MESSAGE][PASSED] - Text '26122026' is set on object 'expiration-date-input'
+
+26-11-2026T14:11:38 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:11:39 - [MESSAGE][PASSED] - Object 'pantry-item-Rice' is visible
+
+26-11-2026T14:11:39 - [MESSAGE][PASSED] - Object 'add-item-button' is clickable
+
+26-11-2026T14:11:39 - [MESSAGE][PASSED] - Object: 'add-item-button' is clicked on
+
+26-11-2026T14:11:40 - [MESSAGE][PASSED] - Text 'Carrot' is set on object 'item-name-input'
+
+26-11-2026T14:11:41 - [MESSAGE][PASSED] - All options with value 'Vegetables' are selected in object 'category-select' 
+
+26-11-2026T14:11:41 - [MESSAGE][PASSED] - Text '1' is set on object 'quantity-input'
+
+26-11-2026T14:11:42 - [MESSAGE][PASSED] - All options with value 'units' are selected in object 'unit-select' 
+
+26-11-2026T14:11:42 - [MESSAGE][PASSED] - Text '26122026' is set on object 'expiration-date-input'
+
+26-11-2026T14:11:42 - [MESSAGE][PASSED] - Object: 'save-item-button' is clicked on
+
+26-11-2026T14:11:43 - [MESSAGE][PASSED] - Object 'pantry-item-Carrot' is visible
+
+26-11-2026T14:11:43 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_RecipeDiscovery/a_Recipes nav
+
+26-11-2026T14:11:43 - [MESSAGE][PASSED] - Execute JavaScript 'arguments[0].click()' successfully
+
+26-11-2026T14:11:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_RecipeDiscovery/div_Recipe discovery' is visible
+
+26-11-2026T14:11:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Nav Sous Chef' is clickable
+
+26-11-2026T14:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GenAISousChef/button_Nav Sous Chef' is clicked on
+
+26-11-2026T14:11:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/div_GenAI Sous-Chef' is visible
+
+26-11-2026T14:11:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/ul_Pantry ingredients' is visible
+
+26-11-2026T14:11:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Ingredient option' is clickable
+
+26-11-2026T14:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GenAISousChef/button_Ingredient option' is clicked on
+
+26-11-2026T14:11:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Ingredient option' has attribute 'aria-pressed' with value 'true'
+
+26-11-2026T14:11:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Ingredient option' is clickable
+
+26-11-2026T14:11:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GenAISousChef/button_Ingredient option' is clicked on
+
+26-11-2026T14:11:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Ingredient option' has attribute 'aria-pressed' with value 'true'
+
+26-11-2026T14:11:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Generate recipe' is clickable
+
+26-11-2026T14:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GenAISousChef/button_Generate recipe' is clicked on
+
+26-11-2026T14:11:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/section_Generated recipe' is visible
+
+26-11-2026T14:11:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_GenAISousChef/h2_Generated recipe title' is: 'Rice & Carrot Pilaf'
+
+26-11-2026T14:11:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/ul_Generated ingredients' is visible
+
+26-11-2026T14:11:48 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_GenAISousChef/li_Generated ingredient
+
+26-11-2026T14:11:48 - [MESSAGE][PASSED] - Found web element by test object Object Repository/Page_GenAISousChef/ol_Generated steps
+
+26-11-2026T14:11:49 - [MESSAGE][PASSED] - an AI recipe was generated
+
+26-11-2026T14:11:49 - [TEST_STEP][PASSED] - I tap "Save Recipe": I tap "Save Recipe"
+
+26-11-2026T14:11:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/button_Save recipe' is clickable
+
+26-11-2026T14:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_GenAISousChef/button_Save recipe' is clicked on
+
+26-11-2026T14:11:49 - [MESSAGE][PASSED] - I tap "Save Recipe"
+
+26-11-2026T14:11:49 - [TEST_STEP][PASSED] - the recipe appears in the recipe book: the recipe appears in the recipe book
+
+26-11-2026T14:11:50 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Page_GenAISousChef/a_Nav book
+
+26-11-2026T14:11:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/div_Book view' is visible
+
+26-11-2026T14:11:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/ul_Saved recipes' is visible
+
+26-11-2026T14:11:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_GenAISousChef/article_Saved recipe' is visible
+
+26-11-2026T14:11:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_GenAISousChef/button_Saved recipe title' is: 'Rice & Carrot Pilaf'
+
+26-11-2026T14:11:51 - [MESSAGE][PASSED] - Actual object 'Rice & Carrot Pilaf' and expected object 'Rice & Carrot Pilaf' are equal
+
+26-11-2026T14:11:51 - [MESSAGE][PASSED] - the recipe appears in the recipe book
+
+26-11-2026T14:11:51 - [TEST_STEP][PASSED] - I close the AUT: I close the AUT
+
+26-11-2026T14:12:03 - [MESSAGE][PASSED] - Browser is closed
+
+26-11-2026T14:12:03 - [MESSAGE][PASSED] - I close the AUT
+
+26-11-2026T14:12:03 - [MESSAGE][PASSED] - Feature file: 'Include/features/US5GenAISousChef.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-11-2026T14:03:27 - [TEST_SUITE][PASSED] - test_suites: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

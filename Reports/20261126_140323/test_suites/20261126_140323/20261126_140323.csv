@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test_suites,Chrome 158.0.8127.88,OnboardingProfileCreation and DashboardFoodTracking,,26-11-2026 14:03:27,26-11-2026 14:12:03,8m - 36.427s,PASSED
+,,,,,,,
+Test Cases/OnboardingProfileCreationAndSwitchingFeatureCase,Chrome 158.0.8127.88,,,26-11-2026 14:03:27,26-11-2026 14:04:12,45.617s,PASSED
+Start listener action : beforeTestCase,Chrome 158.0.8127.88,,,26-11-2026 14:03:27,26-11-2026 14:03:27,0.027s,PASSED
+"runFeatureFile(""Include/features/OnboardingProfileCreationAndSwitching.feature"")",Chrome 158.0.8127.88,,,26-11-2026 14:03:27,26-11-2026 14:04:12,45.564s,PASSED
+,,,,,,,
+Test Cases/DashboardFoodTrackingAndPantryItemsFeatureCase,Chrome 158.0.8127.88,,,26-11-2026 14:04:12,26-11-2026 14:04:49,36.811s,PASSED
+Start listener action : beforeTestCase,Chrome 158.0.8127.88,,,26-11-2026 14:04:12,26-11-2026 14:04:12,0.001s,PASSED
+"runFeatureFile(""Include/features/DashboardFoodTrackingAndPantryItems.feature"")",Chrome 158.0.8127.88,,,26-11-2026 14:04:12,26-11-2026 14:04:49,36.788s,PASSED
+,,,,,,,
+Test Cases/ProductInsertionAndLookupFeatureCase,Chrome 158.0.8127.88,"Runs every scenario of the feature ""Product insertion and lookup"" (US-08): Include/features/ProcutInsertionAndLookup.feature",,26-11-2026 14:04:49,26-11-2026 14:05:56,1m - 6.364s,PASSED
+Start listener action : beforeTestCase,Chrome 158.0.8127.88,,,26-11-2026 14:04:49,26-11-2026 14:04:49,0.000s,PASSED
+"runFeatureFile(""Include/features/ProcutInsertionAndLookup.feature"")",Chrome 158.0.8127.88,,,26-11-2026 14:04:49,26-11-2026 14:05:56,1m - 6.348s,PASSED
+,,,,,,,
+Test Cases/GroceryShoppingListFeatureCase,Chrome 158.0.8127.88,"Runs every scenario of the feature ""Grocery shopping list"" (US-09): Include/features/GroceryShoppingList.feature",,26-11-2026 14:05:56,26-11-2026 14:07:37,1m - 41.704s,PASSED
+Start listener action : beforeTestCase,Chrome 158.0.8127.88,,,26-11-2026 14:05:56,26-11-2026 14:05:56,0.000s,PASSED
+"runFeatureFile(""Include/features/GroceryShoppingList.feature"")",Chrome 158.0.8127.88,,,26-11-2026 14:05:56,26-11-2026 14:07:37,1m - 41.689s,PASSED
+,,,,,,,
+Test Cases/RecipeDiscoveryandPantryOverlapFeatureCase,Chrome 158.0.8127.88,,,26-11-2026 14:07:37,26-11-2026 14:08:40,1m - 2.989s,PASSED
+Start listener action : beforeTestCase,Chrome 158.0.8127.88,,,26-11-2026 14:07:37,26-11-2026 14:07:37,0.001s,PASSED
+"runFeatureFile(""Include/features/RecipeDiscoveryandPantryOverlap.feature"")",Chrome 158.0.8127.88,,,26-11-2026 14:07:37,26-11-2026 14:08:40,1m - 2.900s,PASSED
+,,,,,,,
+Test Cases/US8RecipeBookAndCollectionsFeatureCase,Chrome 158.0.8127.88,,,26-11-2026 14:08:40,26-11-2026 14:10:19,1m - 38.928s,PASSED
+Start listener action : beforeTestCase,Chrome 158.0.8127.88,,,26-11-2026 14:08:40,26-11-2026 14:08:40,0.001s,PASSED
+"runFeatureFile(""Include/features/US8RecipeBookandCollections.feature"")",Chrome 158.0.8127.88,,,26-11-2026 14:08:40,26-11-2026 14:10:19,1m - 38.881s,PASSED
+,,,,,,,
+Test Cases/US5GenAISousChefFeatureCase,Chrome 158.0.8127.88,,,26-11-2026 14:10:19,26-11-2026 14:12:03,1m - 43.904s,PASSED
+Start listener action : beforeTestCase,Chrome 158.0.8127.88,,,26-11-2026 14:10:19,26-11-2026 14:10:19,0.000s,PASSED
+"runFeatureFile(""Include/features/US5GenAISousChef.feature"")",Chrome 158.0.8127.88,,,26-11-2026 14:10:19,26-11-2026 14:12:03,1m - 43.877s,PASSED

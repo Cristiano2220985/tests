@@ -1,0 +1,880 @@
+2026-11-26 14:03:26.468 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio.app/Contents/Eclipse/configuration/org.eclipse.osgi/164/0/.cp/resources/logback/logback-execution.xml
+2026-11-26 14:03:26.471 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Include/config/log.properties
+2026-11-26 14:03:27.221 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/test_suites
+2026-11-26 14:03:27.277 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Leonardo Ferreira
+2026-11-26 14:03:27.277 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = PantryTests
+2026-11-26 14:03:27.278 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = leonardoferreira - localhost
+2026-11-26 14:03:27.278 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2026-11-26 14:03:27.278 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 127.0.0.1
+2026-11-26 14:03:27.279 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.6.0
+2026-11-26 14:03:27.340 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-26 14:03:27.340 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/OnboardingProfileCreationAndSwitchingFeatureCase
+2026-11-26 14:03:27.392 DEBUG ngProfileCreationAndSwitchingFeatureCase - 1: runFeatureFile("Include/features/OnboardingProfileCreationAndSwitching.feature")
+2026-11-26 14:03:27.440 INFO  c.k.k.c.c.k.CucumberBuiltinKeywords      - Starting run keyword runFeatureFile: 'Include/features/OnboardingProfileCreationAndSwitching.feature' and extract report to folder: '/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/cucumber_report/1795701807433'...
+2026-11-26 14:03:27.977 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:03:27.977 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Set up the default profile on first launch
+2026-11-26 14:03:27.979 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I start the application for the first time
+2026-11-26 14:03:28.128 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:03:28.132 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:03:28.158 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:03:30.661 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 27696eb7aaa6963bb61186ac72b38da8
+2026-11-26 14:03:30.661 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:03:30.662 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:03:30.662 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:03:30.666 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:03:31.266 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I start the application for the first time
+2026-11-26 14:03:31.284 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Get started" button
+2026-11-26 14:03:32.040 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Get started" button
+2026-11-26 14:03:32.042 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I insert "Family" in the "Profile name" field
+2026-11-26 14:03:33.297 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I insert "Family" in the "Profile name" field
+2026-11-26 14:03:33.299 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I set the typical servings to 4
+2026-11-26 14:03:37.041 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I set the typical servings to 4
+2026-11-26 14:03:37.042 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Next" button
+2026-11-26 14:03:37.563 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Next" button
+2026-11-26 14:03:37.565 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I select the "Vegetarian" dietary lifestyle
+2026-11-26 14:03:38.520 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I select the "Vegetarian" dietary lifestyle
+2026-11-26 14:03:38.522 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Next" button
+2026-11-26 14:03:39.039 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Next" button
+2026-11-26 14:03:39.040 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I select the "Peanuts" allergy
+2026-11-26 14:03:39.989 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I select the "Peanuts" allergy
+2026-11-26 14:03:39.990 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I add "Mushrooms" to the excluded ingredients
+2026-11-26 14:03:41.758 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I add "Mushrooms" to the excluded ingredients
+2026-11-26 14:03:41.759 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Finish setup" button
+2026-11-26 14:03:42.271 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Finish setup" button
+2026-11-26 14:03:42.274 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the dashboard
+2026-11-26 14:03:43.042 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the dashboard
+2026-11-26 14:03:43.044 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Family" as the active profile
+2026-11-26 14:03:43.499 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Family" as the active profile
+2026-11-26 14:03:43.501 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:03:43.645 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:03:43.648 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Set up the default profile on first launch
+2026-11-26 14:03:43.649 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Set up the default profile on first launch
+2026-11-26 14:03:43.650 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:03:43.650 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Create a new profile from the dashboard
+2026-11-26 14:03:43.651 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding with the profile "Family"
+2026-11-26 14:03:43.652 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:03:43.652 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:03:43.653 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:03:45.250 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 797c097889288c4427086c62a4ea7d9c
+2026-11-26 14:03:45.250 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:03:45.250 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:03:45.251 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:03:45.251 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:03:50.345 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding with the profile "Family"
+2026-11-26 14:03:50.347 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the profile switcher in the header
+2026-11-26 14:03:51.290 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the profile switcher in the header
+2026-11-26 14:03:51.291 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "+ Add new profile" button
+2026-11-26 14:03:51.813 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "+ Add new profile" button
+2026-11-26 14:03:51.815 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I complete the setup for the profile "Ana"
+2026-11-26 14:03:55.350 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I complete the setup for the profile "Ana"
+2026-11-26 14:03:55.351 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the profile switcher in the header
+2026-11-26 14:03:56.288 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the profile switcher in the header
+2026-11-26 14:03:56.289 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Ana" in the list of profiles
+2026-11-26 14:03:56.517 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Ana" in the list of profiles
+2026-11-26 14:03:56.518 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:03:56.643 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:03:56.645 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Create a new profile from the dashboard
+2026-11-26 14:03:56.645 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Create a new profile from the dashboard
+2026-11-26 14:03:56.647 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:03:56.647 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Switch the active profile from the header
+2026-11-26 14:03:56.647 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have the profiles "Family" and "Ana"
+2026-11-26 14:03:56.648 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:03:56.649 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:03:56.649 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:03:57.761 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d79a118c6b4fbb4ad53c83cf13c2fe4c
+2026-11-26 14:03:57.761 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:03:57.762 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:03:57.762 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:03:57.762 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:04:08.521 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have the profiles "Family" and "Ana"
+2026-11-26 14:04:08.523 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have the profile "Family" active
+2026-11-26 14:04:10.628 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have the profile "Family" active
+2026-11-26 14:04:10.630 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the profile switcher in the header
+2026-11-26 14:04:11.576 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the profile switcher in the header
+2026-11-26 14:04:11.577 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I choose the profile "Ana"
+2026-11-26 14:04:12.090 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I choose the profile "Ana"
+2026-11-26 14:04:12.091 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Ana" as the active profile
+2026-11-26 14:04:12.739 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Ana" as the active profile
+2026-11-26 14:04:12.740 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:04:12.883 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:04:12.885 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Switch the active profile from the header
+2026-11-26 14:04:12.885 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Switch the active profile from the header
+
+3 scenarios ([32m3 passed[39m)
+26 steps ([32m26 passed[39m)
+0m 45.66s
+2026-11-26 14:04:12.957 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/OnboardingProfileCreationAndSwitchingFeatureCase
+2026-11-26 14:04:12.962 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-26 14:04:12.962 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/DashboardFoodTrackingAndPantryItemsFeatureCase
+2026-11-26 14:04:12.983 DEBUG ardFoodTrackingAndPantryItemsFeatureCase - 1: runFeatureFile("Include/features/DashboardFoodTrackingAndPantryItems.feature")
+2026-11-26 14:04:12.984 INFO  c.k.k.c.c.k.CucumberBuiltinKeywords      - Starting run keyword runFeatureFile: 'Include/features/DashboardFoodTrackingAndPantryItems.feature' and extract report to folder: '/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/cucumber_report/1795701852984'...
+2026-11-26 14:04:13.020 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:04:13.020 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Add an item to the pantry
+2026-11-26 14:04:13.021 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:04:13.026 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:04:13.026 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:04:13.027 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:04:14.227 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2847e04e63ff26738c3e5265f57c1b8c
+2026-11-26 14:04:14.228 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:04:14.228 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:04:14.228 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:04:14.229 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:04:20.149 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:04:20.150 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the pantry is empty
+2026-11-26 14:04:20.375 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the pantry is empty
+2026-11-26 14:04:20.376 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "+ Add item" button
+2026-11-26 14:04:20.898 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "+ Add item" button
+2026-11-26 14:04:20.899 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I insert "Milk" in the "Item name" field
+2026-11-26 14:04:21.936 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I insert "Milk" in the "Item name" field
+2026-11-26 14:04:21.937 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I select the "Dairy" category
+2026-11-26 14:04:22.477 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I select the "Dairy" category
+2026-11-26 14:04:22.478 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I insert "2" in the "Quantity" field
+2026-11-26 14:04:23.273 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I insert "2" in the "Quantity" field
+2026-11-26 14:04:23.275 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I select the "L" unit
+2026-11-26 14:04:23.778 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I select the "L" unit
+2026-11-26 14:04:23.780 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I set the expiration date to "30/11/2026"
+2026-11-26 14:04:24.357 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I set the expiration date to "30/11/2026"
+2026-11-26 14:04:24.358 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Save item" button
+2026-11-26 14:04:24.900 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Save item" button
+2026-11-26 14:04:24.901 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Milk" in the pantry
+2026-11-26 14:04:25.337 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Milk" in the pantry
+2026-11-26 14:04:25.338 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:04:25.466 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:04:25.467 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Add an item to the pantry
+2026-11-26 14:04:25.468 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Add an item to the pantry
+2026-11-26 14:04:25.469 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:04:25.469 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Show items expiring within 48 hours in the alert tray
+2026-11-26 14:04:25.470 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:04:25.471 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:04:25.471 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:04:25.472 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:04:26.942 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9f52d22feb6ac12b58087f453b6d84af
+2026-11-26 14:04:26.943 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:04:26.943 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:04:26.943 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:04:26.943 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:04:32.147 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:04:32.149 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the pantry is empty
+2026-11-26 14:04:32.374 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the pantry is empty
+2026-11-26 14:04:32.375 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I add the item "Spinach" expiring tomorrow
+2026-11-26 14:04:35.937 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I add the item "Spinach" expiring tomorrow
+2026-11-26 14:04:35.938 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Spinach" in the expiry alert tray
+2026-11-26 14:04:36.369 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Spinach" in the expiry alert tray
+2026-11-26 14:04:36.371 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Spinach" highlighted in the pantry
+2026-11-26 14:04:36.605 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Spinach" highlighted in the pantry
+2026-11-26 14:04:36.609 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:04:36.737 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:04:36.738 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Show items expiring within 48 hours in the alert tray
+2026-11-26 14:04:36.738 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Show items expiring within 48 hours in the alert tray
+2026-11-26 14:04:36.740 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:04:36.740 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Edit the quantity of a pantry item
+2026-11-26 14:04:36.740 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:04:36.741 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:04:36.741 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:04:36.742 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:04:38.243 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2ba298ce5f497023575bad166c74192a
+2026-11-26 14:04:38.243 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:04:38.243 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:04:38.244 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:04:38.244 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:04:43.436 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:04:43.437 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the pantry contains the item "Milk" with the quantity "2"
+2026-11-26 14:04:47.345 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the pantry contains the item "Milk" with the quantity "2"
+2026-11-26 14:04:47.346 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the item "Milk"
+2026-11-26 14:04:47.615 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the item "Milk"
+2026-11-26 14:04:47.616 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I insert "1" in the "Quantity" field
+2026-11-26 14:04:48.597 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I insert "1" in the "Quantity" field
+2026-11-26 14:04:48.600 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Save changes" button
+2026-11-26 14:04:49.169 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Save changes" button
+2026-11-26 14:04:49.171 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Milk" with the quantity "1" in the pantry
+2026-11-26 14:04:49.617 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Milk" with the quantity "1" in the pantry
+2026-11-26 14:04:49.618 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:04:49.749 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:04:49.750 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Edit the quantity of a pantry item
+2026-11-26 14:04:49.751 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Edit the quantity of a pantry item
+
+3 scenarios ([32m3 passed[39m)
+24 steps ([32m24 passed[39m)
+0m 36.758s
+2026-11-26 14:04:49.773 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/DashboardFoodTrackingAndPantryItemsFeatureCase
+2026-11-26 14:04:49.776 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-26 14:04:49.776 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/ProductInsertionAndLookupFeatureCase
+2026-11-26 14:04:49.791 DEBUG t.ProductInsertionAndLookupFeatureCase   - 1: runFeatureFile("Include/features/ProcutInsertionAndLookup.feature")
+2026-11-26 14:04:49.792 INFO  c.k.k.c.c.k.CucumberBuiltinKeywords      - Starting run keyword runFeatureFile: 'Include/features/ProcutInsertionAndLookup.feature' and extract report to folder: '/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/cucumber_report/1795701889792'...
+2026-11-26 14:04:49.818 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:04:49.818 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Auto-fill the item form from a scanned barcode
+2026-11-26 14:04:49.818 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:04:49.819 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:04:49.820 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:04:49.821 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:04:50.911 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0ba2f90e8528f8b1a27797a1d143243a
+2026-11-26 14:04:50.911 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:04:50.911 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:04:50.911 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:04:50.912 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:04:56.445 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:04:56.446 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP camera access is allowed
+2026-11-26 14:04:56.455 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ camera access is allowed
+2026-11-26 14:04:56.456 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "+ Add item" button
+2026-11-26 14:04:56.984 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "+ Add item" button
+2026-11-26 14:04:56.984 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Scan barcode" button
+2026-11-26 14:04:57.698 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Scan barcode" button
+2026-11-26 14:04:57.699 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I scan the barcode "3017620422003"
+2026-11-26 14:04:58.390 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I scan the barcode "3017620422003"
+2026-11-26 14:04:58.391 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Nutella" in the "Item name" field
+2026-11-26 14:04:59.465 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Nutella" in the "Item name" field
+2026-11-26 14:04:59.466 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "400" in the "Quantity" field
+2026-11-26 14:04:59.691 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "400" in the "Quantity" field
+2026-11-26 14:04:59.692 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "g" in the "Unit" field
+2026-11-26 14:04:59.913 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "g" in the "Unit" field
+2026-11-26 14:04:59.914 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:05:00.044 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:05:00.045 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Auto-fill the item form from a scanned barcode
+2026-11-26 14:05:00.045 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Auto-fill the item form from a scanned barcode
+2026-11-26 14:05:00.047 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:05:00.047 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Adjust the auto-filled data before saving the item
+2026-11-26 14:05:00.047 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:05:00.048 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:05:00.048 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:05:00.049 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:05:01.107 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5b53221d87392e228f9e758213451b92
+2026-11-26 14:05:01.108 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:05:01.108 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:05:01.108 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:05:01.108 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:05:06.678 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:05:06.679 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP camera access is allowed
+2026-11-26 14:05:06.685 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ camera access is allowed
+2026-11-26 14:05:06.686 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "+ Add item" button
+2026-11-26 14:05:07.215 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "+ Add item" button
+2026-11-26 14:05:07.216 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Scan barcode" button
+2026-11-26 14:05:07.928 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Scan barcode" button
+2026-11-26 14:05:07.930 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I scan the barcode "3017620422003"
+2026-11-26 14:05:08.596 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I scan the barcode "3017620422003"
+2026-11-26 14:05:08.597 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I insert "Chocolate spread" in the "Item name" field
+2026-11-26 14:05:10.332 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I insert "Chocolate spread" in the "Item name" field
+2026-11-26 14:05:10.333 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I select the "Sweets" category
+2026-11-26 14:05:10.863 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I select the "Sweets" category
+2026-11-26 14:05:10.864 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I set the expiration date to "30/11/2026"
+2026-11-26 14:05:11.392 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I set the expiration date to "30/11/2026"
+2026-11-26 14:05:11.393 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Save item" button
+2026-11-26 14:05:11.932 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Save item" button
+2026-11-26 14:05:11.934 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Chocolate spread" in the pantry
+2026-11-26 14:05:12.362 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Chocolate spread" in the pantry
+2026-11-26 14:05:12.363 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:05:12.500 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:05:12.502 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Adjust the auto-filled data before saving the item
+2026-11-26 14:05:12.503 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Adjust the auto-filled data before saving the item
+2026-11-26 14:05:12.505 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:05:12.505 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Offer the fallback options when camera access is denied
+2026-11-26 14:05:12.505 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:05:12.506 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:05:12.506 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:05:12.507 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:05:13.945 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5eb4c16c05319a7fcd082461bd298dfe
+2026-11-26 14:05:13.946 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:05:13.946 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:05:13.946 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:05:13.946 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:05:19.069 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:05:19.069 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP camera access is denied
+2026-11-26 14:05:19.075 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ camera access is denied
+2026-11-26 14:05:19.076 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "+ Add item" button
+2026-11-26 14:05:19.593 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "+ Add item" button
+2026-11-26 14:05:19.594 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Scan barcode" button
+2026-11-26 14:05:20.312 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Scan barcode" button
+2026-11-26 14:05:20.314 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the message "Camera access is not available"
+2026-11-26 14:05:21.085 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the message "Camera access is not available"
+2026-11-26 14:05:21.086 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the "Upload image" button
+2026-11-26 14:05:21.316 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the "Upload image" button
+2026-11-26 14:05:21.317 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the "Enter manually" button
+2026-11-26 14:05:21.542 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the "Enter manually" button
+2026-11-26 14:05:21.543 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:05:21.675 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:05:21.675 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Offer the fallback options when camera access is denied
+2026-11-26 14:05:21.676 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Offer the fallback options when camera access is denied
+2026-11-26 14:05:21.677 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:05:21.677 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Offer the fallback options when the barcode is not listed
+2026-11-26 14:05:21.678 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:05:21.678 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:05:21.678 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:05:21.679 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:05:23.107 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fef71eb140d7807da8a26053199b15d4
+2026-11-26 14:05:23.108 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:05:23.108 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:05:23.108 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:05:23.108 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:05:28.247 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:05:28.248 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP camera access is allowed
+2026-11-26 14:05:28.253 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ camera access is allowed
+2026-11-26 14:05:28.254 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "+ Add item" button
+2026-11-26 14:05:28.789 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "+ Add item" button
+2026-11-26 14:05:28.790 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Scan barcode" button
+2026-11-26 14:05:29.510 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Scan barcode" button
+2026-11-26 14:05:29.512 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I scan the barcode "0000000000000"
+2026-11-26 14:05:30.179 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I scan the barcode "0000000000000"
+2026-11-26 14:05:30.180 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the message "Product not found"
+2026-11-26 14:05:31.782 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the message "Product not found"
+2026-11-26 14:05:31.783 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the "Upload image" button
+2026-11-26 14:05:32.009 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the "Upload image" button
+2026-11-26 14:05:32.010 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the "Enter manually" button
+2026-11-26 14:05:32.238 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the "Enter manually" button
+2026-11-26 14:05:32.239 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:05:32.371 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:05:32.372 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Offer the fallback options when the barcode is not listed
+2026-11-26 14:05:32.372 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Offer the fallback options when the barcode is not listed
+2026-11-26 14:05:32.374 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:05:32.374 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Auto-fill the item form from an uploaded barcode image
+2026-11-26 14:05:32.374 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:05:32.375 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:05:32.375 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:05:32.376 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:05:33.766 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f27303f8e24817ee60ad82c3b25e0937
+2026-11-26 14:05:33.767 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:05:33.767 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:05:33.767 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:05:33.767 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:05:38.896 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:05:38.897 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "+ Add item" button
+2026-11-26 14:05:39.436 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "+ Add item" button
+2026-11-26 14:05:39.438 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Scan barcode" button
+2026-11-26 14:05:40.159 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Scan barcode" button
+2026-11-26 14:05:40.161 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Upload image" button
+2026-11-26 14:05:41.717 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Upload image" button
+2026-11-26 14:05:41.718 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I upload the image "nutella-barcode.jpg"
+2026-11-26 14:05:42.185 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I upload the image "nutella-barcode.jpg"
+2026-11-26 14:05:42.186 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Nutella" in the "Item name" field
+2026-11-26 14:05:42.916 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Nutella" in the "Item name" field
+2026-11-26 14:05:42.917 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:05:43.052 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:05:43.053 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Auto-fill the item form from an uploaded barcode image
+2026-11-26 14:05:43.054 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Auto-fill the item form from an uploaded barcode image
+2026-11-26 14:05:43.055 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:05:43.055 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Enter the item manually after the fallback
+2026-11-26 14:05:43.056 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:05:43.056 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:05:43.056 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:05:43.057 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:05:44.490 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9e06b8142bb84833c6fe58c20e3d5037
+2026-11-26 14:05:44.490 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:05:44.490 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:05:44.490 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:05:44.490 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:05:49.647 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:05:49.648 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP camera access is denied
+2026-11-26 14:05:49.653 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ camera access is denied
+2026-11-26 14:05:49.654 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "+ Add item" button
+2026-11-26 14:05:50.185 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "+ Add item" button
+2026-11-26 14:05:50.186 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Scan barcode" button
+2026-11-26 14:05:50.909 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Scan barcode" button
+2026-11-26 14:05:50.911 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Enter manually" button
+2026-11-26 14:05:51.754 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Enter manually" button
+2026-11-26 14:05:51.755 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I insert "Homemade jam" in the "Item name" field
+2026-11-26 14:05:52.733 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I insert "Homemade jam" in the "Item name" field
+2026-11-26 14:05:52.734 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I select the "Sweets" category
+2026-11-26 14:05:53.228 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I select the "Sweets" category
+2026-11-26 14:05:53.229 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I insert "1" in the "Quantity" field
+2026-11-26 14:05:53.983 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I insert "1" in the "Quantity" field
+2026-11-26 14:05:53.985 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I select the "Units" unit
+2026-11-26 14:05:54.475 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I select the "Units" unit
+2026-11-26 14:05:54.476 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I set the expiration date to "30/11/2026"
+2026-11-26 14:05:55.017 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I set the expiration date to "30/11/2026"
+2026-11-26 14:05:55.018 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Save item" button
+2026-11-26 14:05:55.548 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Save item" button
+2026-11-26 14:05:55.550 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Homemade jam" in the pantry
+2026-11-26 14:05:55.980 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Homemade jam" in the pantry
+2026-11-26 14:05:55.981 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:05:56.115 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:05:56.116 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Enter the item manually after the fallback
+2026-11-26 14:05:56.117 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Enter the item manually after the fallback
+
+6 scenarios ([32m6 passed[39m)
+57 steps ([32m57 passed[39m)
+1m 6.318s
+2026-11-26 14:05:56.140 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/ProductInsertionAndLookupFeatureCase
+2026-11-26 14:05:56.142 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-26 14:05:56.142 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/GroceryShoppingListFeatureCase
+2026-11-26 14:05:56.157 DEBUG t.GroceryShoppingListFeatureCase         - 1: runFeatureFile("Include/features/GroceryShoppingList.feature")
+2026-11-26 14:05:56.158 INFO  c.k.k.c.c.k.CucumberBuiltinKeywords      - Starting run keyword runFeatureFile: 'Include/features/GroceryShoppingList.feature' and extract report to folder: '/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/cucumber_report/1795701956158'...
+2026-11-26 14:05:56.185 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:05:56.185 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Open the shopping list from the header
+2026-11-26 14:05:56.186 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:05:56.186 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:05:56.187 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:05:56.187 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:05:57.153 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b85dae56ca0cfaf73e1ff2c8e3ac2423
+2026-11-26 14:05:57.154 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:05:57.154 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:05:57.154 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:05:57.154 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:06:02.651 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:06:02.652 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the shopping list button in the header
+2026-11-26 14:06:03.367 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the shopping list button in the header
+2026-11-26 14:06:03.368 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the shopping list
+2026-11-26 14:06:03.595 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the shopping list
+2026-11-26 14:06:03.596 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:06:03.720 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:06:03.721 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Open the shopping list from the header
+2026-11-26 14:06:03.722 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Open the shopping list from the header
+2026-11-26 14:06:03.723 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:06:03.723 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Add an item to the shopping list manually
+2026-11-26 14:06:03.724 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:06:03.724 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:06:03.724 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:06:03.725 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:06:05.108 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2170f785a0a7a3585bb355b1660c214e
+2026-11-26 14:06:05.109 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:06:05.109 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:06:05.109 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:06:05.109 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:06:10.493 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:06:10.494 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the shopping list is empty
+2026-11-26 14:06:12.168 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the shopping list is empty
+2026-11-26 14:06:12.169 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the shopping list button in the header
+2026-11-26 14:06:12.865 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the shopping list button in the header
+2026-11-26 14:06:12.865 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I insert "Eggs" in the "Item name" field
+2026-11-26 14:06:13.622 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I insert "Eggs" in the "Item name" field
+2026-11-26 14:06:13.623 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Add" button
+2026-11-26 14:06:14.148 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Add" button
+2026-11-26 14:06:14.149 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Eggs" in the shopping list
+2026-11-26 14:06:14.588 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Eggs" in the shopping list
+2026-11-26 14:06:14.589 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:06:14.712 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:06:14.713 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Add an item to the shopping list manually
+2026-11-26 14:06:14.714 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Add an item to the shopping list manually
+2026-11-26 14:06:14.715 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:06:14.715 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Scan a product from the shopping list
+2026-11-26 14:06:14.715 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:06:14.716 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:06:14.716 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:06:14.717 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:06:16.039 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = afb8bf696d13139e6694b30166ab87d6
+2026-11-26 14:06:16.040 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:06:16.040 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:06:16.040 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:06:16.040 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:06:21.117 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:06:21.118 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP camera access is allowed
+2026-11-26 14:06:21.123 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ camera access is allowed
+2026-11-26 14:06:21.124 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the shopping list contains the item "Nutella"
+2026-11-26 14:06:23.821 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the shopping list contains the item "Nutella"
+2026-11-26 14:06:23.822 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the shopping list button in the header
+2026-11-26 14:06:24.516 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the shopping list button in the header
+2026-11-26 14:06:24.517 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the scan button of the item "Nutella"
+2026-11-26 14:06:25.452 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the scan button of the item "Nutella"
+2026-11-26 14:06:25.453 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I scan the barcode "3017620422003"
+2026-11-26 14:06:25.692 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I scan the barcode "3017620422003"
+2026-11-26 14:06:25.693 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the scan notification "Nutella scanned"
+2026-11-26 14:06:26.772 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the scan notification "Nutella scanned"
+2026-11-26 14:06:26.773 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the item "Nutella" checked
+2026-11-26 14:06:27.024 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the item "Nutella" checked
+2026-11-26 14:06:27.024 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:06:27.151 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:06:27.152 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Scan a product from the shopping list
+2026-11-26 14:06:27.153 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Scan a product from the shopping list
+2026-11-26 14:06:27.155 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:06:27.155 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Move scanned and checked items to the pantry
+2026-11-26 14:06:27.156 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:06:27.157 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:06:27.157 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:06:27.157 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:06:28.062 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = dd740bf476d185be3a1ceda1bc562f41
+2026-11-26 14:06:28.062 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:06:28.062 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:06:28.062 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:06:28.063 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:06:33.518 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:06:33.520 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP camera access is allowed
+2026-11-26 14:06:33.525 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ camera access is allowed
+2026-11-26 14:06:33.526 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the shopping list contains the items "Eggs" and "Nutella"
+2026-11-26 14:06:37.442 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the shopping list contains the items "Eggs" and "Nutella"
+2026-11-26 14:06:37.443 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the shopping list button in the header
+2026-11-26 14:06:38.138 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the shopping list button in the header
+2026-11-26 14:06:38.139 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the scan button of the item "Nutella"
+2026-11-26 14:06:39.072 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the scan button of the item "Nutella"
+2026-11-26 14:06:39.073 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I scan the barcode "3017620422003"
+2026-11-26 14:06:39.302 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I scan the barcode "3017620422003"
+2026-11-26 14:06:39.303 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I check the item "Eggs"
+2026-11-26 14:06:40.211 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I check the item "Eggs"
+2026-11-26 14:06:40.212 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Move to pantry" button
+2026-11-26 14:06:40.936 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Move to pantry" button
+2026-11-26 14:06:40.937 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the quantity "400" "g" filled in for "Nutella"
+2026-11-26 14:06:42.575 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the quantity "400" "g" filled in for "Nutella"
+2026-11-26 14:06:42.576 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I create the category "Spreads" for "Nutella"
+2026-11-26 14:06:45.298 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I create the category "Spreads" for "Nutella"
+2026-11-26 14:06:45.299 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I set "Nutella" to the expiration date "31/12/2026"
+2026-11-26 14:06:46.236 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I set "Nutella" to the expiration date "31/12/2026"
+2026-11-26 14:06:46.237 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026"
+2026-11-26 14:06:48.288 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026"
+2026-11-26 14:06:48.289 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Confirm" button
+2026-11-26 14:06:48.816 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Confirm" button
+2026-11-26 14:06:48.817 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Nutella" in the pantry
+2026-11-26 14:06:49.246 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Nutella" in the pantry
+2026-11-26 14:06:49.247 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Eggs" in the pantry
+2026-11-26 14:06:49.472 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Eggs" in the pantry
+2026-11-26 14:06:49.473 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the "Spreads" category in the pantry filters
+2026-11-26 14:06:49.739 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the "Spreads" category in the pantry filters
+2026-11-26 14:06:49.740 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I do not see "Nutella" in the shopping list
+2026-11-26 14:06:49.970 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I do not see "Nutella" in the shopping list
+2026-11-26 14:06:49.971 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I do not see "Eggs" in the shopping list
+2026-11-26 14:06:50.189 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I do not see "Eggs" in the shopping list
+2026-11-26 14:06:50.190 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:07:03.393 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:07:03.394 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Move scanned and checked items to the pantry
+2026-11-26 14:07:03.394 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Move scanned and checked items to the pantry
+2026-11-26 14:07:03.397 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:07:03.397 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Transfer the checked items to the pantry
+2026-11-26 14:07:03.397 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:07:03.398 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:07:03.398 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:07:03.399 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:07:04.741 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1c9e355683e8fcbfa367b02b69d85631
+2026-11-26 14:07:04.741 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:07:04.741 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:07:04.742 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:07:04.742 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:07:09.824 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:07:09.825 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the shopping list contains the items "Eggs" and "Butter"
+2026-11-26 14:07:13.738 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the shopping list contains the items "Eggs" and "Butter"
+2026-11-26 14:07:13.739 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the shopping list button in the header
+2026-11-26 14:07:14.438 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the shopping list button in the header
+2026-11-26 14:07:14.439 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I check the item "Eggs"
+2026-11-26 14:07:14.721 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I check the item "Eggs"
+2026-11-26 14:07:14.722 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I check the item "Butter"
+2026-11-26 14:07:15.199 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I check the item "Butter"
+2026-11-26 14:07:15.201 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Move to pantry" button
+2026-11-26 14:07:15.935 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Move to pantry" button
+2026-11-26 14:07:15.936 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026"
+2026-11-26 14:07:18.224 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026"
+2026-11-26 14:07:18.225 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I set "Butter" to the category "Dairy", the quantity "250" "g" and the expiration date "15/12/2026"
+2026-11-26 14:07:20.489 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I set "Butter" to the category "Dairy", the quantity "250" "g" and the expiration date "15/12/2026"
+2026-11-26 14:07:20.490 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Confirm" button
+2026-11-26 14:07:21.016 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Confirm" button
+2026-11-26 14:07:21.017 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Eggs" in the pantry
+2026-11-26 14:07:21.446 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Eggs" in the pantry
+2026-11-26 14:07:21.446 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Butter" in the pantry
+2026-11-26 14:07:21.672 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Butter" in the pantry
+2026-11-26 14:07:21.674 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I do not see "Eggs" in the shopping list
+2026-11-26 14:07:21.895 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I do not see "Eggs" in the shopping list
+2026-11-26 14:07:21.895 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I do not see "Butter" in the shopping list
+2026-11-26 14:07:22.118 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I do not see "Butter" in the shopping list
+2026-11-26 14:07:22.119 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:07:22.268 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:07:22.269 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Transfer the checked items to the pantry
+2026-11-26 14:07:22.270 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Transfer the checked items to the pantry
+2026-11-26 14:07:22.272 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:07:22.272 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Keep the unchecked items in the shopping list after the transfer
+2026-11-26 14:07:22.272 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:07:22.272 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:07:22.273 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:07:22.274 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:07:23.634 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 60bb900a89f0643efe0de81c26ba214e
+2026-11-26 14:07:23.634 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:07:23.635 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:07:23.635 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:07:23.635 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:07:28.617 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:07:28.618 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the shopping list contains the items "Eggs" and "Butter"
+2026-11-26 14:07:32.533 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the shopping list contains the items "Eggs" and "Butter"
+2026-11-26 14:07:32.533 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the shopping list button in the header
+2026-11-26 14:07:33.231 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the shopping list button in the header
+2026-11-26 14:07:33.232 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I check the item "Eggs"
+2026-11-26 14:07:33.507 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I check the item "Eggs"
+2026-11-26 14:07:33.509 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Move to pantry" button
+2026-11-26 14:07:34.234 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Move to pantry" button
+2026-11-26 14:07:34.236 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026"
+2026-11-26 14:07:36.493 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026"
+2026-11-26 14:07:36.494 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Confirm" button
+2026-11-26 14:07:37.030 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Confirm" button
+2026-11-26 14:07:37.032 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Butter" in the shopping list
+2026-11-26 14:07:37.460 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Butter" in the shopping list
+2026-11-26 14:07:37.461 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see "Eggs" in the pantry
+2026-11-26 14:07:37.682 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see "Eggs" in the pantry
+2026-11-26 14:07:37.683 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:07:37.818 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:07:37.819 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Keep the unchecked items in the shopping list after the transfer
+2026-11-26 14:07:37.820 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Keep the unchecked items in the shopping list after the transfer
+
+6 scenarios ([32m6 passed[39m)
+63 steps ([32m63 passed[39m)
+1m 41.655s
+2026-11-26 14:07:37.846 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/GroceryShoppingListFeatureCase
+2026-11-26 14:07:37.849 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-26 14:07:37.849 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/RecipeDiscoveryandPantryOverlapFeatureCase
+2026-11-26 14:07:37.937 DEBUG cipeDiscoveryandPantryOverlapFeatureCase - 1: runFeatureFile("Include/features/RecipeDiscoveryandPantryOverlap.feature")
+2026-11-26 14:07:37.938 INFO  c.k.k.c.c.k.CucumberBuiltinKeywords      - Starting run keyword runFeatureFile: 'Include/features/RecipeDiscoveryandPantryOverlap.feature' and extract report to folder: '/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/cucumber_report/1795702057937'...
+2026-11-26 14:07:37.981 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:07:37.981 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Search recipes using pantry ingredients
+2026-11-26 14:07:37.982 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:07:37.983 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:07:37.983 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:07:37.984 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:07:38.947 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d151fe9430e213b3950a106f7cea01c9
+2026-11-26 14:07:38.948 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:07:38.948 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:07:38.948 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:07:38.948 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:07:44.565 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:07:44.566 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the pantry contains "Fettuccine" and "Parmesan"
+2026-11-26 14:07:52.630 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the pantry contains "Fettuccine" and "Parmesan"
+2026-11-26 14:07:52.631 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I open the recipe discovery page
+2026-11-26 14:07:53.403 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I open the recipe discovery page
+2026-11-26 14:07:53.405 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the search recipes button
+2026-11-26 14:07:54.974 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the search recipes button
+2026-11-26 14:07:54.974 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see a list of matching recipes
+2026-11-26 14:07:55.418 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see a list of matching recipes
+2026-11-26 14:07:55.419 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:07:55.567 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:07:55.569 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Search recipes using pantry ingredients
+2026-11-26 14:07:55.569 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Search recipes using pantry ingredients
+2026-11-26 14:07:55.571 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:07:55.571 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Show missing ingredients and pantry overlap
+2026-11-26 14:07:55.571 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:07:55.572 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:07:55.572 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:07:55.573 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:07:57.070 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b1ea6a8d0f99491cd4e224c9ee4ec80f
+2026-11-26 14:07:57.070 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:07:57.070 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:07:57.070 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:07:57.071 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:08:02.197 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:08:02.198 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the pantry contains "Fettuccine"
+2026-11-26 14:08:06.314 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the pantry contains "Fettuccine"
+2026-11-26 14:08:06.315 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I search for recipes
+2026-11-26 14:08:08.563 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I search for recipes
+2026-11-26 14:08:08.564 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I open the recipe "Fettuccine Alfredo"
+2026-11-26 14:08:09.564 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I open the recipe "Fettuccine Alfredo"
+2026-11-26 14:08:09.565 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the available ingredients
+2026-11-26 14:08:10.245 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the available ingredients
+2026-11-26 14:08:10.246 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the missing ingredients
+2026-11-26 14:08:10.915 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the missing ingredients
+2026-11-26 14:08:10.916 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the ingredient overlap percentage
+2026-11-26 14:08:11.373 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the ingredient overlap percentage
+2026-11-26 14:08:11.373 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:08:11.514 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:08:11.515 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Show missing ingredients and pantry overlap
+2026-11-26 14:08:11.516 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Show missing ingredients and pantry overlap
+2026-11-26 14:08:11.517 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:08:11.517 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Prioritize recipes that use expiring ingredients
+2026-11-26 14:08:11.517 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:08:11.518 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:08:11.518 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:08:11.519 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:08:12.460 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6cdca54eaadbe9d8dd4f8c78cf7b7864
+2026-11-26 14:08:12.461 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:08:12.461 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:08:12.461 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:08:12.461 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:08:17.913 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:08:17.914 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the pantry contains "Milk" expiring within 48 hours
+2026-11-26 14:08:21.953 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the pantry contains "Milk" expiring within 48 hours
+2026-11-26 14:08:21.954 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I search for recipes
+2026-11-26 14:08:24.732 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I search for recipes
+2026-11-26 14:08:24.733 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP recipes using "Milk" are shown with higher priority
+2026-11-26 14:08:25.055 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ recipes using "Milk" are shown with higher priority
+2026-11-26 14:08:25.056 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:08:25.198 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:08:25.199 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Prioritize recipes that use expiring ingredients
+2026-11-26 14:08:25.200 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Prioritize recipes that use expiring ingredients
+2026-11-26 14:08:25.201 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:08:25.201 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Filter recipes by dietary restrictions
+2026-11-26 14:08:25.201 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the active profile is "Vegan"
+2026-11-26 14:08:25.202 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:08:25.202 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:08:25.202 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:08:26.585 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f8bcea6efdd26c01c074c5bfc45c51b4
+2026-11-26 14:08:26.585 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:08:26.585 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:08:26.585 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:08:26.585 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:08:32.835 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the active profile is "Vegan"
+2026-11-26 14:08:32.837 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I search for recipes
+2026-11-26 14:08:34.581 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I search for recipes
+2026-11-26 14:08:34.582 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I do not see recipes containing animal products
+2026-11-26 14:08:40.667 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.cssSelector: [data-testid='recipe-card']'. Please recheck the objects properties to make sure the desired element is located. 
+2026-11-26 14:08:40.673 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I do not see recipes containing animal products
+2026-11-26 14:08:40.674 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:08:40.817 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:08:40.818 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Filter recipes by dietary restrictions
+2026-11-26 14:08:40.819 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Filter recipes by dietary restrictions
+
+4 scenarios ([32m4 passed[39m)
+23 steps ([32m23 passed[39m)
+1m 2.870s
+2026-11-26 14:08:40.838 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/RecipeDiscoveryandPantryOverlapFeatureCase
+2026-11-26 14:08:40.839 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-26 14:08:40.839 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/US8RecipeBookAndCollectionsFeatureCase
+2026-11-26 14:08:40.885 DEBUG t.US8RecipeBookAndCollectionsFeatureCase - 1: runFeatureFile("Include/features/US8RecipeBookandCollections.feature")
+2026-11-26 14:08:40.886 INFO  c.k.k.c.c.k.CucumberBuiltinKeywords      - Starting run keyword runFeatureFile: 'Include/features/US8RecipeBookandCollections.feature' and extract report to folder: '/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/cucumber_report/1795702120886'...
+2026-11-26 14:08:40.914 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:08:40.914 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Save a recipe to the recipe book
+2026-11-26 14:08:40.914 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:08:40.915 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:08:40.915 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:08:40.916 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:08:42.393 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 56401de5cfeefced872f329f6cf14ac9
+2026-11-26 14:08:42.393 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:08:42.393 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:08:42.393 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:08:42.393 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:08:47.567 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:08:47.568 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I am viewing the recipe "Fettuccine Alfredo"
+2026-11-26 14:08:54.292 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I am viewing the recipe "Fettuccine Alfredo"
+2026-11-26 14:08:54.293 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap the "Save Recipe" button
+2026-11-26 14:08:54.803 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap the "Save Recipe" button
+2026-11-26 14:08:54.804 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP "Fettuccine Alfredo" appears in my recipe book
+2026-11-26 14:08:56.759 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ "Fettuccine Alfredo" appears in my recipe book
+2026-11-26 14:08:56.760 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:08:56.913 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:08:56.914 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Save a recipe to the recipe book
+2026-11-26 14:08:56.915 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Save a recipe to the recipe book
+2026-11-26 14:08:56.916 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:08:56.916 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Create a collection
+2026-11-26 14:08:56.917 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:08:56.917 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:08:56.917 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:08:56.918 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:08:57.924 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = bf9d1fa9f4b571b21ca7a49617175e88
+2026-11-26 14:08:57.924 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:08:57.924 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:08:57.924 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:08:57.924 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:09:03.437 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:09:03.438 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I open the recipe book
+2026-11-26 14:09:04.266 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I open the recipe book
+2026-11-26 14:09:04.267 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I create a collection named "Italian Favorites"
+2026-11-26 14:09:06.282 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I create a collection named "Italian Favorites"
+2026-11-26 14:09:06.282 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I see the collection "Italian Favorites"
+2026-11-26 14:09:06.741 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I see the collection "Italian Favorites"
+2026-11-26 14:09:06.741 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:09:06.870 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:09:06.871 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Create a collection
+2026-11-26 14:09:06.871 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Create a collection
+2026-11-26 14:09:06.872 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:09:06.872 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Add a recipe to a collection
+2026-11-26 14:09:06.873 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the collection "Italian Favorites" exists
+2026-11-26 14:09:06.874 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:09:06.874 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:09:06.874 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:09:07.876 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 47be510207b3e5fe2326e9eed4c24978
+2026-11-26 14:09:07.877 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:09:07.877 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:09:07.877 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:09:07.877 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:09:16.594 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the collection "Italian Favorites" exists
+2026-11-26 14:09:16.595 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the recipe "Fettuccine Alfredo" is saved
+2026-11-26 14:09:25.948 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the recipe "Fettuccine Alfredo" is saved
+2026-11-26 14:09:25.949 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I add the recipe to the collection
+2026-11-26 14:09:27.034 WARN  k.k.c.w.k.b.WaitForElementPresentKeyword - Object 'Object Repository/Page_RecipeBook/section_Recipe detail' is not present after 1 second(s)
+2026-11-26 14:09:28.954 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I add the recipe to the collection
+2026-11-26 14:09:28.955 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP "Fettuccine Alfredo" appears in "Italian Favorites"
+2026-11-26 14:09:29.870 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ "Fettuccine Alfredo" appears in "Italian Favorites"
+2026-11-26 14:09:29.871 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:09:43.331 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:09:43.332 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Add a recipe to a collection
+2026-11-26 14:09:43.332 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Add a recipe to a collection
+2026-11-26 14:09:43.333 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:09:43.333 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Remove a recipe from a collection
+2026-11-26 14:09:43.333 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the recipe "Fettuccine Alfredo" belongs to the collection "Italian Favorites"
+2026-11-26 14:09:43.334 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:09:43.334 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:09:43.335 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:09:44.341 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c98c3182e468de4bd8363d88651758dd
+2026-11-26 14:09:44.341 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:09:44.341 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:09:44.341 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:09:44.341 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:10:03.445 WARN  k.k.c.w.k.b.WaitForElementPresentKeyword - Object 'Object Repository/Page_RecipeBook/section_Recipe detail' is not present after 1 second(s)
+2026-11-26 14:10:06.281 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the recipe "Fettuccine Alfredo" belongs to the collection "Italian Favorites"
+2026-11-26 14:10:06.282 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I remove the recipe from the collection
+2026-11-26 14:10:07.038 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I remove the recipe from the collection
+2026-11-26 14:10:07.039 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I do not see "Fettuccine Alfredo" in "Italian Favorites"
+2026-11-26 14:10:08.156 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I do not see "Fettuccine Alfredo" in "Italian Favorites"
+2026-11-26 14:10:08.157 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:10:19.745 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:10:19.746 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Remove a recipe from a collection
+2026-11-26 14:10:19.747 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Remove a recipe from a collection
+
+4 scenarios ([32m4 passed[39m)
+19 steps ([32m19 passed[39m)
+1m 38.854s
+2026-11-26 14:10:19.767 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/US8RecipeBookAndCollectionsFeatureCase
+2026-11-26 14:10:19.768 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-11-26 14:10:19.769 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/US5GenAISousChefFeatureCase
+2026-11-26 14:10:19.794 DEBUG testcase.US5GenAISousChefFeatureCase     - 1: runFeatureFile("Include/features/US5GenAISousChef.feature")
+2026-11-26 14:10:19.795 INFO  c.k.k.c.c.k.CucumberBuiltinKeywords      - Starting run keyword runFeatureFile: 'Include/features/US5GenAISousChef.feature' and extract report to folder: '/Users/leonardoferreira/Desktop/Leonardo/Escola/Licenciatura/TAES/tests/Reports/20261126_140323/test_suites/20261126_140323/cucumber_report/1795702219795'...
+2026-11-26 14:10:19.812 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:10:19.812 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Generate a recipe from leftovers
+2026-11-26 14:10:19.813 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I have completed the onboarding
+2026-11-26 14:10:19.813 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:10:19.813 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:10:19.814 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:10:21.033 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9bd273703662e4861301ed924bc6db9d
+2026-11-26 14:10:21.034 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:10:21.034 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:10:21.034 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:10:21.034 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:10:26.627 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I have completed the onboarding
+2026-11-26 14:10:26.628 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the pantry contains "Rice", "Chicken" and "Carrot"
+2026-11-26 14:10:38.897 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the pantry contains "Rice", "Chicken" and "Carrot"
+2026-11-26 14:10:38.897 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I open GenAI Sous-Chef
+2026-11-26 14:10:40.655 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I open GenAI Sous-Chef
+2026-11-26 14:10:40.656 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I select those ingredients
+2026-11-26 14:10:43.665 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I select those ingredients
+2026-11-26 14:10:43.666 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap "Generate Recipe"
+2026-11-26 14:10:44.187 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap "Generate Recipe"
+2026-11-26 14:10:44.188 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I receive a generated recipe
+2026-11-26 14:10:45.799 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I receive a generated recipe
+2026-11-26 14:10:45.799 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:10:54.569 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:10:54.570 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Generate a recipe from leftovers
+2026-11-26 14:10:54.571 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Generate a recipe from leftovers
+2026-11-26 14:10:54.572 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:10:54.572 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Apply dietary restrictions to generated recipes
+2026-11-26 14:10:54.572 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the active profile is "Vegetarian"
+2026-11-26 14:10:54.573 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:10:54.573 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:10:54.573 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:10:55.945 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3d423ebb47c81f6804e97b79acc5c988
+2026-11-26 14:10:55.945 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:10:55.945 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:10:55.945 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:10:55.946 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:11:02.194 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the active profile is "Vegetarian"
+2026-11-26 14:11:02.195 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I generate a recipe
+2026-11-26 14:11:14.577 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I generate a recipe
+2026-11-26 14:11:14.578 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the generated recipe does not contain meat ingredients
+2026-11-26 14:11:15.705 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the generated recipe does not contain meat ingredients
+2026-11-26 14:11:15.706 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:11:28.842 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:11:28.843 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Apply dietary restrictions to generated recipes
+2026-11-26 14:11:28.844 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Apply dietary restrictions to generated recipes
+2026-11-26 14:11:28.845 INFO  i.cucumber.core.plugin.CucumberReporter  - --------------------
+2026-11-26 14:11:28.845 INFO  i.cucumber.core.plugin.CucumberReporter  - START SCENARIO Save an AI recipe
+2026-11-26 14:11:28.845 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP an AI recipe was generated
+2026-11-26 14:11:28.846 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-11-26 14:11:28.846 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['args', '[--use-fake-device-for-media-stream, --use-fake-ui-for-media-stream]']
+2026-11-26 14:11:28.847 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-11-26 14:11:29.796 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 530aaf90a2c3f05f282ef2c795eee057
+2026-11-26 14:11:29.796 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 158.0.8127.88
+2026-11-26 14:11:29.797 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2026-11-26 14:11:29.797 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.46.0
+2026-11-26 14:11:29.797 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-11-26 14:11:49.182 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ an AI recipe was generated
+2026-11-26 14:11:49.183 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I tap "Save Recipe"
+2026-11-26 14:11:49.824 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I tap "Save Recipe"
+2026-11-26 14:11:49.825 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP the recipe appears in the recipe book
+2026-11-26 14:11:51.486 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ the recipe appears in the recipe book
+2026-11-26 14:11:51.486 DEBUG i.cucumber.core.plugin.CucumberReporter  - STEP I close the AUT
+2026-11-26 14:12:03.651 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ I close the AUT
+2026-11-26 14:12:03.652 DEBUG i.cucumber.core.plugin.CucumberReporter  - ✓ SCENARIO Save an AI recipe
+2026-11-26 14:12:03.652 INFO  i.cucumber.core.plugin.CucumberReporter  - END SCENARIO Save an AI recipe
+
+3 scenarios ([32m3 passed[39m)
+15 steps ([32m15 passed[39m)
+1m 43.851s
+2026-11-26 14:12:03.673 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/US5GenAISousChefFeatureCase
+2026-11-26 14:12:03.692 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-11-26 14:12:03.692 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/test_suites
+2026-11-26 14:12:03.692 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

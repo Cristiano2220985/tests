@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="98.854" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-26T14:08:40.893476Z">
+<testcase classname="Recipe Book" name="Save a recipe to the recipe book" time="16.002">
+<system-out><![CDATA[
+Given I have completed the onboarding.......................................passed
+And I am viewing the recipe "Fettuccine Alfredo"............................passed
+When I tap the "Save Recipe" button.........................................passed
+Then "Fettuccine Alfredo" appears in my recipe book.........................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Recipe Book" name="Create a collection" time="9.954">
+<system-out><![CDATA[
+Given I have completed the onboarding.......................................passed
+When I open the recipe book.................................................passed
+And I create a collection named "Italian Favorites".........................passed
+Then I see the collection "Italian Favorites"...............................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Recipe Book" name="Add a recipe to a collection" time="36.459">
+<system-out><![CDATA[
+Given the collection "Italian Favorites" exists.............................passed
+And the recipe "Fettuccine Alfredo" is saved................................passed
+When I add the recipe to the collection.....................................passed
+Then "Fettuccine Alfredo" appears in "Italian Favorites"....................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Recipe Book" name="Remove a recipe from a collection" time="36.413">
+<system-out><![CDATA[
+Given the recipe "Fettuccine Alfredo" belongs to the collection "Italian Favorites".passed
+When I remove the recipe from the collection................................passed
+Then I do not see "Fettuccine Alfredo" in "Italian Favorites"...............passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

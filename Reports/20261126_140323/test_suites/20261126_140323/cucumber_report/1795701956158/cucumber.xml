@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="101.655" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-26T14:05:56.165274Z">
+<testcase classname="Grocery shopping list" name="Open the shopping list from the header" time="7.537">
+<system-out><![CDATA[
+Given I have completed the onboarding.......................................passed
+When I tap the shopping list button in the header...........................passed
+Then I see the shopping list................................................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Grocery shopping list" name="Add an item to the shopping list manually" time="10.989">
+<system-out><![CDATA[
+Given I have completed the onboarding.......................................passed
+And the shopping list is empty..............................................passed
+When I tap the shopping list button in the header...........................passed
+And I insert "Eggs" in the "Item name" field................................passed
+And I tap the "Add" button..................................................passed
+Then I see "Eggs" in the shopping list......................................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Grocery shopping list" name="Scan a product from the shopping list" time="12.437">
+<system-out><![CDATA[
+Given I have completed the onboarding.......................................passed
+And camera access is allowed................................................passed
+And the shopping list contains the item "Nutella"...........................passed
+When I tap the shopping list button in the header...........................passed
+And I tap the scan button of the item "Nutella".............................passed
+And I scan the barcode "3017620422003"......................................passed
+Then I see the scan notification "Nutella scanned"..........................passed
+And I see the item "Nutella" checked........................................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Grocery shopping list" name="Move scanned and checked items to the pantry" time="36.238">
+<system-out><![CDATA[
+Given I have completed the onboarding.......................................passed
+And camera access is allowed................................................passed
+And the shopping list contains the items "Eggs" and "Nutella"...............passed
+When I tap the shopping list button in the header...........................passed
+And I tap the scan button of the item "Nutella".............................passed
+And I scan the barcode "3017620422003"......................................passed
+And I check the item "Eggs".................................................passed
+And I tap the "Move to pantry" button.......................................passed
+Then I see the quantity "400" "g" filled in for "Nutella"...................passed
+When I create the category "Spreads" for "Nutella"..........................passed
+And I set "Nutella" to the expiration date "31/12/2026".....................passed
+And I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026".passed
+And I tap the "Confirm" button..............................................passed
+Then I see "Nutella" in the pantry..........................................passed
+And I see "Eggs" in the pantry..............................................passed
+And I see the "Spreads" category in the pantry filters......................passed
+And I do not see "Nutella" in the shopping list.............................passed
+And I do not see "Eggs" in the shopping list................................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Grocery shopping list" name="Transfer the checked items to the pantry" time="18.872">
+<system-out><![CDATA[
+Given I have completed the onboarding.......................................passed
+And the shopping list contains the items "Eggs" and "Butter"................passed
+When I tap the shopping list button in the header...........................passed
+And I check the item "Eggs".................................................passed
+And I check the item "Butter"...............................................passed
+And I tap the "Move to pantry" button.......................................passed
+And I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026".passed
+And I set "Butter" to the category "Dairy", the quantity "250" "g" and the expiration date "15/12/2026".passed
+And I tap the "Confirm" button..............................................passed
+Then I see "Eggs" in the pantry.............................................passed
+And I see "Butter" in the pantry............................................passed
+And I do not see "Eggs" in the shopping list................................passed
+And I do not see "Butter" in the shopping list..............................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Grocery shopping list" name="Keep the unchecked items in the shopping list after the transfer" time="15.547">
+<system-out><![CDATA[
+Given I have completed the onboarding.......................................passed
+And the shopping list contains the items "Eggs" and "Butter"................passed
+When I tap the shopping list button in the header...........................passed
+And I check the item "Eggs".................................................passed
+And I tap the "Move to pantry" button.......................................passed
+And I set "Eggs" to the category "Dairy", the quantity "12" "Units" and the expiration date "30/11/2026".passed
+And I tap the "Confirm" button..............................................passed
+Then I see "Butter" in the shopping list....................................passed
+And I see "Eggs" in the pantry..............................................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

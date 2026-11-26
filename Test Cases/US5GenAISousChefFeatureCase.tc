@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>US5GenAISousChefFeatureCase</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>createdByName</key>
+            <value>Leonardo Ferreira</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByName</key>
+            <value>Leonardo Ferreira</value>
+         </entry>
+         <entry>
+            <key>createdByUuid</key>
+            <value>5425541a-72bc-4918-a013-a25f90b415c1</value>
+         </entry>
+         <entry>
+            <key>lastModifiedByUuid</key>
+            <value>5425541a-72bc-4918-a013-a25f90b415c1</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2fa55573-f094-45a5-94fb-8fbf528e52b8</testCaseGuid>
+</TestCaseEntity>

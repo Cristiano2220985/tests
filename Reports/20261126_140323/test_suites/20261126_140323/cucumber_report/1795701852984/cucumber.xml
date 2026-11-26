@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="36.758" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-26T14:04:12.992527Z">
+<testcase classname="Dashboard, food tracking and pantry items" name="Add an item to the pantry" time="12.447">
+<system-out><![CDATA[
+Given I have completed the onboarding.......................................passed
+And the pantry is empty.....................................................passed
+When I tap the "+ Add item" button..........................................passed
+And I insert "Milk" in the "Item name" field................................passed
+And I select the "Dairy" category...........................................passed
+And I insert "2" in the "Quantity" field....................................passed
+And I select the "L" unit...................................................passed
+And I set the expiration date to "30/11/2026"...............................passed
+And I tap the "Save item" button............................................passed
+Then I see "Milk" in the pantry.............................................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Dashboard, food tracking and pantry items" name="Show items expiring within 48 hours in the alert tray" time="11.269">
+<system-out><![CDATA[
+Given I have completed the onboarding.......................................passed
+And the pantry is empty.....................................................passed
+When I add the item "Spinach" expiring tomorrow.............................passed
+Then I see "Spinach" in the expiry alert tray...............................passed
+And I see "Spinach" highlighted in the pantry...............................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Dashboard, food tracking and pantry items" name="Edit the quantity of a pantry item" time="13.01">
+<system-out><![CDATA[
+Given I have completed the onboarding.......................................passed
+And the pantry contains the item "Milk" with the quantity "2"...............passed
+When I tap the item "Milk"..................................................passed
+And I insert "1" in the "Quantity" field....................................passed
+And I tap the "Save changes" button.........................................passed
+Then I see "Milk" with the quantity "1" in the pantry.......................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

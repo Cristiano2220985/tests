@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="62.87" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-26T14:07:37.948841Z">
+<testcase classname="Recipe Discovery" name="Search recipes using pantry ingredients" time="17.589">
+<system-out><![CDATA[
+Given I have completed the onboarding.......................................passed
+And the pantry contains "Fettuccine" and "Parmesan".........................passed
+When I open the recipe discovery page.......................................passed
+And I tap the search recipes button.........................................passed
+Then I see a list of matching recipes.......................................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Recipe Discovery" name="Show missing ingredients and pantry overlap" time="15.944">
+<system-out><![CDATA[
+Given I have completed the onboarding.......................................passed
+And the pantry contains "Fettuccine"........................................passed
+When I search for recipes...................................................passed
+And I open the recipe "Fettuccine Alfredo"..................................passed
+Then I see the available ingredients........................................passed
+And I see the missing ingredients...........................................passed
+And I see the ingredient overlap percentage.................................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Recipe Discovery" name="Prioritize recipes that use expiring ingredients" time="13.682">
+<system-out><![CDATA[
+Given I have completed the onboarding.......................................passed
+And the pantry contains "Milk" expiring within 48 hours.....................passed
+When I search for recipes...................................................passed
+Then recipes using "Milk" are shown with higher priority....................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Recipe Discovery" name="Filter recipes by dietary restrictions" time="15.617">
+<system-out><![CDATA[
+Given the active profile is "Vegan".........................................passed
+When I search for recipes...................................................passed
+Then I do not see recipes containing animal products........................passed
+And I close the AUT.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

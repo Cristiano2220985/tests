@@ -1,104 +1,144 @@
 package stepDefinitions
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import com.kms.katalon.core.annotation.Keyword
-import com.kms.katalon.core.checkpoint.Checkpoint
-import com.kms.katalon.core.checkpoint.CheckpointFactory
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling
-import com.kms.katalon.core.testcase.TestCase
-import com.kms.katalon.core.testcase.TestCaseFactory
-import com.kms.katalon.core.testdata.TestData
-import com.kms.katalon.core.testdata.TestDataFactory
-import com.kms.katalon.core.testobject.ObjectRepository
+import java.util.regex.Pattern
+
+import org.openqa.selenium.By
+import org.openqa.selenium.WebElement
+
 import com.kms.katalon.core.testobject.TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-import internal.GlobalVariable
-
-import org.openqa.selenium.WebElement
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.By
-
-import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
-import com.kms.katalon.core.webui.driver.DriverFactory
-
-import com.kms.katalon.core.testobject.RequestObject
-import com.kms.katalon.core.testobject.ResponseObject
-import com.kms.katalon.core.testobject.ConditionType
-import com.kms.katalon.core.testobject.TestObjectProperty
-
-import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
-import com.kms.katalon.core.util.KeywordUtil
-
-import com.kms.katalon.core.webui.exception.WebElementNotFoundException
-
-import io.cucumber.java.en.And
 import io.cucumber.java.en.Given
 import io.cucumber.java.en.Then
 import io.cucumber.java.en.When
 
-
-
 class US5GenAISousChefStepDefinition {
- /**
-* The step definitions below match with Katalon sample Gherkin steps
-*/
-@Given("the pantry contains {string}, {string} and {string}")
-public void the_pantry_contains_and(String string, String string2, String string3) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
 
-@When("I open GenAI Sous-Chef")
-public void i_open_gen_ai_sous_chef() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	private static final int TIMEOUT = 10
+	private static final int GENERATION_TIMEOUT = 40
+	private static final Map<String, String> BUTTONS = [
+		'Generate Recipe': 'button_Generate recipe',
+		'Save Recipe': 'button_Save recipe',
+	]
+	private static final Pattern MEAT_INGREDIENT = ~/(?ix)\b(
+		chickens?|poultry|turkeys?|ducks?|goose|beef|veal|pork|bacon|ham|lamb|mutton|
+		venison|rabbit|lard|sausages?|salami|chorizo|pepperoni|meatballs?|meat|
+		fish|seafood|shellfish|salmon|tuna|cod|anchov(?:y|ies)|sardines?|trout|
+		shrimps?|prawns?|crabs?|lobsters?|mussels?|oysters?|squid|octopus
+	)\b/
 
-@When("I select those ingredients")
-public void i_select_those_ingredients() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	private final RecipeDiscoveryandPantryOverlapStepDefinition recipes = new RecipeDiscoveryandPantryOverlapStepDefinition()
+	private List<String> pantryIngredients = []
+	private String generatedRecipeName
 
-@When("I tap {string}")
-public void i_tap(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@Given("the pantry contains {string}, {string} and {string}")
+	def pantryContainsThree(String first, String second, String third) {
+		addPantryIngredients([first, second, third])
+	}
 
-@Then("I receive a generated recipe")
-public void i_receive_a_generated_recipe() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@When("I open GenAI Sous-Chef")
+	def openSousChef() {
+		recipes.openRecipeDiscoveryPage()
+		click(object('button_Nav Sous Chef'))
+		assert WebUI.waitForElementVisible(object('div_GenAI Sous-Chef'), TIMEOUT) : 'GenAI Sous-Chef did not open'
+	}
 
-@When("I generate a recipe")
-public void i_generate_a_recipe() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@When("I select those ingredients")
+	def selectPantryIngredients() {
+		assert WebUI.waitForElementVisible(object('ul_Pantry ingredients'), TIMEOUT) : 'The pantry ingredient list is not visible'
+		pantryIngredients.each { String ingredient ->
+			TestObject option = object('button_Ingredient option', [ingredientName: ingredient])
+			click(option)
+			WebUI.verifyElementAttributeValue(option, 'aria-pressed', 'true', TIMEOUT)
+		}
+	}
 
-@Then("the generated recipe does not contain meat ingredients")
-public void the_generated_recipe_does_not_contain_meat_ingredients() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@When("I tap {string}")
+	def tapButton(String button) {
+		assert BUTTONS.containsKey(button) : "Unknown GenAI Sous-Chef button: '${button}'"
+		click(object(BUTTONS[button]))
+	}
 
-@Given("an AI recipe was generated")
-public void an_ai_recipe_was_generated() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@Then("I receive a generated recipe")
+	def verifyGeneratedRecipe() {
+		waitForGeneratedRecipe()
+		generatedIngredients()
+		WebElement steps = WebUI.findWebElement(object('ol_Generated steps'), TIMEOUT)
+		assert steps.isDisplayed() && !steps.findElements(By.tagName('li')).isEmpty() : 'The recipe has no visible preparation steps'
+	}
 
-@Then("the recipe appears in the recipe book")
-public void the_recipe_appears_in_the_recipe_book() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
+	@When("I generate a recipe")
+	def generateVegetarianRecipe() {
+		// Offer a meat ingredient so the restriction is exercised with a conflicting selection.
+		generateFromPantry(['Chicken', 'Carrot'])
+	}
+
+	@Then("the generated recipe does not contain meat ingredients")
+	def verifyNoMeatIngredients() {
+		waitForGeneratedRecipe()
+		List<String> meat = generatedIngredients().findAll { MEAT_INGREDIENT.matcher(it).find() }
+		assert meat.isEmpty() : "The generated recipe contains meat or seafood: ${meat}"
+	}
+
+	@Given("an AI recipe was generated")
+	def generateRecipeForSaving() {
+		new DashboardFoodTrackingAndPantryItemsStepDefinition().completeOnboarding()
+		generateFromPantry(['Rice', 'Carrot'])
+		verifyGeneratedRecipe()
+	}
+
+	@Then("the recipe appears in the recipe book")
+	def verifyRecipeInBook() {
+		WebElement link = WebUI.findWebElements(object('a_Nav book'), TIMEOUT).find { it.isDisplayed() }
+		assert link != null : 'The Recipe Book navigation link is not visible'
+		link.click()
+		assert WebUI.waitForElementVisible(object('div_Book view'), TIMEOUT) : 'The Recipe Book did not open'
+		WebUI.verifyElementVisible(object('ul_Saved recipes'))
+		Map variables = [recipeName: escapeCssString(generatedRecipeName)]
+		TestObject card = object('article_Saved recipe', variables)
+		assert WebUI.waitForElementVisible(card, TIMEOUT) : "The generated recipe '${generatedRecipeName}' is missing from the book"
+		WebUI.verifyEqual(WebUI.getText(object('button_Saved recipe title', variables)).trim(), generatedRecipeName)
+	}
+
+	private void addPantryIngredients(List<String> ingredients) {
+		pantryIngredients = ingredients
+		ingredients.each { recipes.pantryContains(it) }
+	}
+
+	private void generateFromPantry(List<String> ingredients) {
+		addPantryIngredients(ingredients)
+		openSousChef()
+		selectPantryIngredients()
+		tapButton('Generate Recipe')
+	}
+
+	private void waitForGeneratedRecipe() {
+		assert WebUI.waitForElementVisible(object('section_Generated recipe'), GENERATION_TIMEOUT) : 'GenAI Sous-Chef did not display a generated recipe'
+		generatedRecipeName = WebUI.getText(object('h2_Generated recipe title')).trim()
+		assert generatedRecipeName : 'The generated recipe has no title'
+	}
+
+	private List<String> generatedIngredients() {
+		WebUI.verifyElementVisible(object('ul_Generated ingredients'))
+		List<String> names = WebUI.findWebElements(object('li_Generated ingredient'), TIMEOUT)
+				.findAll { it.isDisplayed() }
+				.collect { it.getAttribute('data-ingredient-name') }
+		assert names && names.every { it?.trim() } : 'The generated recipe has missing ingredient names'
+		return names
+	}
+
+	private void click(TestObject target) {
+		assert WebUI.waitForElementClickable(target, TIMEOUT) : "The target '${target.objectId}' is not clickable"
+		WebUI.click(target)
+	}
+
+	private static String escapeCssString(String value) {
+		return value.replace('\\', '\\\\').replace('"', '\\"')
+	}
+
+	private TestObject object(String name, Map variables = [:]) {
+		return findTestObject("Page_GenAISousChef/${name}", variables)
+	}
 }
